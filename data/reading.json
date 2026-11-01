@@ -1,0 +1,184 @@
+{
+  "title": "Learning Styles and the AI Classroom",
+  "subtitle": "Why VARK has lost ground to retrieval practice, spacing and AI-supported study",
+  "word_count": 444,
+  "passage": [
+    "Every teacher has met the student who insists on highlighting in three colours, and the colleague who needs a podcast to remember anything. The VARK framework, which classifies learners as Visual, Auditory, Read/write or Kinaesthetic, turns these preferences into teaching plans. Its central claim is attractive: match your teaching to how a learner prefers to take information. Yet the accumulated evidence suggests that when a teacher's preferred format and a student's preferred format differ, learning gains are close to zero.",
+    "The most-cited evidence comes from Pashler, McDaniel, Rohrer and Bjork (2008), who reviewed the learning-styles literature and concluded there is no adequate evidence that matching instruction to a person's preferred learning style improves learning. They also warned that the often-quoted claim of a 10 percentage-point performance difference between matched and mismatched instruction rests on very limited data. They called for better-designed experiments rather than for new classroom labels.",
+    "What works is less glamorous and better supported. Pashler, McDaniel, Rohrer and Bjork (1993) demonstrated the testing effect: students who practised by retrieving information from memory outperformed those who simply reread their notes. Robert Bjork's research on desirable difficulties added that practice can feel harder while it happens and still improve later retention, especially when effort is spread across several short sessions.",
+    "Artificial intelligence has accelerated that shift. Since ChatGPT launched in November 2022, higher education has moved quickly, and 2023 surveys reported that more than a third of students in several countries already used generative AI for coursework. Learners now upload a lecture recording to be transcribed, ask an AI tutor to generate a ten-question quiz from a single page of notes, log into a learning platform that schedules spaced-repetition reviews, and keep their own notes in a study app.",
+    "Scale and policy reinforce the point. OECD data show that enrolments in online and blended programmes grew by roughly 24 per cent in 2016 alone, and the expansion of distance learning after that year reshaped how campuses deliver content. UNESCO, which tracks digital education in more than 190 countries, has advised that institutions should prioritise teacher training and reliable connectivity over the uncritical adoption of new apps.",
+    "Recent surveys of instructors report that fewer than one in ten still formally assess students against a named learning style. The practical conclusion, then, is double-edged: drop the diagnosis of learning styles, because the evidence does not support it, but do not drop the adaptation itself, because the evidence strongly supports retrieval practice, spacing and feedback. The valuable question for a modern classroom is not how a student prefers to receive information, but how a tool can help that student test, revisit and use what they already know."
+  ],
+  "skim": {
+    "duration_seconds": 60,
+    "prompt": "Time is up. In no more than two sentences, what is the main argument of this text, and what does the author think teachers should do instead?",
+    "checklist": [
+      "States the central claim: matching teaching to a learner's preferred style (VARK) does not improve learning.",
+      "Mentions the evidence base: Pashler et al. (2008) found no adequate evidence for learning-style matching.",
+      "Contrasts VARK with what the research does support: retrieval practice, the testing effect, spacing and feedback.",
+      "Links the argument to AI study tools: learners now use transcription, AI tutors, quizzes and spaced-repetition platforms.",
+      "States the practical implication: drop the learning-style label, but keep the evidence-based routines and the adaptation."
+    ]
+  },
+  "scan_hunt": [
+    {
+      "id": 1,
+      "question": "In which year did Pashler and his colleagues publish their review of the learning-styles literature?",
+      "answer": "2008",
+      "accept": ["2008", "in 2008", "the year 2008"],
+      "verbatim": "The most-cited evidence comes from Pashler, McDaniel, Rohrer and Bjork (2008), who reviewed the learning-styles literature and concluded there is no adequate evidence that matching instruction to a person's preferred learning style improves learning.",
+      "explanation": "Look in paragraph 2, in the brackets immediately after the four authors' names.",
+      "ccq": "Does that review say that matching instruction to a learning style improves learning?"
+    },
+    {
+      "id": 2,
+      "question": "In which year was the testing effect demonstrated?",
+      "answer": "1993",
+      "accept": ["1993", "in 1993", "the year 1993"],
+      "verbatim": "Pashler, McDaniel, Rohrer and Bjork (1993) demonstrated the testing effect: students who practised by retrieving information from memory outperformed those who simply reread their notes.",
+      "explanation": "Paragraph 3 gives another bracketed year, this time just before the phrase 'testing effect'.",
+      "ccq": "What did the 1993 study find about students who simply reread their notes?"
+    },
+    {
+      "id": 3,
+      "question": "When was ChatGPT launched?",
+      "answer": "November 2022",
+      "accept": ["November 2022", "Nov 2022", "November, 2022", "2022"],
+      "verbatim": "Since ChatGPT launched in November 2022, higher education has moved quickly, and 2023 surveys reported that more than a third of students in several countries already used generative AI for coursework.",
+      "explanation": "Paragraph 4 opens with the launch date of ChatGPT and links it to student adoption.",
+      "ccq": "Was the launch of ChatGPT in 2022, according to paragraph 4?"
+    },
+    {
+      "id": 4,
+      "question": "By roughly how much did enrolments in online and blended programmes grow in 2016?",
+      "answer": "24 per cent",
+      "accept": ["24 per cent", "24%", "24 percent", "roughly 24 per cent", "about 24 per cent"],
+      "verbatim": "OECD data show that enrolments in online and blended programmes grew by roughly 24 per cent in 2016 alone, and the expansion of distance learning after that year reshaped how campuses deliver content.",
+      "explanation": "Paragraph 5 gives the percentage right after 'grew by roughly'.",
+      "ccq": "Did online and blended enrolments grow or shrink in 2016?"
+    },
+    {
+      "id": 5,
+      "question": "According to recent surveys of instructors, how many still formally assess students against a named learning style?",
+      "answer": "fewer than one in ten",
+      "accept": ["fewer than one in ten", "less than one in ten", "one in ten", "under 10%", "less than 10%", "fewer than 10%"],
+      "verbatim": "Recent surveys of instructors report that fewer than one in ten still formally assess students against a named learning style.",
+      "explanation": "Paragraph 6 opens with the figure, and it is given as a fraction rather than as a percentage.",
+      "ccq": "Do most instructors still assess students by learning style?"
+    }
+  ],
+  "cause_effect": {
+    "instruction": "Read paragraphs 1 to 6 and decide what each cause leads to. Drag each cause to the one effect it produces in the text. Three of the extra effects are decoys: they sound reasonable but are not stated or implied anywhere in the passage.",
+    "causes": [
+      {
+        "id": "c1",
+        "text": "The teacher's preferred format of teaching does not match the student's preferred learning style."
+      },
+      {
+        "id": "c2",
+        "text": "Pashler, McDaniel, Rohrer and Bjork (2008) reviewed the literature and found no adequate evidence that matching instruction to a learning style improves learning."
+      },
+      {
+        "id": "c3",
+        "text": "The oft-quoted claim of a 10 percentage-point difference between matched and mismatched instruction is based on very limited data."
+      },
+      {
+        "id": "c4",
+        "text": "A learner practises by retrieving information from memory instead of simply rereading their notes."
+      },
+      {
+        "id": "c5",
+        "text": "Generative AI became widely available to students after ChatGPT launched in November 2022."
+      }
+    ],
+    "effects": [
+      {
+        "id": "e1",
+        "text": "Learning gains stay close to zero, so the mismatch does not produce any extra learning."
+      },
+      {
+        "id": "e2",
+        "text": "A great deal of classroom effort has been spent on a proposition the research does not support."
+      },
+      {
+        "id": "e3",
+        "text": "The quoted figure should be treated as unreliable rather than as a target a teacher can plan against."
+      },
+      {
+        "id": "e4",
+        "text": "The learner outperforms students who only reread, which is what the testing effect describes."
+      },
+      {
+        "id": "e5",
+        "text": "Study routines now include uploading lectures for transcription and asking AI tutors to generate quizzes from the student's own notes."
+      }
+    ],
+    "matches": [
+      {
+        "cause": "c1",
+        "effect": "e1",
+        "explanation": "Paragraph 1 states that when the teacher's format and the student's preferred format differ, learning gains are close to zero."
+      },
+      {
+        "cause": "c2",
+        "effect": "e2",
+        "explanation": "Paragraph 1 concludes that classroom effort has been directed at a proposition the research does not support, which is the direct consequence of the 2008 finding."
+      },
+      {
+        "cause": "c3",
+        "effect": "e3",
+        "explanation": "Paragraph 2 says the 10 percentage-point claim rests on very limited data, so it cannot be relied on as a benchmark."
+      },
+      {
+        "cause": "c4",
+        "effect": "e4",
+        "explanation": "Paragraph 3 reports that students who retrieved information from memory outperformed those who reread their notes."
+      },
+      {
+        "cause": "c5",
+        "effect": "e5",
+        "explanation": "Paragraph 4 links the November 2022 launch to students uploading recordings for transcription and asking AI tutors for quizzes built from their notes."
+      }
+    ],
+    "distractors": [
+      "Instructors should prepare separate visual, auditory and kinaesthetic versions of every lesson so that each group is served properly.",
+      "Students who prefer visual material are bound to score higher in examinations than students who prefer listening.",
+      "Schools should make generating AI quizzes with a chatbot the main way that students revise for their examinations."
+    ]
+  },
+  "inference": [
+    {
+      "id": 1,
+      "statement": "The author would probably say that a teacher who builds a 'visual' lesson for a 'visual' student is doing so without solid evidence.",
+      "answer": "True",
+      "why": "Paragraph 1 says gains from matching are close to zero, and paragraph 2 reports no adequate evidence for matching, so the author's position implies such a teacher is guessing.",
+      "tutor_ccq": "Does the passage give the teacher any solid evidence that a 'visual' lesson for a 'visual' student works better?",
+      "tutor_ccq_answer": "No. The passage says gains are close to zero and that Pashler et al. (2008) found no adequate evidence."
+    },
+    {
+      "id": 2,
+      "statement": "The passage argues that spaced repetition and self-testing should be replaced by matching materials to each student's dominant learning style.",
+      "answer": "False",
+      "why": "Paragraph 3 supports retrieval practice, spacing and feedback, and paragraph 6 says to drop the learning-style diagnosis while keeping the adaptation to evidence-based routines.",
+      "tutor_ccq": "Does the author want students to stop using spaced repetition and self-testing?",
+      "tutor_ccq_answer": "No. The author recommends retrieval practice, spacing and feedback instead of style matching."
+    },
+    {
+      "id": 3,
+      "statement": "Institutions that follow the UNESCO advice will see higher student satisfaction in their online programmes.",
+      "answer": "Cannot be told",
+      "why": "Paragraph 5 reports what UNESCO advises, but the passage gives no outcome data at all about student satisfaction in online programmes.",
+      "tutor_ccq": "Does the passage report any result for institutions that follow the UNESCO advice?",
+      "tutor_ccq_answer": "No. It only states the advice, with no evidence about results or satisfaction."
+    },
+    {
+      "id": 4,
+      "statement": "By the author's account, a student who uses an AI tutor to quiz themselves on lecture notes is doing something better supported by research than a student who reorganises notes according to a VARK label.",
+      "answer": "True",
+      "why": "Paragraph 3 backs retrieval practice, and paragraph 4 shows AI tutors generating quizzes from the student's notes, while paragraphs 1 and 2 undermine the VARK label.",
+      "tutor_ccq": "Which activity is better supported by research: AI-generated quizzes from notes, or sorting notes by learning style?",
+      "tutor_ccq_answer": "The AI-generated quizzes, because they are retrieval practice, and the evidence for learning styles is weak."
+    }
+  ]
+}

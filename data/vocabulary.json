@@ -1,0 +1,1059 @@
+{
+  "domains": [
+    { "id": "classroom_life", "label": "Classroom Life" },
+    { "id": "cognition_learning", "label": "Cognition & Learning Styles" },
+    { "id": "edtech_ops", "label": "EdTech Operations" }
+  ],
+  "items": [
+    {
+      "id": "cl-01",
+      "term": "role-play",
+      "phonetic": "/ˈrəʊl pleɪ/",
+      "domain": "classroom_life",
+      "definition": "A speaking activity in which learners act out a short situation, such as a job interview or a customer complaint, using invented roles and dialogue.",
+      "collocations": ["do a role-play", "set up a role-play", "run a role-play in pairs"],
+      "example": "In our one-to-one lesson I asked my student to do a role-play in which she handled a difficult phone call.",
+      "note": "Usually written with a hyphen as a noun: role-play. The version without a hyphen is also accepted."
+    },
+    {
+      "id": "cl-02",
+      "term": "interactive activity",
+      "phonetic": "/ˌɪntərˈæktɪv ækˈtɪvəti/",
+      "domain": "classroom_life",
+      "definition": "A task that requires learners to move, speak or produce something during the lesson, rather than only listening or writing.",
+      "collocations": ["plan an interactive activity", "lead an interactive activity", "an interactive activity for the whole class"],
+      "example": "I planned an interactive activity so that my adult learner would practise speaking instead of taking notes for forty minutes.",
+      "note": "In British English 'interactive' is sometimes used informally for any task that involves students talking."
+    },
+    {
+      "id": "cl-03",
+      "term": "brainstorming",
+      "phonetic": "/ˈbreɪnstɔːmɪŋ/",
+      "domain": "classroom_life",
+      "definition": "A short session in which a group generates as many ideas as possible about a topic, usually before evaluating them.",
+      "collocations": ["run a brainstorming session", "take part in a brainstorm", "brainstorm ideas"],
+      "example": "We spent ten minutes brainstorming topics for a presentation before narrowing the list down to three.",
+      "note": "It can be a count noun: a brainstorm. In British English 'brainstorm' is also a verb meaning to discuss ideas informally."
+    },
+    {
+      "id": "cl-04",
+      "term": "summarise",
+      "phonetic": "/ˈsʌməraɪz/",
+      "domain": "classroom_life",
+      "definition": "To express the main points of a text or a talk in a shorter form, without losing the essential meaning.",
+      "collocations": ["summarise a text", "summarise the key points", "write a short summary"],
+      "example": "Please summarise the article in no more than three sentences before our next meeting.",
+      "note": "The noun is 'summary'. 'A summarization' is not used in standard English."
+    },
+    {
+      "id": "cl-05",
+      "term": "analyse",
+      "phonetic": "/ˈænəlaɪz/",
+      "domain": "classroom_life",
+      "definition": "To examine information carefully in order to identify patterns, causes or meaning, and to draw conclusions from it.",
+      "collocations": ["analyse data", "analyse the results", "a close analysis of the figures"],
+      "example": "The students analysed a set of customer survey results and presented their findings to the group.",
+      "note": "British English spelling -ise; American English writes analyze. The noun is 'analysis'."
+    },
+    {
+      "id": "cl-06",
+      "term": "define",
+      "phonetic": "/dɪˈfaɪn/",
+      "domain": "classroom_life",
+      "definition": "To state exactly what a word or idea means, or to explain the boundaries of a concept so that others can use it correctly.",
+      "collocations": ["define a term", "define the key concepts", "clearly defined in the glossary"],
+      "example": "Before the role-play I defined three key terms that my learner had never met in written English.",
+      "note": "Usually followed by a noun: define a concept. A 'definition' is the written form of the same idea."
+    },
+    {
+      "id": "cl-07",
+      "term": "conclude",
+      "phonetic": "/kənˈkluːd/",
+      "domain": "classroom_life",
+      "definition": "To reach a final decision or summary after examining evidence, or to bring a lesson or a discussion to a close.",
+      "collocations": ["conclude a lesson", "conclude that", "draw a conclusion"],
+      "example": "We concluded the session by reviewing the new vocabulary and agreeing on three tasks for the week.",
+      "note": "Use 'conclude that...' for findings and 'conclude the lesson' for finishing. The noun is 'conclusion'."
+    },
+    {
+      "id": "cl-08",
+      "term": "explain",
+      "phonetic": "/ɪkˈspleɪn/",
+      "domain": "classroom_life",
+      "definition": "To make something clear to someone by describing the reasons, the process or the steps involved, in a way they can follow.",
+      "collocations": ["explain something to somebody", "clearly explain", "explain a concept"],
+      "example": "Could you explain the difference between 'faster' and 'the fastest' in a sentence I would say at work?",
+      "note": "More natural than 'make an explanation'. For something complex, 'break it down' is a common informal alternative."
+    },
+    {
+      "id": "cl-09",
+      "term": "clarify",
+      "phonetic": "/ˈklærəfaɪ/",
+      "domain": "classroom_life",
+      "definition": "To make an idea, instruction or misunderstanding easier to understand, often by asking questions or adding detail.",
+      "collocations": ["clarify a point", "clarify what something means", "ask for clarification"],
+      "example": "I asked my tutor to clarify the wording of the assignment, and she sent me a clearer version.",
+      "note": "The noun is 'clarification'. The word is slightly formal but very common in academic and workplace settings."
+    },
+    {
+      "id": "cl-10",
+      "term": "paraphrase",
+      "phonetic": "/ˈpærəfreɪz/",
+      "domain": "classroom_life",
+      "definition": "To express the same idea in different words, which shows that you have understood the meaning rather than only memorised the wording.",
+      "collocations": ["paraphrase a sentence", "paraphrase in your own words", "paraphrase a text"],
+      "example": "In the speaking card, my student had to paraphrase the article without reusing the original vocabulary.",
+      "note": "In examinations, copying the wording of the question is not paraphrasing."
+    },
+    {
+      "id": "cl-11",
+      "term": "take part in",
+      "phonetic": "/ˌteɪk ˈpɑːt ɪn/",
+      "domain": "classroom_life",
+      "definition": "To participate in an activity, a discussion or an event, usually as a free choice rather than an obligation.",
+      "collocations": ["take part in a discussion", "take part in a role-play", "invite someone to take part in"],
+      "example": "Not everyone wants to take part in front of the group, so I gave my student a written option.",
+      "note": "More formal than 'join in'. It is normally followed by a noun, not a gerund: take part in the event."
+    },
+    {
+      "id": "cl-12",
+      "term": "contribute to",
+      "phonetic": "/kənˈtrɪbjuːt tuː/",
+      "domain": "classroom_life",
+      "definition": "To give ideas, effort or information that helps to achieve a shared result or to complete a piece of work.",
+      "collocations": ["contribute to a discussion", "contribute to a group project", "make a contribution"],
+      "example": "Each member of the group contributed to the final presentation, but I asked one person to pull it all together.",
+      "note": "Never followed by an object: 'contribute to the report' is right, 'contribute the report' is wrong."
+    },
+    {
+      "id": "cl-13",
+      "term": "pair work",
+      "phonetic": "/ˈpeə wɜːk/",
+      "domain": "classroom_life",
+      "definition": "Practice in which two learners work together on a task for a few minutes before the class reconvenes.",
+      "collocations": ["do pair work", "set up pair work", "a pair work activity"],
+      "example": "We did pair work on the pronunciation of the past tense for about eight minutes.",
+      "note": "Also used as a verb, to pair up. The teacher usually decides who works with whom."
+    },
+    {
+      "id": "cl-14",
+      "term": "group work",
+      "phonetic": "/ˈɡruːp wɜːk/",
+      "domain": "classroom_life",
+      "definition": "An activity in which three or more learners cooperate to complete a shared task and then present the result to the class.",
+      "collocations": ["set up group work", "a group work task", "work in groups"],
+      "example": "Group work gave my learner the chance to use English with colleagues rather than only with me.",
+      "note": "The alternative spelling 'groupwork' is common in course handbooks. Teachers often worry about uneven participation."
+    },
+    {
+      "id": "cl-15",
+      "term": "peer feedback",
+      "phonetic": "/ˈpɪə ˈfiːdbæk/",
+      "domain": "classroom_life",
+      "definition": "Comments and suggestions that learners give to each other on their work, rather than feedback given by the teacher.",
+      "collocations": ["give peer feedback", "a peer feedback session", "ask a peer for feedback"],
+      "example": "I introduced peer feedback so that my student would learn to comment politely on someone else's writing.",
+      "note": "A 'peer' is a person of the same status. 'Peer review' is the academic version of the same idea."
+    },
+    {
+      "id": "cl-16",
+      "term": "lesson plan",
+      "phonetic": "/ˈlesn plæn/",
+      "domain": "classroom_life",
+      "definition": "A written outline of what a teacher intends to do in a lesson, including aims, stages, materials and timing.",
+      "collocations": ["write a lesson plan", "follow a lesson plan", "a detailed lesson plan"],
+      "example": "I shared my lesson plan before the session so that my learner could see how the hour would run.",
+      "note": "In state education, 'lesson planning' usually names the work and 'a lesson plan' the document itself."
+    },
+    {
+      "id": "cl-17",
+      "term": "learning objective",
+      "phonetic": "/ˈlɜːnɪŋ əbˈdʒektɪv/",
+      "domain": "classroom_life",
+      "definition": "A clear statement of what a learner should be able to do by the end of a lesson or course, written as an observable action.",
+      "collocations": ["write learning objectives", "set a learning objective", "meet the learning objective"],
+      "example": "The learning objective for today was to use the present perfect to talk about unfinished business.",
+      "note": "Often confused with 'aim'. An objective describes the learner's performance, not the teacher's intention."
+    },
+    {
+      "id": "cl-18",
+      "term": "learning outcome",
+      "phonetic": "/ˈlɜːnɪŋ ˈaʊtkʌm/",
+      "domain": "classroom_life",
+      "definition": "The knowledge or skill a learner has actually gained by the end of a course, as opposed to what was planned in advance.",
+      "collocations": ["assess learning outcomes", "achieved learning outcomes", "measure learning outcomes"],
+      "example": "The course description lists the learning outcomes, but the real test is whether my learner can use phrasal verbs confidently.",
+      "note": "Compare with 'learning objective': the objective is planned, the outcome is what was actually achieved."
+    },
+    {
+      "id": "cl-19",
+      "term": "rubric",
+      "phonetic": "/ˈruːbrɪk/",
+      "domain": "classroom_life",
+      "definition": "A detailed scoring guide that sets out the criteria for an assignment and the level of performance expected at each grade.",
+      "collocations": ["use a rubric", "mark against a rubric", "an assessment rubric"],
+      "example": "The rubric told me exactly what the examiner expected, so I could prepare my learner accordingly.",
+      "note": "Common in US and international English. In British schools 'marking criteria' is the more usual phrase."
+    },
+    {
+      "id": "cl-20",
+      "term": "attendance",
+      "phonetic": "/əˈtendəns/",
+      "domain": "classroom_life",
+      "definition": "The record of who is present at a lesson or event, and the act of being there regularly.",
+      "collocations": ["take attendance", "poor attendance", "an attendance record"],
+      "example": "Attendance dropped before the exam because several learners had work commitments.",
+      "note": "It is also the noun for the number of people present: attendance was low."
+    },
+    {
+      "id": "cl-21",
+      "term": "deadline",
+      "phonetic": "/ˈdedlaɪn/",
+      "domain": "classroom_life",
+      "definition": "The latest time by which a piece of work must be completed and submitted.",
+      "collocations": ["meet a deadline", "miss a deadline", "the deadline is Friday"],
+      "example": "My learner works night shifts, so a flexible deadline is much more realistic than a fixed one.",
+      "note": "As a verb it takes a direct object: deadline the report. 'Dead line' as two words is not standard."
+    },
+    {
+      "id": "cl-22",
+      "term": "extension",
+      "phonetic": "/ɪkˈstenʃn/",
+      "domain": "classroom_life",
+      "definition": "Extra time given to complete a task, or an additional task that goes beyond the basic requirements for faster learners.",
+      "collocations": ["give an extension", "an extension activity", "a time extension"],
+      "example": "The teacher offered an extension for anyone who finished the writing task early.",
+      "note": "In technology an 'extension' is a browser add-on, so check the context."
+    },
+    {
+      "id": "cl-23",
+      "term": "hand in",
+      "phonetic": "/ˌhænd ˈɪn/",
+      "domain": "classroom_life",
+      "definition": "To give a piece of written or digital work to a teacher for marking, usually at the end of a lesson or by a deadline.",
+      "collocations": ["hand in an assignment", "hand in your homework", "hand it in on time"],
+      "example": "Could you hand in the writing task by Friday so that I can mark it before our next lesson?",
+      "note": "Standard in British English. American English usually prefers 'turn in'."
+    },
+    {
+      "id": "cl-24",
+      "term": "hand back",
+      "phonetic": "/ˌhænd ˈbæk/",
+      "domain": "classroom_life",
+      "definition": "To return work to a learner after it has been marked or corrected.",
+      "collocations": ["hand back the homework", "hand back marked work", "hand the work back"],
+      "example": "I hand back the corrected essays with comments so that my learner can revise them independently.",
+      "note": "Usually takes an object plus 'to somebody': hand the essays back to her."
+    },
+    {
+      "id": "cl-25",
+      "term": "follow up on",
+      "phonetic": "/ˈfɒləʊ ʌp ɒn/",
+      "domain": "classroom_life",
+      "definition": "To check on the progress of something that has already been started, especially after an earlier action or conversation.",
+      "collocations": ["follow up on an assignment", "follow up with a learner", "follow up on feedback"],
+      "example": "I follow up on the writing task by email, because some learners need a nudge before the deadline.",
+      "note": "Written as three words in the verb form; the noun is 'a follow-up' with a hyphen."
+    },
+    {
+      "id": "cl-26",
+      "term": "set up",
+      "phonetic": "/ˌset ˈʌp/",
+      "domain": "classroom_life",
+      "definition": "To arrange the equipment, furniture or digital system so that something can be used or carried out.",
+      "collocations": ["set up a classroom", "set up a laptop", "set up an online course"],
+      "example": "It takes me five minutes to set up the video call before each one-to-one lesson.",
+      "note": "In American English this is also the usual way of saying 'create an account'."
+    },
+    {
+      "id": "cl-27",
+      "term": "keep up with",
+      "phonetic": "/ˌkiːp ˈʌp wɪð/",
+      "domain": "classroom_life",
+      "definition": "To stay at the same level as other people or as the demands of a course, in terms of work or new information.",
+      "collocations": ["keep up with the class", "keep up with the workload", "hard to keep up with"],
+      "example": "When my learner missed two lessons she found it difficult to keep up with the rest of the group.",
+      "note": "Often used negatively: I cannot keep up. 'Keep up to date with' has a slightly different meaning."
+    },
+    {
+      "id": "cl-28",
+      "term": "catch up on",
+      "phonetic": "/ˌkætʃ ˈʌp ɒn/",
+      "domain": "classroom_life",
+      "definition": "To get the information or skills you missed so that you are level with the rest of the group again.",
+      "collocations": ["catch up on the lesson", "catch up on homework", "catch up on the reading"],
+      "example": "I record the lesson so that she can catch up on the grammar she missed while she was travelling.",
+      "note": "Almost always followed by 'on'. 'Catch up' on its own means to reach the same point as others."
+    },
+    {
+      "id": "cl-29",
+      "term": "facilitate",
+      "phonetic": "/fəˈsɪlɪteɪt/",
+      "domain": "classroom_life",
+      "definition": "To make a discussion or a session easier and more productive by guiding the participants rather than dominating it.",
+      "collocations": ["facilitate a discussion", "facilitate a workshop", "a well-facilitated session"],
+      "example": "My role in this class is to facilitate the conversation, not to correct every small mistake.",
+      "note": "Formally written with a -c-. In modern methodology it is often contrasted with 'teach'."
+    },
+    {
+      "id": "cl-30",
+      "term": "scaffold",
+      "phonetic": "/ˈskæfəʊld/",
+      "domain": "classroom_life",
+      "definition": "To support a learner step by step with prompts, examples and temporary help that is gradually removed as the learner becomes independent.",
+      "collocations": ["scaffold learning", "scaffold a task", "scaffolding support"],
+      "example": "I scaffold the speaking task with sentence frames, then remove them in the final part of the lesson.",
+      "note": "A metaphor borrowed from construction. The noun form 'scaffolding' is also widely used."
+    },
+    {
+      "id": "cl-31",
+      "term": "elicit",
+      "phonetic": "/iˈlɪsɪt/",
+      "domain": "classroom_life",
+      "definition": "To draw answers or ideas out of learners by asking questions or using prompts, instead of simply supplying the information yourself.",
+      "collocations": ["elicit responses", "elicit ideas from students", "questioning that elicits answers"],
+      "example": "I try to elicit the target language rather than model it, so that my learner is producing, not repeating.",
+      "note": "Rare outside education. Do not confuse with 'illicit'. The noun is 'elicitation'."
+    },
+    {
+      "id": "cl-32",
+      "term": "model",
+      "phonetic": "/ˈmɒdl/",
+      "domain": "classroom_life",
+      "definition": "To show learners how to do something by giving an example of the language, the process or the behaviour to imitate.",
+      "collocations": ["model the target language", "model an answer", "teacher modelling"],
+      "example": "First I model a good answer, then my student records her own version of it.",
+      "note": "In this teaching sense the stress is on the first syllable: MODEL. 'A role model' is a different word."
+    },
+    {
+      "id": "cl-33",
+      "term": "demonstrate",
+      "phonetic": "/ˈdemənstreɪt/",
+      "domain": "classroom_life",
+      "definition": "To show clearly by doing or explaining how something works, so that learners can understand the process.",
+      "collocations": ["demonstrate how something works", "demonstrate a procedure", "clearly demonstrated"],
+      "example": "The instructor demonstrated how to navigate the learning platform before the task began.",
+      "note": "Very common in technical instruction. 'Demonstrate that...' means to prove that something is true."
+    },
+    {
+      "id": "cl-34",
+      "term": "plenary",
+      "phonetic": "/ˈpliːnəri/",
+      "domain": "classroom_life",
+      "definition": "A short final part of a lesson in which the whole class gathers to review what has been covered and to check understanding.",
+      "collocations": ["a plenary session", "a whole-class plenary", "a plenary activity"],
+      "example": "In the plenary we checked what each group had learnt and set the homework for the week.",
+      "note": "A specialist British education term. American English would say 'a wrap-up' or 'a review'."
+    },
+    {
+      "id": "cl-35",
+      "term": "icebreaker",
+      "phonetic": "/ˈaɪsbreɪkə/",
+      "domain": "classroom_life",
+      "definition": "A short, light activity at the start of a lesson or a training session that gets people talking to each other and relaxed.",
+      "collocations": ["do an icebreaker", "an icebreaker activity", "run an icebreaker"],
+      "example": "A five-minute icebreaker about weekend plans was enough to get everyone speaking.",
+      "note": "One word, though 'ice-breaker' is also seen. It is used mainly with adults in training."
+    },
+    {
+      "id": "cg-01",
+      "term": "note-taking",
+      "phonetic": "/ˈnəʊt teɪkɪŋ/",
+      "domain": "cognition_learning",
+      "definition": "The activity of writing down key information while you listen or read, usually in a shortened and organised form.",
+      "collocations": ["note-taking skills", "take notes", "effective note-taking"],
+      "example": "Note-taking in English became much easier once my learner started using headings instead of full sentences.",
+      "note": "The noun is usually written with a hyphen: note-taking."
+    },
+    {
+      "id": "cg-02",
+      "term": "mind mapping",
+      "phonetic": "/ˈmaɪnd mæpɪŋ/",
+      "domain": "cognition_learning",
+      "definition": "A technique for organising ideas by placing a central topic in the middle and branching related words and images around it.",
+      "collocations": ["create a mind map", "a mind-mapping technique", "a mind map of the unit"],
+      "example": "We built a mind map of the unit vocabulary, and she added her own examples in a different colour.",
+      "note": "The verb is usually hyphenated: mind-mapping. 'Mind map' is the common noun in British English."
+    },
+    {
+      "id": "cg-03",
+      "term": "spaced repetition",
+      "phonetic": "/ˌspeɪst ˌrepəˈtɪʃn/",
+      "domain": "cognition_learning",
+      "definition": "A study method in which you review material at increasing intervals, so that each review comes just before you would forget it.",
+      "collocations": ["use spaced repetition", "a spaced repetition schedule", "a spaced repetition technique"],
+      "example": "She set her flashcards to come back every few days, which is the basic idea behind spaced repetition.",
+      "note": "The key word is spaced. Repeating something several times in one sitting is not the same thing."
+    },
+    {
+      "id": "cg-04",
+      "term": "self-assessment",
+      "phonetic": "/ˌself əˈsesmənt/",
+      "domain": "cognition_learning",
+      "definition": "Judging your own work or your own progress against a standard, rather than relying only on a teacher's judgement.",
+      "collocations": ["do a self-assessment", "a self-assessment checklist", "an honest self-assessment"],
+      "example": "The self-assessment at the end of the module made her realise which skills still needed work.",
+      "note": "Hyphenated when it comes before a noun: a self-assessment exercise."
+    },
+    {
+      "id": "cg-05",
+      "term": "visualise",
+      "phonetic": "/ˈvɪʒuəlaɪz/",
+      "domain": "cognition_learning",
+      "definition": "To form a clear mental picture of something, or to represent an idea as a diagram, chart or image.",
+      "collocations": ["visualise a concept", "visualise the process", "clearly visualised"],
+      "example": "Try to visualise the room in your home office; it makes the vocabulary much easier to remember.",
+      "note": "British English -ise. The noun is 'visualisation'. The word can also mean to imagine something realistically."
+    },
+    {
+      "id": "cg-06",
+      "term": "learning style",
+      "phonetic": "/ˈlɜːnɪŋ staɪl/",
+      "domain": "cognition_learning",
+      "definition": "A concept that people differ in how they prefer to take in information, for example visually, aurally or by doing something.",
+      "collocations": ["learning style theory", "a preferred learning style", "match your learning style"],
+      "example": "The learning style discussion was interesting, but I reminded her that mixing methods works better for everyone.",
+      "note": "Often used loosely. Research does not support matching teaching to one fixed style."
+    },
+    {
+      "id": "cg-07",
+      "term": "visual learner",
+      "phonetic": "/ˈvɪʒuəl ˈlɜːnə/",
+      "domain": "cognition_learning",
+      "definition": "A person who tends to understand and remember information more easily when it is presented as images, diagrams or written text.",
+      "collocations": ["a visual learner", "a visual learning preference", "as a visual learner"],
+      "example": "She is a visual learner, so she underlines grammar rules in colour and turns them into small mind maps.",
+      "note": "Use the hyphen when the word comes before a noun: a visual learning style."
+    },
+    {
+      "id": "cg-08",
+      "term": "auditory learner",
+      "phonetic": "/ˈɔːdɪtəri ˈlɜːnə/",
+      "domain": "cognition_learning",
+      "definition": "A person who tends to learn more easily by listening, discussing or repeating material aloud rather than by reading it.",
+      "collocations": ["an auditory learner", "auditory learning", "an auditory learning style"],
+      "example": "Because he is an auditory learner, I gave him a recording of the interview to listen to twice.",
+      "note": "'Aural' is also used, but 'auditory' is the standard term in education."
+    },
+    {
+      "id": "cg-09",
+      "term": "kinaesthetic learner",
+      "phonetic": "/ˌkɪniːˈstɛtɪk ˈlɜːnə/",
+      "domain": "cognition_learning",
+      "definition": "A person who learns best through physical movement, by handling objects or by being actively involved in the task.",
+      "collocations": ["a kinaesthetic learner", "a kinaesthetic approach", "a kinaesthetic activity"],
+      "example": "The kinaesthetic learner in my class learns fastest when she has to move around or handle the objects.",
+      "note": "Spelled 'kinaesthetic' in British English; American English uses 'kinesthetic'."
+    },
+    {
+      "id": "cg-10",
+      "term": "reading/writing learner",
+      "phonetic": "/ˈriːdɪŋ ˈraɪtɪŋ ˈlɜːnə/",
+      "domain": "cognition_learning",
+      "definition": "A person who prefers to take information in through reading and to produce language in writing.",
+      "collocations": ["a reading/writing learner", "a reading and writing preference", "a reading/writing style"],
+      "example": "For a reading and writing learner, a text-based lesson with follow-up writing seems to work well.",
+      "note": "The slash form is common in course catalogues; 'reading and writing learner' is the plainer version."
+    },
+    {
+      "id": "cg-11",
+      "term": "cognitive load",
+      "phonetic": "/ˈkɒɡnətɪv ləʊd/",
+      "domain": "cognition_learning",
+      "definition": "The total amount of mental effort used in working with and remembering information; when it is too high, learning breaks down.",
+      "collocations": ["reduce cognitive load", "high cognitive load", "cognitive load theory"],
+      "example": "Breaking the long text into sections reduced the cognitive load, and my learner finally enjoyed the article.",
+      "note": "A specialist term from educational psychology, but very useful when discussing lesson design."
+    },
+    {
+      "id": "cg-12",
+      "term": "metacognition",
+      "phonetic": "/ˌmetəkəɡˈnɪʃn/",
+      "domain": "cognition_learning",
+      "definition": "Awareness and control of your own thinking, including judging how well you understand something and planning how to learn it.",
+      "collocations": ["metacognitive skills", "develop metacognition", "metacognitive awareness"],
+      "example": "Learning to check her own understanding gave her a metacognitive skill that helped in every other subject.",
+      "note": "Often written with a capital M in academic writing. Many learners find it hard to pronounce."
+    },
+    {
+      "id": "cg-13",
+      "term": "recall",
+      "phonetic": "/rɪˈkɔːl/",
+      "domain": "cognition_learning",
+      "definition": "To bring a piece of information back into your mind, either while you are using it or later from memory.",
+      "collocations": ["recall a word", "recall information", "hard to recall"],
+      "example": "A short recap at the start of the lesson helps my learner recall the previous week's vocabulary.",
+      "note": "Do not confuse with 'recollect', which is more formal and usually describes memories of events."
+    },
+    {
+      "id": "cg-14",
+      "term": "retention",
+      "phonetic": "/rɪˈtenʃn/",
+      "domain": "cognition_learning",
+      "definition": "The ability to keep information in your memory and still be able to use it later.",
+      "collocations": ["information retention", "improve retention", "long-term retention"],
+      "example": "Repeated review improved her retention far more than any single memorisation session.",
+      "note": "Usually uncountable in this sense. A 'retention rate' is the percentage reported in education surveys."
+    },
+    {
+      "id": "cg-15",
+      "term": "retrieval practice",
+      "phonetic": "/rɪˈtriːvl ˈpræktɪs/",
+      "domain": "cognition_learning",
+      "definition": "Actively bringing information out of memory, for example by recalling a definition, rather than simply rereading it.",
+      "collocations": ["use retrieval practice", "a retrieval practice technique", "effective retrieval practice"],
+      "example": "We turned the review session into retrieval practice, and she found it harder than she expected but more useful.",
+      "note": "Also called the 'testing effect' in research. The effort of struggling is what strengthens the memory."
+    },
+    {
+      "id": "cg-16",
+      "term": "active recall",
+      "phonetic": "/ˌæktɪv rɪˈkɔːl/",
+      "domain": "cognition_learning",
+      "definition": "The act of deliberately prompting your memory for something, which strengthens the memory you have already formed.",
+      "collocations": ["the active recall technique", "practise active recall", "an active recall test"],
+      "example": "Active recall beats rereading, so I asked her to reconstruct the lesson from memory at the end.",
+      "note": "Related to retrieval practice: the practice is the action, active recall is the effort behind it."
+    },
+    {
+      "id": "cg-17",
+      "term": "focus",
+      "phonetic": "/ˈfəʊkəs/",
+      "domain": "cognition_learning",
+      "definition": "The ability to give your full attention to a task, or the particular thing that your attention is directed towards.",
+      "collocations": ["maintain focus", "lose focus", "focus on a task"],
+      "example": "Notifications pulled my learner's focus away, so we agreed to switch them off during study hours.",
+      "note": "The verb takes 'on': focus on. As a noun it is usually uncountable: a lack of focus."
+    },
+    {
+      "id": "cg-18",
+      "term": "concentration",
+      "phonetic": "/ˌkɒnsnˈtreɪʃn/",
+      "domain": "cognition_learning",
+      "definition": "The sustained ability to keep your attention on a task without being distracted, especially over a long period.",
+      "collocations": ["break concentration", "poor concentration", "a concentration span"],
+      "example": "Quiet background music improved her concentration during the reading task.",
+      "note": "Usually uncountable. In chemistry 'concentration' means something quite different, so beware in coursebooks."
+    },
+    {
+      "id": "cg-19",
+      "term": "distraction",
+      "phonetic": "/dɪˈstrækʃn/",
+      "domain": "cognition_learning",
+      "definition": "Something that takes your attention away from the task you are supposed to be doing.",
+      "collocations": ["a major distraction", "a distraction from studying", "ignore distractions"],
+      "example": "Her phone was the biggest distraction, so she moved it to another room during the hour.",
+      "note": "Countable, usually 'a distraction'. 'Distracted' describes the person, not the thing."
+    },
+    {
+      "id": "cg-20",
+      "term": "distraction-free",
+      "phonetic": "/dɪˈstrækʃn friː/",
+      "domain": "cognition_learning",
+      "definition": "Describing a space, an app or a working mode that removes interruptions so that you can concentrate fully.",
+      "collocations": ["a distraction-free environment", "a distraction-free mode", "distraction-free writing"],
+      "example": "A distraction-free app that blocks social media turned out to be the most useful tool she tried.",
+      "note": "It is an adjective and needs a noun after it: a distraction-free environment."
+    },
+    {
+      "id": "cg-21",
+      "term": "motivation",
+      "phonetic": "/ˌməʊtɪˈveɪʃn/",
+      "domain": "cognition_learning",
+      "definition": "The reason or set of reasons that make you want to do something and keep going, especially when the task is difficult.",
+      "collocations": ["lose motivation", "motivation to learn", "increase motivation"],
+      "example": "Her motivation dropped when she had no contact with her tutor for three weeks.",
+      "note": "Usually uncountable in this sense, although 'motivations' exists for a person's underlying reasons."
+    },
+    {
+      "id": "cg-22",
+      "term": "intrinsic motivation",
+      "phonetic": "/ˌɪntrɪnsɪk ˌməʊtɪˈveɪʃn/",
+      "domain": "cognition_learning",
+      "definition": "Motivation that comes from inside you, because the activity itself is interesting or satisfying rather than for any reward.",
+      "collocations": ["intrinsic motivation", "intrinsically motivated", "a lack of intrinsic motivation"],
+      "example": "She has intrinsic motivation for languages, but she still needs clear goals to keep a weekly routine going.",
+      "note": "The opposite is 'extrinsic motivation', such as money, marks or pressure from an employer."
+    },
+    {
+      "id": "cg-23",
+      "term": "procrastination",
+      "phonetic": "/prəˌkræstɪˈneɪʃn/",
+      "domain": "cognition_learning",
+      "definition": "The habit of putting off a task you have decided to do, usually because you find it uncomfortable or boring.",
+      "collocations": ["procrastination on a task", "combat procrastination", "chronic procrastination"],
+      "example": "Procrastination was the real problem, so we built a small daily task she could finish in ten minutes.",
+      "note": "Stress on the second syllable: pro-CRAS-ti-na-tion. It is very common in self-study advice."
+    },
+    {
+      "id": "cg-24",
+      "term": "work through",
+      "phonetic": "/ˌwɜːk ˈθruː/",
+      "domain": "cognition_learning",
+      "definition": "To study or deal with material systematically, step by step, until you understand it fully.",
+      "collocations": ["work through a textbook", "work through the exercises", "work through a problem"],
+      "example": "I told her to work through one chapter each evening rather than try to read the whole book at once.",
+      "note": "It can also mean to overcome a feeling: work through your fear. The object is the material, not the person."
+    },
+    {
+      "id": "cg-25",
+      "term": "drill",
+      "phonetic": "/drɪl/",
+      "domain": "cognition_learning",
+      "definition": "To practise a skill repeatedly and mechanically until it becomes automatic, especially pronunciation or vocabulary.",
+      "collocations": ["drill vocabulary", "drill pronunciation", "a drilling exercise"],
+      "example": "We drilled the irregular verbs for ten minutes, and she finally stopped making the same mistake.",
+      "note": "It can sound old-fashioned, and a teacher telling a class to drill may sound critical. 'Practise' sounds more positive."
+    },
+    {
+      "id": "cg-26",
+      "term": "chunk",
+      "phonetic": "/tʃʌŋk/",
+      "domain": "cognition_learning",
+      "definition": "A group of words or pieces of information that you treat as a single unit, so that you remember them together.",
+      "collocations": ["chunk information", "language chunks", "break into chunks"],
+      "example": "Learning 'I'd like to make an appointment' as one chunk was far easier than learning five separate words.",
+      "note": "Also used as a verb: chunk the material. As an adjective 'chunky' means thick, which can confuse learners."
+    },
+    {
+      "id": "cg-27",
+      "term": "mnemonic",
+      "phonetic": "/nɪˈmɒnɪk/",
+      "domain": "cognition_learning",
+      "definition": "A word, phrase or image that you use to help you remember information, such as an acronym or a short rhyme.",
+      "collocations": ["use a mnemonic", "a memory mnemonic", "a mnemonic device"],
+      "example": "The mnemonic she invented for irregular past tenses is now on a card above her desk.",
+      "note": "Stress on the second syllable: mni-MON-ic. It is a noun only, with no common verb form."
+    },
+    {
+      "id": "cg-28",
+      "term": "annotate",
+      "phonetic": "/ˈænəteɪt/",
+      "domain": "cognition_learning",
+      "definition": "To add short notes, comments or marks to a text in order to explain or record your own thinking about it.",
+      "collocations": ["annotate a text", "an annotated copy", "annotate the margins"],
+      "example": "I asked her to annotate the article with her own questions rather than highlight every unfamiliar word.",
+      "note": "'Highlight' marks a word you may have met; 'annotate' adds your own commentary."
+    },
+    {
+      "id": "cg-29",
+      "term": "reflect on",
+      "phonetic": "/rɪˈflekt ɒn/",
+      "domain": "cognition_learning",
+      "definition": "To think carefully about something that has happened or that you have done, in order to learn from it.",
+      "collocations": ["reflect on your learning", "reflect on feedback", "reflect on a question"],
+      "example": "Every month we reflect on what worked and what did not, and adjust the plan for the next month.",
+      "note": "Usually followed by 'on'. The noun is 'reflection', as in a reflection on the course."
+    },
+    {
+      "id": "cg-30",
+      "term": "keep a vocabulary log",
+      "phonetic": "/ˌkiːp ə vəˈkæbjələri lɒɡ/",
+      "domain": "cognition_learning",
+      "definition": "To record new words and phrases in a dedicated list, with a note, an example sentence and the date you met them.",
+      "collocations": ["keep a vocabulary log", "maintain a vocabulary log", "a vocabulary log book"],
+      "example": "She keeps a vocabulary log in a spreadsheet, with one new expression for every lesson.",
+      "note": "Note the pattern: keep a log, write in a log, add something to a log."
+    },
+    {
+      "id": "cg-31",
+      "term": "fluency",
+      "phonetic": "/ˈfluːənsi/",
+      "domain": "cognition_learning",
+      "definition": "The ability to speak or write smoothly and easily, with an appropriate speed and little hesitation.",
+      "collocations": ["build fluency", "improve fluency", "speak with fluency"],
+      "example": "Her fluency improved quickly once she stopped worrying about making mistakes.",
+      "note": "Usually uncountable. It describes ease of production, not correctness, which is 'accuracy'."
+    },
+    {
+      "id": "cg-32",
+      "term": "accuracy",
+      "phonetic": "/ˈækjərəsi/",
+      "domain": "cognition_learning",
+      "definition": "The degree to which something is correct and free from errors, especially in the way language is used.",
+      "collocations": ["improve accuracy", "a high level of accuracy", "check for accuracy"],
+      "example": "Our goal this month is accuracy in the present perfect, even if it means speaking more slowly.",
+      "note": "Different from 'fluency': a speaker can be fluent but inaccurate, or accurate but slow."
+    },
+    {
+      "id": "cg-33",
+      "term": "overlearn",
+      "phonetic": "/ˌəʊvəˈlɜːn/",
+      "domain": "cognition_learning",
+      "definition": "To continue practising a skill beyond the point of competence, so that it stays reliable even under pressure.",
+      "collocations": ["overlearn vocabulary", "overlearn a skill", "deliberate overlearning"],
+      "example": "Typists who overlearn a keyboard layout can type accurately without looking at the keys.",
+      "note": "Rare in everyday English. In general use, simply 'practise until it is automatic'."
+    },
+    {
+      "id": "cg-34",
+      "term": "plateau",
+      "phonetic": "/ˈplætəʊ/",
+      "domain": "cognition_learning",
+      "definition": "A period in learning when your performance stops improving even though you continue to study.",
+      "collocations": ["hit a plateau", "a learning plateau", "reach a plateau"],
+      "example": "She hit a plateau in speaking for weeks, and the fix was changing her routine rather than studying more hours.",
+      "note": "Usually used with 'hit' or 'reach'. The verb 'plateau' also exists but is less common."
+    },
+    {
+      "id": "cg-35",
+      "term": "learning curve",
+      "phonetic": "/ˈlɜːnɪŋ kɜːv/",
+      "domain": "cognition_learning",
+      "definition": "The pattern of progress over time, showing how quickly a skill is acquired; it is often slow at first and then speeds up.",
+      "collocations": ["a steep learning curve", "the learning curve", "climb the learning curve"],
+      "example": "The first month is always on the steep part of the learning curve, so progress feels slower than it really is.",
+      "note": "A 'steep learning curve' means learning is difficult at first, not that it is easy."
+    },
+    {
+      "id": "ed-01",
+      "term": "connection",
+      "phonetic": "/kəˈnekʃn/",
+      "domain": "edtech_ops",
+      "definition": "The link between two devices, people or networks that allows information to be passed between them.",
+      "collocations": ["a strong internet connection", "lose the connection", "connection speed"],
+      "example": "My video lesson froze twice, so she checked her connection before we started.",
+      "note": "Also used for a personal link: she made a connection with the tutor. Say 'internet connection' for the network."
+    },
+    {
+      "id": "ed-02",
+      "term": "keyboard",
+      "phonetic": "/ˈkiːbɔːd/",
+      "domain": "edtech_ops",
+      "definition": "The set of keys on a computer or laptop that you use to type letters, numbers and symbols.",
+      "collocations": ["type on a keyboard", "a wireless keyboard", "a keyboard shortcut"],
+      "example": "I taught her a keyboard shortcut so she could paste a paragraph without using the mouse.",
+      "note": "Stress is on the first syllable: KEY-board. The second syllable has a silent b."
+    },
+    {
+      "id": "ed-03",
+      "term": "homepage",
+      "phonetic": "/ˈhəʊmpeɪdʒ/",
+      "domain": "edtech_ops",
+      "definition": "The main page of a website that appears when you open it, usually with links to all the other pages.",
+      "collocations": ["open the homepage", "the homepage of a website", "return to the homepage"],
+      "example": "The teacher's homepage has all the lesson links and the recordings in one place.",
+      "note": "One word. 'Home page' also occurs in British English, but the platform style is 'homepage'."
+    },
+    {
+      "id": "ed-04",
+      "term": "artificial intelligence",
+      "phonetic": "/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns/",
+      "domain": "edtech_ops",
+      "definition": "Computer software that can carry out tasks which normally need human intelligence, such as recognising speech or writing text.",
+      "collocations": ["an artificial intelligence tool", "use artificial intelligence", "powered by artificial intelligence"],
+      "example": "She was surprised that the artificial intelligence tool gave grammar feedback almost as fast as a private tutor.",
+      "note": "Usually abbreviated to AI. In education it raises obvious questions about academic honesty."
+    },
+    {
+      "id": "ed-05",
+      "term": "access",
+      "phonetic": "/ˈækses/",
+      "domain": "edtech_ops",
+      "definition": "Permission or the ability to reach and use something, such as a file, a website, a course or a shared drive.",
+      "collocations": ["gain access to", "access a file", "have access to"],
+      "example": "Check that you have access to the recording before the live session begins.",
+      "note": "Stress moves to the second syllable in the verb: to access the file /əˈkses/."
+    },
+    {
+      "id": "ed-06",
+      "term": "upload",
+      "phonetic": "/ˌʌpˈləʊd/",
+      "domain": "edtech_ops",
+      "definition": "To copy a file or a document from your own device to a website, an app or a cloud service.",
+      "collocations": ["upload a file", "upload a photo", "upload to the cloud"],
+      "example": "She uploaded her assignment at midnight, five minutes before the deadline.",
+      "note": "The opposite is 'download'. Note the stress shift in the verb: UP-load."
+    },
+    {
+      "id": "ed-07",
+      "term": "delete",
+      "phonetic": "/dɪˈliːt/",
+      "domain": "edtech_ops",
+      "definition": "To remove something such as a file, a message or a word, often permanently and with no easy recovery.",
+      "collocations": ["delete a file", "accidentally delete", "delete a message"],
+      "example": "He deleted the wrong recording and could not get it back because there was no backup.",
+      "note": "In some apps you can undo a delete for a few seconds. On a keyboard the command is often Del."
+    },
+    {
+      "id": "ed-08",
+      "term": "click",
+      "phonetic": "/klɪk/",
+      "domain": "edtech_ops",
+      "definition": "To press a mouse button or tap on a screen in order to choose an option or open something.",
+      "collocations": ["click on a link", "double-click a file", "click the button"],
+      "example": "My learner forgot to click 'save', so half of her answers disappeared.",
+      "note": "Transitive use is common: click the button. In careful writing 'click on' is clearer."
+    },
+    {
+      "id": "ed-09",
+      "term": "switch on",
+      "phonetic": "/ˌswɪtʃ ˈɒn/",
+      "domain": "edtech_ops",
+      "definition": "To start a device or an application so that it begins working, such as a computer, a camera or a light.",
+      "collocations": ["switch on the computer", "switch on the microphone", "switch on a light"],
+      "example": "Remember to switch on the microphone before the online lesson begins.",
+      "note": "A phrasal verb: 'switch on the camera' is correct, and 'switch the camera on' is the alternative pattern."
+    },
+    {
+      "id": "ed-10",
+      "term": "switch off",
+      "phonetic": "/ˌswɪtʃ ˈɒf/",
+      "domain": "edtech_ops",
+      "definition": "To stop a device from working, usually by pressing a button or using an on and off control.",
+      "collocations": ["switch off the computer", "switch off notifications", "switch off the microphone"],
+      "example": "We agreed to switch off notifications during the lesson so that nothing distracts her.",
+      "note": "'Turn off' is an equally common alternative. 'Switch off the lights' is very frequent in British English."
+    },
+    {
+      "id": "ed-11",
+      "term": "log in",
+      "phonetic": "/ˌlɒɡ ˈɪn/",
+      "domain": "edtech_ops",
+      "definition": "To enter your username and password so that you can start using a system, a website or an app.",
+      "collocations": ["log in to the portal", "log in with a password", "log in remotely"],
+      "example": "I could not log in to the classroom platform until my colleague reset my password.",
+      "note": "The verb is two words: log in. The noun is 'log-in' or 'sign-in' with a hyphen."
+    },
+    {
+      "id": "ed-12",
+      "term": "log out",
+      "phonetic": "/ˌlɒɡ ˈaʊt/",
+      "domain": "edtech_ops",
+      "definition": "To end your session on a system or website so that nobody else can use it under your name.",
+      "collocations": ["log out of the system", "remember to log out", "log out at the end of the session"],
+      "example": "Always log out of the shared computer in the study room when you finish.",
+      "note": "Note the contrast with 'log in', which is usually followed by 'to' plus a site: log in to the portal."
+    },
+    {
+      "id": "ed-13",
+      "term": "password",
+      "phonetic": "/ˈpɑːswɜːd/",
+      "domain": "edtech_ops",
+      "definition": "A secret word or combination of characters that you type to prove that you are allowed to use a system.",
+      "collocations": ["reset a password", "type your password", "a strong password"],
+      "example": "She wrote her new password on a card at home because she forgot it the next morning.",
+      "note": "It is one word and is not written with a capital P in ordinary English."
+    },
+    {
+      "id": "ed-14",
+      "term": "file",
+      "phonetic": "/faɪl/",
+      "domain": "edtech_ops",
+      "definition": "A collection of information stored on a computer under one name, such as a document, an image or a video.",
+      "collocations": ["open a file", "save a file", "the file name"],
+      "example": "Send me the file as a PDF and I will mark it before the class.",
+      "note": "Unlike the verb 'to file', the noun is normally singular: a file, not a files."
+    },
+    {
+      "id": "ed-15",
+      "term": "folder",
+      "phonetic": "/ˈfəʊldə/",
+      "domain": "edtech_ops",
+      "definition": "A named place on a computer or a cloud service where files are kept in an organised way.",
+      "collocations": ["create a folder", "save it to a folder", "a shared folder"],
+      "example": "I create one folder per unit so that my learner can find every recording easily.",
+      "note": "The word is also used for physical folders, so the meaning is usually clear from context."
+    },
+    {
+      "id": "ed-16",
+      "term": "desktop",
+      "phonetic": "/ˈdesktop/",
+      "domain": "edtech_ops",
+      "definition": "The main screen of a computer and, in modern systems, the area that shows your icons and programs.",
+      "collocations": ["on your desktop", "the desktop background", "save it to the desktop"],
+      "example": "Her desktop was covered with icons, so we tidied it together at the start of the lesson.",
+      "note": "One word. People often say 'the desktop' meaning the physical monitor, which is also correct."
+    },
+    {
+      "id": "ed-17",
+      "term": "browser",
+      "phonetic": "/ˈbraʊzə/",
+      "domain": "edtech_ops",
+      "definition": "A program such as Chrome or Safari that lets you open and read pages on the internet.",
+      "collocations": ["open a browser", "a web browser", "refresh the browser"],
+      "example": "If the site does not work in one browser, try another before you panic.",
+      "note": "It is a piece of software, not the internet itself, although learners often confuse the two."
+    },
+    {
+      "id": "ed-18",
+      "term": "screen",
+      "phonetic": "/skriːn/",
+      "domain": "edtech_ops",
+      "definition": "The flat display on a computer, phone or television that shows images and text.",
+      "collocations": ["look at the screen", "on screen", "share your screen"],
+      "example": "During screen sharing she could not read my small font, so I increased the size.",
+      "note": "Do not confuse it with 'curtain'. The phrase 'on screen' is normally written as two words."
+    },
+    {
+      "id": "ed-19",
+      "term": "sync",
+      "phonetic": "/sɪŋk/",
+      "domain": "edtech_ops",
+      "definition": "To make two devices or versions of the same data match each other, so that both show identical information.",
+      "collocations": ["sync your files", "sync a device", "stay in sync"],
+      "example": "The recording was missing until the app finished syncing with the cloud.",
+      "note": "Normally used as a verb. A 'sync meeting' is American usage that British learners rarely hear."
+    },
+    {
+      "id": "ed-20",
+      "term": "cloud storage",
+      "phonetic": "/ˈklaʊd ˈstɔːrɪdʒ/",
+      "domain": "edtech_ops",
+      "definition": "Space on remote servers that you can use to keep files and reach them from any device with an internet connection.",
+      "collocations": ["save to cloud storage", "cloud storage space", "free cloud storage"],
+      "example": "I store all my lesson materials in cloud storage so I can open them on the train.",
+      "note": "Also known as 'the cloud'. British English accepts 'on the cloud', though 'in the cloud' is less common."
+    },
+    {
+      "id": "ed-21",
+      "term": "wifi",
+      "phonetic": "/ˈwaɪfaɪ/",
+      "domain": "edtech_ops",
+      "definition": "A wireless connection that gives a device access to the internet without any cable.",
+      "collocations": ["connect to wifi", "the wifi signal", "the wifi password"],
+      "example": "The wifi in the training room was weak, so we used my phone hotspot instead.",
+      "note": "Also written 'Wi-Fi' or 'wi-fi'. The term has no official meaning and was originally a trademark."
+    },
+    {
+      "id": "ed-22",
+      "term": "lag",
+      "phonetic": "/læɡ/",
+      "domain": "edtech_ops",
+      "definition": "A delay between an action on your device and the response, often caused by a weak connection or a busy server.",
+      "collocations": ["video lag", "lag behind", "no lag"],
+      "example": "There was a two-second lag between her voice and the frozen picture on screen.",
+      "note": "Used for audio and video delay. For a generally slow connection, 'a slow connection' is clearer."
+    },
+    {
+      "id": "ed-23",
+      "term": "freeze",
+      "phonetic": "/friːz/",
+      "domain": "edtech_ops",
+      "definition": "To stop working or moving suddenly, often because the software is overloaded or the connection is weak.",
+      "collocations": ["the screen freezes", "freeze up", "my video call froze"],
+      "example": "Her screen froze twice during the lesson, so we switched to a phone call.",
+      "note": "It is usually intransitive here. 'Freeze up' is very common in informal speech."
+    },
+    {
+      "id": "ed-24",
+      "term": "crash",
+      "phonetic": "/kræʃ/",
+      "domain": "edtech_ops",
+      "definition": "To stop working completely and unexpectedly, usually because of a software or a hardware fault.",
+      "collocations": ["the app crashed", "crash during a call", "a system crash"],
+      "example": "The app crashed while I was recording, and I lost the first five minutes.",
+      "note": "In formal English say 'the app crashed' rather than 'the app crashed itself'."
+    },
+    {
+      "id": "ed-25",
+      "term": "backup",
+      "phonetic": "/ˈbækʌp/",
+      "domain": "edtech_ops",
+      "definition": "A second copy of your data that you keep so that you can recover it if the original is lost or damaged.",
+      "collocations": ["make a backup", "keep a backup", "a backup copy"],
+      "example": "Do a backup of your recordings every week; my app lost three lessons last month.",
+      "note": "It can be a noun or a verb, with no hyphen: I back up my files as a verb, in two words."
+    },
+    {
+      "id": "ed-26",
+      "term": "spreadsheet",
+      "phonetic": "/ˈspredʃiːt/",
+      "domain": "edtech_ops",
+      "definition": "A document made of rows and columns, used to organise, sort and calculate numbers and text.",
+      "collocations": ["fill in a spreadsheet", "open a spreadsheet", "a spreadsheet formula"],
+      "example": "She tracks her vocabulary in a spreadsheet with three columns: word, example and date.",
+      "note": "Often called 'Excel' in informal speech, but a spreadsheet is any such program or file."
+    },
+    {
+      "id": "ed-27",
+      "term": "slide deck",
+      "phonetic": "/ˈslaɪd dek/",
+      "domain": "edtech_ops",
+      "definition": "A set of slides used to present information, usually in a presentation or a lecture.",
+      "collocations": ["put together a slide deck", "share a slide deck", "open a slide deck"],
+      "example": "I asked her to bring a slide deck on her company to class so that we could practise describing data.",
+      "note": "In business English 'deck' is often used on its own, while 'slides' is the more formal word."
+    },
+    {
+      "id": "ed-28",
+      "term": "recording",
+      "phonetic": "/rɪˈkɔːdɪŋ/",
+      "domain": "edtech_ops",
+      "definition": "A video or audio file that captures what was said or shown, and the act of making such a file.",
+      "collocations": ["make a recording", "watch the recording", "record a lecture"],
+      "example": "I made a recording of the lecture so that she could listen again before the test.",
+      "note": "Usually counted: a recording, recordings. The verb is 'record'."
+    },
+    {
+      "id": "ed-29",
+      "term": "microphone",
+      "phonetic": "/ˈmaɪkrəfəʊn/",
+      "domain": "edtech_ops",
+      "definition": "A device that captures your voice and sends it to a speaker, a live call or a recording system.",
+      "collocations": ["mute the microphone", "speak into the microphone", "microphone permission"],
+      "example": "The browser asked for microphone permission, and she allowed it before we started practising speaking.",
+      "note": "In formal English 'microphone' is one word; 'micro phone' as two words is old-fashioned."
+    },
+    {
+      "id": "ed-30",
+      "term": "shortcut",
+      "phonetic": "/ˈʃɔːtkʌt/",
+      "domain": "edtech_ops",
+      "definition": "A combination of keys that gives you a quick command, or a faster route to something on a screen.",
+      "collocations": ["a keyboard shortcut", "use a shortcut", "a shortcut key"],
+      "example": "She learned one keyboard shortcut that saved her a lot of time when she was taking notes.",
+      "note": "Also used figuratively: a shortcut to success. On a keyboard it is written Ctrl + C."
+    },
+    {
+      "id": "ed-31",
+      "term": "app",
+      "phonetic": "/æp/",
+      "domain": "edtech_ops",
+      "definition": "A program designed for a particular purpose, especially one you install on a phone, tablet or computer.",
+      "collocations": ["install an app", "download an app", "a mobile app"],
+      "example": "She installed an app that records her pronunciation and compares it with the model answer.",
+      "note": "Short for 'application'. Using 'app' for a desktop program is informal in careful writing."
+    },
+    {
+      "id": "ed-32",
+      "term": "update",
+      "phonetic": "/ˌʌpˈdeɪt/",
+      "domain": "edtech_ops",
+      "definition": "To change something so that it has the newest information or the latest version of the software.",
+      "collocations": ["update the app", "a software update", "keep something updated"],
+      "example": "The app updates itself every month, but she still checks that her notes have synced.",
+      "note": "Noun and verb are both 'update'. As a noun it is normally countable: an update."
+    },
+    {
+      "id": "ed-33",
+      "term": "notification",
+      "phonetic": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "domain": "edtech_ops",
+      "definition": "A message or an alert that appears to tell you about something new, such as an email, a comment or a deadline.",
+      "collocations": ["turn off notifications", "a push notification", "receive a notification"],
+      "example": "Turning off notifications on her phone was the first thing we did, and her focus improved that week.",
+      "note": "Usually plural 'notifications'. On a phone they are also called 'alerts'."
+    },
+    {
+      "id": "ed-34",
+      "term": "dashboard",
+      "phonetic": "/ˈdæʃbɔːd/",
+      "domain": "edtech_ops",
+      "definition": "A screen that shows the most important figures and status at a glance, often in charts or tables.",
+      "collocations": ["a learning dashboard", "view the dashboard", "a dashboard report"],
+      "example": "The learning dashboard shows her attendance, her scores and her progress against the syllabus.",
+      "note": "Originally a car panel, so it is now used for any overview of key metrics."
+    },
+    {
+      "id": "ed-35",
+      "term": "classroom management tool",
+      "phonetic": "/ˌklɑːsruːm ˈmænɪdʒmənt tuːl/",
+      "domain": "edtech_ops",
+      "definition": "Software that helps a teacher control a class, for example by locking screens, distributing activities or monitoring progress.",
+      "collocations": ["use a classroom management tool", "classroom management software", "set up a classroom management tool"],
+      "example": "With a classroom management tool I can lock every screen during the exam so that nobody opens a chat window.",
+      "note": "Normally uncountable as a category, but 'a classroom management tool' is natural when you mean one product."
+    }
+  ]
+}

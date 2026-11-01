@@ -1,0 +1,1964 @@
+{
+  "types": [
+    {
+      "id": "reformulation",
+      "label": "Functional Reformulations",
+      "count": 20
+    },
+    {
+      "id": "structural",
+      "label": "Structural Accuracy Drills",
+      "count": 15
+    },
+    {
+      "id": "error_correction",
+      "label": "Error-Correction Items",
+      "count": 15
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "type": "reformulation",
+      "target": "Politeness: Could you possibly + base verb",
+      "prompt": "Blunt: \"Close the window.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Could you possibly...",
+      "must_include": [
+        "could you possibly"
+      ],
+      "accept": [
+        "could you possibly close the window for me"
+      ],
+      "key": "Could you possibly close the window?",
+      "alternatives": [
+        "Could you possibly close the window for me?",
+        "Could you possibly close the window when you have a moment?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "Adding 'possibly' to 'could you' widens the distance between speaker and request, so the command becomes a warm request. The modal 'could' is past in form but present in meaning here.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the speaker ordering the listener to close the window?",
+          "a": "No, the speaker is asking politely for help."
+        },
+        {
+          "q": "Does 'possibly' make the request stronger or softer?",
+          "a": "Softer, because it increases the distance between the speaker and the listener."
+        },
+        {
+          "q": "Who performs the action in this sentence?",
+          "a": "The listener, because 'you' is the subject of 'close'."
+        }
+      ],
+      "teacher_note": "Keep 'possibly' short and let the pitch drop slightly at the end of the sentence; the polite fall is what does the softening, not a louder voice."
+    },
+    {
+      "id": 2,
+      "type": "reformulation",
+      "target": "Politeness: Could you just + base verb",
+      "prompt": "Blunt: \"Send me the file.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Could you just...",
+      "must_include": [
+        "could you just"
+      ],
+      "accept": [
+        "could you just send me the file",
+        "could you just send me that file"
+      ],
+      "key": "Could you just send me the file?",
+      "alternatives": [
+        "Could you just send me the file when you get a chance?",
+        "Could you just send me that file, please?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Just' makes the task sound small and quick, which lowers the effort the listener has to invest, while 'could' keeps the request negotiable rather than final.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Does 'just' make the task sound bigger or smaller?",
+          "a": "Smaller and quicker."
+        },
+        {
+          "q": "Is the speaker sending the file or asking for it?",
+          "a": "Asking for it; the listener is asked to send the file."
+        },
+        {
+          "q": "Can the listener say no?",
+          "a": "Yes, it is a request, not an order."
+        }
+      ],
+      "teacher_note": "Stress 'just' lightly and shorten it. Over-stressing 'just' turns a casual favour into an impatient demand."
+    },
+    {
+      "id": 3,
+      "type": "reformulation",
+      "target": "Politeness: Would you mind + -ing",
+      "prompt": "Blunt: \"Turn off the projector.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Would you mind...",
+      "must_include": [
+        "would you mind"
+      ],
+      "accept": [
+        "would you mind turning off the projector",
+        "would you mind switching off the projector"
+      ],
+      "key": "Would you mind turning off the projector?",
+      "alternatives": [
+        "Would you mind turning off the projector when we finish?",
+        "Would you mind switching off the projector for me?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Would you mind' is followed by a gerund and asks about the listener's willingness, not about whether the action is possible. It is the standard mid-strength request in British and international English.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "After 'would you mind' do we use a gerund or an infinitive?",
+          "a": "A gerund ending in -ing."
+        },
+        {
+          "q": "Does the question ask about willingness or about ability?",
+          "a": "Willingness."
+        },
+        {
+          "q": "Is this stronger or weaker than 'could you'?",
+          "a": "Weaker and more formal."
+        }
+      ],
+      "teacher_note": "Link 'you' to 'mind' and keep 'mind' short. If the learner pauses between 'would you' and the verb, the phrase loses its politeness."
+    },
+    {
+      "id": 4,
+      "type": "reformulation",
+      "target": "Politeness: Would it be possible to + base verb",
+      "prompt": "Blunt: \"Book the room for Thursday.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Would it be possible to...",
+      "must_include": [
+        "would it be possible to"
+      ],
+      "accept": [
+        "would it be possible for you to"
+      ],
+      "key": "Would it be possible to book the room for Thursday?",
+      "alternatives": [
+        "Would it be possible for you to book the room for Thursday?",
+        "Would it be possible to book the room for Thursday, please?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "This frame pushes the request onto the dummy subject 'it', so the listener is not directly asked to say yes or no. It is the most formal option in this set.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Who is the grammatical subject of this sentence?",
+          "a": "It, a dummy subject that carries no meaning."
+        },
+        {
+          "q": "Is the request made to a person or about a situation?",
+          "a": "To a person, but phrased as a question about the situation."
+        },
+        {
+          "q": "Where would you most likely use this form?",
+          "a": "In formal written communication, such as an email to the college office."
+        }
+      ],
+      "teacher_note": "Use a wide, flat intonation on 'possible'. A sharp rise at the end turns it into a genuine question and loses the deferential tone."
+    },
+    {
+      "id": 5,
+      "type": "reformulation",
+      "target": "Permission: May I + base verb",
+      "prompt": "Blunt: \"Open your notebook.\" Rewrite it as a polite question asking permission.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "May I...",
+      "must_include": [
+        "may i"
+      ],
+      "accept": [
+        "may i please",
+        "am i allowed to"
+      ],
+      "key": "May I open your notebook?",
+      "alternatives": [
+        "May I open your notebook, please?",
+        "May I ask you to open your notebook?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'May' is used here to ask for permission, not to talk about probability. It is more deferential and more formal than 'can', which is the everyday alternative.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the speaker asking for permission or asking whether it is possible?",
+          "a": "Permission."
+        },
+        {
+          "q": "Is 'may' more formal or more informal than 'can'?",
+          "a": "More formal and more deferential."
+        },
+        {
+          "q": "What will the listener do next?",
+          "a": "Give permission or refuse."
+        }
+      ],
+      "teacher_note": "Use a falling-rising contour on 'May I' to signal a real request for permission. A flat tone makes it sound like a statement of fact."
+    },
+    {
+      "id": 6,
+      "type": "reformulation",
+      "target": "Politeness: I was wondering if + clause",
+      "prompt": "Blunt: \"Submit this by Friday.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "I was wondering if...",
+      "must_include": [
+        "i was wondering if"
+      ],
+      "accept": [
+        "i was wondering whether",
+        "i was wondering if you could"
+      ],
+      "key": "I was wondering if you could submit this by Friday.",
+      "alternatives": [
+        "I was wondering if you would mind submitting this by Friday.",
+        "I was wondering if it would be possible to submit this by Friday."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "Past-tense 'was wondering' presents the question as a tentative thought rather than a demand, and 'if' keeps it indirect. It is one of the most frequent polite request frames in academic and office settings.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the speaker certain that they want this done?",
+          "a": "No, the question is tentative."
+        },
+        {
+          "q": "Why is 'was' used instead of 'am'?",
+          "a": "Past tense makes the question sound less direct and more exploratory."
+        },
+        {
+          "q": "What tense follows 'if' in this pattern?",
+          "a": "Past simple, as in 'if you could submit'."
+        }
+      ],
+      "teacher_note": "Keep the intonation wide and uncertain, with a light rise at the end. Stressing 'wondering' takes away the casual, non-committal feel of the frame."
+    },
+    {
+      "id": 7,
+      "type": "reformulation",
+      "target": "Politeness: I don't suppose you could + base verb",
+      "prompt": "Blunt: \"Repeat that after me.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "I don't suppose you could...",
+      "must_include": [
+        "i don't suppose you could"
+      ],
+      "accept": [
+        "i don't suppose you would"
+      ],
+      "key": "I don't suppose you could repeat that after me?",
+      "alternatives": [
+        "I don't suppose you could repeat that after me, please?",
+        "I don't suppose you would mind repeating that after me?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The negative 'don't suppose' sets up the expectation of refusal, which is exactly how a polite request should sound. It is more tentative than 'Could you' and more conversational than 'I was wondering if'.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Does the speaker expect the answer to be yes?",
+          "a": "No, the structure quietly allows for a refusal."
+        },
+        {
+          "q": "Is this frame more or less tentative than 'could you'?",
+          "a": "More tentative."
+        },
+        {
+          "q": "Does 'suppose' appear after 'don't' in this frame?",
+          "a": "Yes, in the negative form."
+        }
+      ],
+      "teacher_note": "Say the whole sentence quickly and lightly. This frame works because it sounds like an aside, so a slow, deliberate delivery makes it sound more demanding."
+    },
+    {
+      "id": 8,
+      "type": "reformulation",
+      "target": "Politeness: Is there any chance you could + base verb",
+      "prompt": "Blunt: \"Bring a laptop to the lesson.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Is there any chance you could...",
+      "must_include": [
+        "is there any chance you could"
+      ],
+      "accept": [
+        "is there any chance",
+        "is there a chance you could"
+      ],
+      "key": "Is there any chance you could bring a laptop to the lesson?",
+      "alternatives": [
+        "Is there any chance you could bring a laptop to tomorrow's lesson?",
+        "Is there any chance you could bring a laptop, if you don't mind?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Is there any chance' presents the request as a question about an opportunity rather than an instruction, and 'any' adds a hint of doubt about whether it is even possible.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the speaker certain the listener has a laptop?",
+          "a": "No, there is doubt."
+        },
+        {
+          "q": "What does 'any' contribute to the question?",
+          "a": "It makes the question sound more open and less demanding."
+        },
+        {
+          "q": "Is this an inverted question?",
+          "a": "Yes, 'is' comes before the subject 'there'."
+        }
+      ],
+      "teacher_note": "Stress 'any' a little and let the pitch rise on 'chance'. The rise marks it as a real question rather than a disguised order."
+    },
+    {
+      "id": 9,
+      "type": "reformulation",
+      "target": "Politeness: Do you think you could + base verb",
+      "prompt": "Blunt: \"Send the feedback by email.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Do you think you could...",
+      "must_include": [
+        "do you think you could"
+      ],
+      "accept": [
+        "do you think you would"
+      ],
+      "key": "Do you think you could send the feedback by email?",
+      "alternatives": [
+        "Do you think you could send the feedback by email today?",
+        "Do you think you could send the feedback by email when you get a chance?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "Wrapping the request in 'Do you think' invites the listener's opinion, which lowers the sense of obligation while still sounding warmer than a bare 'Could you'.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Does the speaker really want the listener's opinion about the feedback?",
+          "a": "No, the opinion question is only a politeness strategy."
+        },
+        {
+          "q": "Which modal follows 'you' in this frame?",
+          "a": "'Could'."
+        },
+        {
+          "q": "Is this a question or a command?",
+          "a": "A question."
+        }
+      ],
+      "teacher_note": "Practise the unstressed 'do'. Learners who stress it turn the polite question back into a blunt instruction."
+    },
+    {
+      "id": 10,
+      "type": "reformulation",
+      "target": "Politeness: I was wondering whether to + base verb",
+      "prompt": "Blunt: \"Start with the mind map.\" Rewrite it as a polite request for guidance.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "I was wondering whether to...",
+      "must_include": [
+        "i was wondering whether to"
+      ],
+      "accept": [
+        "i was wondering whether i should",
+        "i was wondering whether to start",
+        "i was wondering whether it would be better to"
+      ],
+      "key": "I was wondering whether to start with the mind map.",
+      "alternatives": [
+        "I was wondering whether to start with the mind map or the vocabulary list.",
+        "I was wondering whether it would be better to start with the mind map."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Whether to' introduces a choice of action, so this frame asks for advice rather than ordering an action. The past tense 'was' keeps the question non-committal.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the speaker asking for permission, advice, or a favour?",
+          "a": "Advice about which option to take."
+        },
+        {
+          "q": "What does 'whether' introduce?",
+          "a": "A choice between two possibilities."
+        },
+        {
+          "q": "Does the sentence end with a rising or a falling tone?",
+          "a": "Rising, because it is a question."
+        }
+      ],
+      "teacher_note": "Link 'whether to' smoothly. A pause after 'whether' breaks the frame and makes the question sound blunt."
+    },
+    {
+      "id": 11,
+      "type": "reformulation",
+      "target": "Modal strength: must vs have to / have got to (obligation from an outside rule)",
+      "prompt": "Blunt: \"You must submit this today.\" Rewrite it so the obligation comes from an outside rule rather than from the speaker.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "You have to...",
+      "must_include": [
+        "have to"
+      ],
+      "accept": [
+        "you've got to",
+        "you have got to",
+        "you are going to have to"
+      ],
+      "key": "You have to submit this today.",
+      "alternatives": [
+        "You've got to submit this today.",
+        "You have got to submit this today.",
+        "You are going to have to submit this today."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Must' puts the speaker in the position of the authority giving the rule, while 'have to' reports an obligation that comes from outside, such as the deadline or the syllabus. 'Have got to' is the more informal form of the same outside obligation, so 'You have got to submit this today' means the same thing as 'You have to submit this today'. The strength is the same; the source of authority is different.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Does 'must' sound like the speaker is giving the rule?",
+          "a": "Yes, it carries the speaker's own authority."
+        },
+        {
+          "q": "Where does the obligation come from with 'have to'?",
+          "a": "From an outside rule or circumstance."
+        },
+        {
+          "q": "Is 'have got to' a different obligation from 'have to'?",
+          "a": "No. It is the informal form of the same obligation, so 'You have got to' means 'You have to'."
+        }
+      ],
+      "teacher_note": "Give 'have to' a clear fall and 'must' a flat, clipped delivery. The learner should hear the source of authority, not a difference in strength."
+    },
+    {
+      "id": 12,
+      "type": "reformulation",
+      "target": "Modal strength: should vs ought to (general advice)",
+      "prompt": "Blunt: \"You should use the speaking app before the exam.\" Rewrite it as a gentler, more deliberate piece of general advice.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "You ought to...",
+      "must_include": [
+        "ought to"
+      ],
+      "accept": [
+        "you really ought to",
+        "you'd better",
+        "it would be a good idea to"
+      ],
+      "key": "You ought to use the speaking app before the exam.",
+      "alternatives": [
+        "You really ought to use the speaking app before the exam.",
+        "It would be a good idea to use the speaking app before the exam."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Ought to' is a slightly more formal and more deliberate version of 'should', so the advice sounds considered without becoming an order. Both are advisory, not obligatory.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is 'ought to' advice or obligation?",
+          "a": "Advice."
+        },
+        {
+          "q": "Is it more or less formal than 'should'?",
+          "a": "More formal and more deliberate."
+        },
+        {
+          "q": "Does 'ought to' take a 'to' before the main verb?",
+          "a": "Yes, unlike 'must' and 'have to'."
+        }
+      ],
+      "teacher_note": "Link 'ought' to 'to' and give 'ought' a long diphthong. Learners who add a schwa produce 'ote', which breaks the modal and sounds unstressed."
+    },
+    {
+      "id": 13,
+      "type": "reformulation",
+      "target": "Modal strength: should vs had better (immediate personal advice)",
+      "prompt": "Blunt: \"You should revise the grammar test tonight.\" Rewrite it as stronger advice for right now.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "You'd better...",
+      "must_include": [
+        "better revise"
+      ],
+      "accept": [
+        "you better",
+        "you had better"
+      ],
+      "key": "You'd better revise the grammar test tonight.",
+      "alternatives": [
+        "You had better revise the grammar test tonight.",
+        "You'd better revise the grammar test tonight if you want to pass."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Had better' gives advice that is urgent and personal, and it usually carries an implicit warning about what happens if the advice is ignored. 'Should' is more general and less pressing.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is 'had better' advice or obligation?",
+          "a": "Advice, with a warning undertone."
+        },
+        {
+          "q": "Does it refer to this situation or to a general rule?",
+          "a": "This situation, here and now."
+        },
+        {
+          "q": "Does 'had better' often appear with 'if'?",
+          "a": "Often, to state the warning, as in 'you'd better revise if you want to pass'."
+        }
+      ],
+      "teacher_note": "Contract 'had' to 'd and put the stress on 'better'. The urgency lives in the stressed word, so an unstressed 'better' sounds like plain advice."
+    },
+    {
+      "id": 14,
+      "type": "reformulation",
+      "target": "Modal strength: might vs must (certainty about a rule)",
+      "prompt": "Blunt: \"Students must log in before the lesson starts.\" Rewrite it so you sound less certain that the rule is absolute.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Students might...",
+      "must_include": [
+        "might"
+      ],
+      "accept": [
+        "may need to",
+        "students may need to"
+      ],
+      "key": "Students might need to log in before the lesson starts.",
+      "alternatives": [
+        "Students may need to log in before the lesson starts.",
+        "Students might have to log in before the lesson starts."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "Using 'might' with 'need to' or 'have to' turns a stated rule into a possibility, so the speaker signals that the requirement may not be absolute. 'Must' would present the rule as certain.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "How certain is the speaker with 'must'?",
+          "a": "Completely certain."
+        },
+        {
+          "q": "How certain is the speaker with 'might'?",
+          "a": "Less certain; it is only a possibility."
+        },
+        {
+          "q": "What verb follows 'might' here?",
+          "a": "'Need to' or 'have to'."
+        }
+      ],
+      "teacher_note": "Stretch 'might' and let the pitch fall on 'need to'. The extra length compared with 'must' is the audible sign of uncertainty."
+    },
+    {
+      "id": 15,
+      "type": "reformulation",
+      "target": "Modal strength: may vs might (permission vs possibility)",
+      "prompt": "Blunt: \"You can use the digital whiteboard in this lesson.\" Rewrite it so the modal clearly expresses possibility, not permission.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "It might be possible...",
+      "must_include": [
+        "might"
+      ],
+      "accept": [
+        "may be possible",
+        "you might be able to"
+      ],
+      "key": "It might be possible to use the digital whiteboard during the lesson.",
+      "alternatives": [
+        "It may be possible to use the digital whiteboard during the lesson.",
+        "You might be able to use the digital whiteboard during the lesson."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'May' is the modal normally used to give permission, so a sentence built on 'may' can be read as a permission issue. 'Might' keeps the sentence purely about possibility, which is what the speaker means.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Which modal is normally used to give permission?",
+          "a": "'May'."
+        },
+        {
+          "q": "Which modal is used here for possibility?",
+          "a": "'Might'."
+        },
+        {
+          "q": "Can 'may' ever express possibility?",
+          "a": "Yes, in formal or literary English, but not as the main permission modal in a classroom."
+        }
+      ],
+      "teacher_note": "'May' and 'might' differ by only one syllable, so drill them slowly and then at speed until the learner hears permission and possibility as separate items."
+    },
+    {
+      "id": 16,
+      "type": "reformulation",
+      "target": "Politeness: Would you mind not + -ing (negative request)",
+      "prompt": "Blunt: \"Don't touch that.\" Rewrite it as a polite request.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Would you mind not...",
+      "must_include": [
+        "would you mind not"
+      ],
+      "accept": [
+        "could you not touch",
+        "would you mind not touching"
+      ],
+      "key": "Would you mind not touching that?",
+      "alternatives": [
+        "Would you mind not touching that model?",
+        "Would you mind not touching that, please?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "Putting 'not' after 'mind' gives a polite negative request, which is the standard way to ask someone to stop an action without sounding aggressive. It works well with one specific action.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "What does the speaker want the listener to stop doing?",
+          "a": "Touching that object."
+        },
+        {
+          "q": "Is 'not' placed before or after 'mind'?",
+          "a": "After 'mind'."
+        },
+        {
+          "q": "Is the tone demanding or polite?",
+          "a": "Polite."
+        }
+      ],
+      "teacher_note": "Do not stress 'not'. A stressed 'not' turns the polite negative into a warning, which is exactly the tone the learner wants to avoid."
+    },
+    {
+      "id": 17,
+      "type": "reformulation",
+      "target": "Politeness: Would you like to + base verb (offer, not request)",
+      "prompt": "Blunt: \"We are making a short video about the class.\" Rewrite it as a polite offer to join in.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Would you like to...",
+      "must_include": [
+        "would you like to"
+      ],
+      "accept": [
+        "do you want to",
+        "would you like to join"
+      ],
+      "key": "Would you like to join us in making a short video about the class?",
+      "alternatives": [
+        "Would you like to join the class video project?",
+        "Would you like to take part in the class video?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Would you like to' is an offer that leaves the decision with the listener, unlike 'would you mind' or 'could you', which are requests for action. It is the right frame when the speaker is offering, not asking.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the speaker asking for a favour or offering a choice?",
+          "a": "Offering a choice."
+        },
+        {
+          "q": "Does 'like' here express enjoying something?",
+          "a": "No, here it forms the offer."
+        },
+        {
+          "q": "What does the 'to' introduce?",
+          "a": "The activity that the listener would join."
+        }
+      ],
+      "teacher_note": "Let the pitch rise at the end so the offer sounds open. A falling tone makes the invitation sound like a statement of what will happen."
+    },
+    {
+      "id": 18,
+      "type": "reformulation",
+      "target": "Politeness: Would it help if + past simple (offer of help)",
+      "prompt": "Blunt: \"I can help you with the homework.\" Rewrite it as a more tentative offer of help.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Would it help if...",
+      "must_include": [
+        "would it help if"
+      ],
+      "accept": [
+        "would it help if i",
+        "would it help if you"
+      ],
+      "key": "Would it help if I went through the homework with you?",
+      "alternatives": [
+        "Would it help if I showed you the homework examples?",
+        "Would it help if you shared your homework with me?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Would it help if' makes the offer conditional on the listener's own judgement, which removes the pressure to accept. The clause uses the past simple for the hypothetical action.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "What tense is used in the 'if' clause?",
+          "a": "Past simple."
+        },
+        {
+          "q": "Does the speaker assume the listener needs help?",
+          "a": "No, it is left open."
+        },
+        {
+          "q": "Is the offer direct or conditional?",
+          "a": "Conditional."
+        }
+      ],
+      "teacher_note": "Put a clear fall on 'help' and a rise on the 'if' clause. That fall-then-rise pattern signals 'if this would be useful' and is worth drilling as a chunk."
+    },
+    {
+      "id": 19,
+      "type": "reformulation",
+      "target": "Politeness: I would appreciate it if you could + base verb (formal written request)",
+      "prompt": "Blunt: \"Return the library books by Wednesday.\" Rewrite it as a formal request for a message or email.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "I would appreciate it if you could...",
+      "must_include": [
+        "appreciate it if you could"
+      ],
+      "accept": [
+        "it would be appreciated if you could",
+        "i would appreciate it if you would"
+      ],
+      "key": "I would appreciate it if you could return the library books by Wednesday.",
+      "alternatives": [
+        "I would appreciate it if you could return the library books by Wednesday.",
+        "It would be appreciated if you could return the library books by Wednesday."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "This formal frame hides the request inside a statement of thanks, which keeps the writer in control of the tone. It is common in academic and professional emails, so learners need it for written follow-up after class.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is this a direct request or an indirect one?",
+          "a": "Indirect, because the request is embedded in a statement of thanks."
+        },
+        {
+          "q": "What does 'appreciate' mean here?",
+          "a": "To be grateful for."
+        },
+        {
+          "q": "Is this more typical of speech or of email?",
+          "a": "Email or a formal letter."
+        }
+      ],
+      "teacher_note": "Pronounce 'appreciate' with the stress on the second syllable. Learners who stress the first syllable make it sound stiff and unnatural in a friendly email."
+    },
+    {
+      "id": 20,
+      "type": "reformulation",
+      "target": "Politeness: Do you mind if I + base verb (permission for your own action)",
+      "prompt": "Blunt: \"I will open the window.\" Rewrite it as a polite question about your own action.",
+      "instruction": "Type one reformulation.",
+      "input_placeholder": "Do you mind if I...",
+      "must_include": [
+        "do you mind if i"
+      ],
+      "accept": [
+        "would you mind if i",
+        "is it all right if i"
+      ],
+      "key": "Do you mind if I open the window?",
+      "alternatives": [
+        "Do you mind if I open the window for a minute?",
+        "Would you mind if I switched on the microphone?"
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "'Do you mind if I' asks the listener to tolerate the speaker's own action, so the subject and the actor of the action both shift to 'I'. The past simple is used here for extra politeness.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Who performs the action in this sentence?",
+          "a": "The speaker."
+        },
+        {
+          "q": "What form does the verb take after 'if'?",
+          "a": "Past simple, used here for politeness."
+        },
+        {
+          "q": "Is 'do you mind if I' a request or a permission check?",
+          "a": "A permission check."
+        }
+      ],
+      "teacher_note": "Keep 'if I' short and unstressed. Learners who stress it make a polite check sound confrontational, like a complaint."
+    },
+    {
+      "id": 21,
+      "type": "structural",
+      "target": "Future arrangements: present continuous for a fixed diary event",
+      "prompt": "Choose the best option. The tutor has sent the invitation, so the time is already in everybody's calendar. Sentence: The students ___ to the online tutor tomorrow at six.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "The students ___ to the online tutor tomorrow at six.",
+      "must_include": [],
+      "accept": [],
+      "key": "The students are meeting the online tutor tomorrow at six.",
+      "alternatives": [],
+      "options": [
+        "A: The students will meet the online tutor tomorrow at six",
+        "B: The students are meeting the online tutor tomorrow at six",
+        "C: The students are going to meet the online tutor tomorrow at six"
+      ],
+      "answer_index": 1,
+      "rationale": "The present continuous is used for an arrangement that is already fixed in the diary. Option A is wrong because 'will' signals an uninformed prediction or a spontaneous decision, not a booked slot. Option C is wrong because 'be going to' signals an intention formed by the students themselves, and here the arrangement comes from the tutor's invitation.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the meeting decided by the students' own plan or by the tutor's invitation?",
+          "a": "By the tutor's invitation."
+        },
+        {
+          "q": "Which form do we use for arrangements with a fixed time?",
+          "a": "The present continuous."
+        },
+        {
+          "q": "What does 'be going to' describe here?",
+          "a": "An intention the subject formed before the moment of speaking."
+        }
+      ],
+      "teacher_note": "Keep the auxiliary unmarked, 'they're meeting', and put the stress on 'meeting'. Learners who stress the noun hide the present continuous and it sounds like an announcement."
+    },
+    {
+      "id": 22,
+      "type": "structural",
+      "target": "Spontaneous decision at the moment of speaking: will",
+      "prompt": "Choose the best option. The tutor is holding a stack of handouts and the student has just put her hand up. Sentence: I ___ the top sheet to her.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "I ___ the top sheet to her.",
+      "must_include": [],
+      "accept": [],
+      "key": "I will pass the top sheet to her.",
+      "alternatives": [],
+      "options": [
+        "A: I will pass the top sheet to her",
+        "B: I am passing the top sheet to her",
+        "C: I was going to pass the top sheet to her"
+      ],
+      "answer_index": 0,
+      "rationale": "'Will' here expresses a decision taken at the moment of speaking. Option B is wrong because the present continuous needs a plan that already existed a second ago. Option C is wrong because 'was going to' points to an intention formed in the past that has now been abandoned, and nothing has been abandoned here.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Was the decision made before the student spoke?",
+          "a": "No, it is made at the moment of speaking."
+        },
+        {
+          "q": "Which future form shows a spontaneous decision?",
+          "a": "'Will'."
+        },
+        {
+          "q": "Why is 'was going to' wrong?",
+          "a": "It needs a past intention that has been cancelled."
+        }
+      ],
+      "teacher_note": "Keep 'will' a clean /wɪl/ with no extra schwa. Learners who say 'wiiill' sound unsure about their own offer."
+    },
+    {
+      "id": 23,
+      "type": "structural",
+      "target": "Prior intention: be going to",
+      "prompt": "Choose the best option. The student has already bought the headset and told her flatmate she is recording the lesson. Sentence: She ___ the lesson with her new headset.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "She ___ the lesson with her new headset.",
+      "must_include": [],
+      "accept": [],
+      "key": "She is going to record the lesson with her new headset.",
+      "alternatives": [],
+      "options": [
+        "A: She will record the lesson with her new headset",
+        "B: She is going to record the lesson with her new headset",
+        "C: She is recording the lesson with her new headset"
+      ],
+      "answer_index": 1,
+      "rationale": "'Be going to' expresses an intention formed before the moment of speaking, which matches the fact that she has already bought the headset. Option A is wrong because 'will' presents the recording as a fresh decision or a prediction. Option C is wrong because the present continuous describes a scheduled arrangement, not a personal plan.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Had the student decided before now?",
+          "a": "Yes, she had already bought the headset."
+        },
+        {
+          "q": "What does 'be going to' signal?",
+          "a": "A prior intention."
+        },
+        {
+          "q": "Why is the present continuous a weaker choice here?",
+          "a": "It describes a scheduled arrangement rather than a personal plan."
+        }
+      ],
+      "teacher_note": "Link 'going' to 'to' as a single word. Splitting them with a full vowel makes the intention sound less settled."
+    },
+    {
+      "id": 24,
+      "type": "structural",
+      "target": "Prediction based on present evidence: will",
+      "prompt": "Choose the best option. The online whiteboard is frozen and the tutor is tapping the screen impatiently. Sentence: She ___ the connection.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "She ___ the connection.",
+      "must_include": [],
+      "accept": [],
+      "key": "She will lose the connection.",
+      "alternatives": [],
+      "options": [
+        "A: She will lose the connection",
+        "B: She is going to lose the connection",
+        "C: She is losing the connection"
+      ],
+      "answer_index": 0,
+      "rationale": "The evidence is already visible in the present, so the speaker makes an evidence-based prediction with 'will'. Option B is wrong because 'be going to' usually signals a plan or an intention rather than a prediction; it would fit if the tutor had already decided to move to another room. Option C is wrong because 'is losing' describes an action happening right now, not the future result.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the prediction based on evidence the speaker can see now?",
+          "a": "Yes."
+        },
+        {
+          "q": "Which form gives an evidence-based prediction?",
+          "a": "'Will'."
+        },
+        {
+          "q": "What would 'is losing' describe?",
+          "a": "An action happening at this moment."
+        }
+      ],
+      "teacher_note": "Stress the verb 'lose' and leave 'will' unstressed. Here 'will' is a grammatical time marker, not the emphasis of the sentence."
+    },
+    {
+      "id": 25,
+      "type": "structural",
+      "target": "Modal deduction: must for a certain conclusion",
+      "prompt": "Choose the best option. The classroom is empty, the lights are on and the tutor's laptop is open on the desk. Sentence: He ___ the class today.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "He ___ the class today.",
+      "must_include": [],
+      "accept": [],
+      "key": "He must be teaching the class today.",
+      "alternatives": [],
+      "options": [
+        "A: He must be teaching the class today",
+        "B: He might be teaching the class today",
+        "C: He can't be teaching the class today"
+      ],
+      "answer_index": 0,
+      "rationale": "The evidence is strong enough for a certain conclusion, so 'must' is correct. Option B is too weak for facts that are plainly visible. Option C is impossible, because 'can't' would say the opposite of what the evidence shows.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "How certain is the speaker?",
+          "a": "Completely certain."
+        },
+        {
+          "q": "Which modal shows a certain conclusion drawn from evidence?",
+          "a": "'Must'."
+        },
+        {
+          "q": "Is there any doubt in this situation?",
+          "a": "No, the evidence is clear."
+        }
+      ],
+      "teacher_note": "In deduction, 'must' carries a fall then a rise on the subject: 'He MUST be teaching'. The rise marks the conclusion drawn from the evidence."
+    },
+    {
+      "id": 26,
+      "type": "structural",
+      "target": "Modal deduction: might for a possible conclusion",
+      "prompt": "Choose the best option. There is a jacket on the back of the chair and the room smells of fresh coffee. Sentence: He ___ the staff room.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "He ___ the staff room.",
+      "must_include": [],
+      "accept": [],
+      "key": "He might be in the staff room.",
+      "alternatives": [],
+      "options": [
+        "A: He must be in the staff room",
+        "B: He mustn't be in the staff room",
+        "C: He might be in the staff room"
+      ],
+      "answer_index": 2,
+      "rationale": "A jacket and the smell of coffee are only suggestive, so 'might' is the only modal that matches the evidence. Option A is too strong, because the tutor could have left the jacket. Option B is impossible, because nothing rules out the staff room.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is the evidence conclusive?",
+          "a": "No, it is only suggestive."
+        },
+        {
+          "q": "Which modal is used for a possible conclusion?",
+          "a": "'Might', or 'may' in more formal English."
+        },
+        {
+          "q": "Why is 'mustn't' impossible here?",
+          "a": "Nothing excludes the staff room."
+        }
+      ],
+      "teacher_note": "Do not stress 'might'. The uncertainty is already inside the word, and stressing it sounds like doubt about the grammar rather than about the situation."
+    },
+    {
+      "id": 27,
+      "type": "structural",
+      "target": "Modal deduction: can't for a confident negative conclusion",
+      "prompt": "Choose the best option. The tutor's car is in the car park and the building is completely silent. Sentence: She ___ here today.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "She ___ here today.",
+      "must_include": [],
+      "accept": [],
+      "key": "She can't be here today.",
+      "alternatives": [],
+      "options": [
+        "A: She can't be here today",
+        "B: She mustn't be here today",
+        "C: She doesn't have to be here today"
+      ],
+      "answer_index": 0,
+      "rationale": "'Can't' is the standard way of saying that the evidence rules the possibility out. Option B is wrong because 'mustn't' expresses prohibition or a denial of permission, not deduction. Option C is wrong because 'doesn't have to be' means her presence is not necessary, which says nothing about whether she is actually here.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Does the evidence rule out the possibility or just make it unnecessary?",
+          "a": "It rules it out."
+        },
+        {
+          "q": "Which modal says 'it is impossible'?",
+          "a": "'Can't'."
+        },
+        {
+          "q": "Why is 'mustn't' wrong here?",
+          "a": "It expresses prohibition, not deduction."
+        }
+      ],
+      "teacher_note": "In deduction, 'can't' is strongly contracted and often moves to the front for emphasis: 'She CAN'T be here.'"
+    },
+    {
+      "id": 28,
+      "type": "structural",
+      "target": "Obligation from an outside rule: have to",
+      "prompt": "Choose the best option. The school principal is addressing new students and giving a binding rule for the whole term. Sentence: You ___ switch your phones off at the start of every lesson.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "You ___ switch your phones off at the start of every lesson.",
+      "must_include": [],
+      "accept": [],
+      "key": "You must switch your phones off at the start of every lesson.",
+      "alternatives": [],
+      "options": [
+        "A: You must switch your phones off at the start of every lesson",
+        "B: You have to switch your phones off at the start of every lesson",
+        "C: You should switch your phones off at the start of every lesson"
+      ],
+      "answer_index": 0,
+      "rationale": "Because the speaker is the person issuing the rule, 'must' is the correct modal: it marks the speaker as the source of the obligation. Option B is wrong here because 'have to' reports a requirement coming from outside the speaker, for example a student repeating the rule, and the principal is not outside the rule. Option C is wrong because 'should' gives advice, and advice cannot create a binding classroom rule. Note that 'have got to' is the informal version of 'have to': a student repeating the rule would say 'You've got to switch your phones off'.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Who is speaking in this sentence?",
+          "a": "The person who makes the rule, the principal."
+        },
+        {
+          "q": "Which modal shows the speaker's own authority?",
+          "a": "'Must'."
+        },
+        {
+          "q": "A student repeats the rule and says 'You've got to switch your phones off'. Which modal is that, and where does the obligation come from?",
+          "a": "'Have got to', the informal form of 'have to'. The obligation comes from the principal's rule, which is outside the student."
+        }
+      ],
+      "teacher_note": "Keep 'must' short and unstressed with a firm falling tone; stretching it makes the rule sound doubtful, and stressing it makes it sound aggressive."
+    },
+    {
+      "id": 29,
+      "type": "structural",
+      "target": "Advice rather than a rule: should",
+      "prompt": "Choose the best option. A classmate is about to present and has forgotten the notes. The speaker has no authority over her and there is no emergency, so she wants to make a mild suggestion. Sentence: You ___ write your key points on a card instead of reading the slide.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "You ___ write your key points on a card instead of reading the slide.",
+      "must_include": [],
+      "accept": [],
+      "key": "You should write your key points on a card instead of reading the slide.",
+      "alternatives": [],
+      "options": [
+        "A: You must write your key points on a card instead of reading the slide",
+        "B: You should write your key points on a card instead of reading the slide",
+        "C: You had better write your key points on a card instead of reading the slide"
+      ],
+      "answer_index": 1,
+      "rationale": "'Should' is neutral advice and matches a mild suggestion from a peer. Option A is wrong because 'must' turns the suggestion into an order the speaker has no right to give. Option C is wrong because 'had better' signals urgency and an implied warning, and the speaker explicitly does not want to create that pressure.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Does the speaker have any authority over the listener?",
+          "a": "No, they are classmates."
+        },
+        {
+          "q": "Which modal gives neutral advice?",
+          "a": "'Should'."
+        },
+        {
+          "q": "What does 'had better' add that the speaker does not want?",
+          "a": "Urgency and a warning."
+        }
+      ],
+      "teacher_note": "In advice, 'should' usually carries a gentle fall on the verb. If the learner stresses 'should', the suggestion sounds like a warning."
+    },
+    {
+      "id": 30,
+      "type": "structural",
+      "target": "Urgent personal advice with a warning: had better",
+      "prompt": "Choose the best option. The submission portal closes in ten minutes, the file is not uploaded yet, and the speaker is a friend giving urgent personal advice. Sentence: You ___ upload that file now.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "You ___ upload that file now.",
+      "must_include": [],
+      "accept": [],
+      "key": "You'd better upload that file now.",
+      "alternatives": [],
+      "options": [
+        "A: You should upload that file now",
+        "B: You'd better upload that file now",
+        "C: You must upload that file now"
+      ],
+      "answer_index": 1,
+      "rationale": "'Had better' expresses urgent personal advice together with an implied warning about the consequence of doing nothing. Option A is too weak for a ten-minute deadline. Option C is too forceful, because the speaker is a friend and cannot impose an obligation.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "How urgent is the situation?",
+          "a": "Very urgent; the portal closes in ten minutes."
+        },
+        {
+          "q": "Which modal carries a warning about consequences?",
+          "a": "'Had better'."
+        },
+        {
+          "q": "Why is 'must' too strong here?",
+          "a": "The speaker is a friend, not someone who can impose an obligation."
+        }
+      ],
+      "teacher_note": "Say 'you'd BETTER' with the stress on 'better'. The urgency is in the stressed word, so a flat delivery sounds like ordinary advice."
+    },
+    {
+      "id": 31,
+      "type": "structural",
+      "target": "Reflexive pronoun: themselves for a group acting for each other",
+      "prompt": "Choose the best option. The four students built the vocabulary model without any help. Sentence: They built the vocabulary model ___.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "They built the vocabulary model ___.",
+      "must_include": [],
+      "accept": [],
+      "key": "They built the vocabulary model themselves.",
+      "alternatives": [],
+      "options": [
+        "A: They built the vocabulary model themselves",
+        "B: They built the vocabulary model them",
+        "C: They built the vocabulary model their"
+      ],
+      "answer_index": 0,
+      "rationale": "The doer and the receiver of the action are the same people, so the reflexive 'themselves' is required. Option B is wrong because 'them' would say they built the model for other people. Option C is wrong because 'their' is a possessive determiner and needs a noun after it. 'Themselves' is the plural member of the set myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Who built the model?",
+          "a": "The students themselves."
+        },
+        {
+          "q": "Can 'them' be used here?",
+          "a": "No, because they did it for themselves, not for other people."
+        },
+        {
+          "q": "What does 'their' need after it?",
+          "a": "A noun."
+        }
+      ],
+      "teacher_note": "'Themselves' ends in /ðəmz/. Drill 'them-selves' so the learner does not turn the final syllable into /z/ and produce 'themselvez'."
+    },
+    {
+      "id": 32,
+      "type": "structural",
+      "target": "Reflexive pronoun: herself / myself when subject and object are the same person",
+      "prompt": "Choose the best option. The student wrote the summary on her own, without any help from the tutor. Sentence: She wrote the summary ___.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "She wrote the summary ___.",
+      "must_include": [],
+      "accept": [],
+      "key": "She wrote the summary herself.",
+      "alternatives": [],
+      "options": [
+        "A: She wrote the summary herself",
+        "B: She wrote the summary her",
+        "C: She wrote the summary she"
+      ],
+      "answer_index": 0,
+      "rationale": "When the doer and the receiver are the same person, English requires the reflexive. Option B is wrong because 'her' would mean she wrote it for somebody else. Option C is wrong because 'she' is a subject pronoun and cannot follow the verb here. The same rule gives 'myself' for the speaker ('I wrote the summary myself') and 'themselves' for a group ('They wrote the summaries themselves').",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Did she write it for somebody else?",
+          "a": "No, she wrote it herself."
+        },
+        {
+          "q": "Can 'her' follow 'wrote' in this meaning?",
+          "a": "No, it would point to a different person."
+        },
+        {
+          "q": "What is the reflexive for 'I wrote the summary myself', and what is the whole set?",
+          "a": "'Myself'. The set is myself, yourself, himself, herself, itself, ourselves, yourselves, themselves."
+        }
+      ],
+      "teacher_note": "'Herself' is /hɜːsˈself/ with the stress on 'self'. Learners who stress 'her' turn the reflexive into the object pronoun 'her'."
+    },
+    {
+      "id": 33,
+      "type": "structural",
+      "target": "Reflexive versus reciprocal: themselves vs each other",
+      "prompt": "Choose the best option. Two classmates compared their notes during the revision session. Sentence: They compared their notes with ___.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "They compared their notes with ___.",
+      "must_include": [],
+      "accept": [],
+      "key": "They compared their notes with each other.",
+      "alternatives": [],
+      "options": [
+        "A: They compared their notes with each other",
+        "B: They compared their notes with themselves",
+        "C: They compared their notes with them each other"
+      ],
+      "answer_index": 0,
+      "rationale": "'Each other' is used for two people doing the action to one another. Option B is wrong because 'themselves' would mean each student compared their own notes with themselves. Option C is wrong because 'them each other' is not a grammatical combination in English.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "How many people are involved?",
+          "a": "Two."
+        },
+        {
+          "q": "Does 'themselves' work here?",
+          "a": "No, it refers back to the subject as both doer and receiver."
+        },
+        {
+          "q": "What does 'each other' show?",
+          "a": "A reciprocal action between two people."
+        }
+      ],
+      "teacher_note": "In connected speech 'each other' becomes 'each oth-er'. Drill it so the learner does not lose the /ð/ and say 'each over'."
+    },
+    {
+      "id": 34,
+      "type": "structural",
+      "target": "Possessive determiner: their before a noun",
+      "prompt": "Choose the best option. The students have finished their own project and the teacher is showing a different one. Sentence: The students handed in ___ homework.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "The students handed in ___ homework.",
+      "must_include": [],
+      "accept": [],
+      "key": "The students handed in their homework.",
+      "alternatives": [],
+      "options": [
+        "A: The students handed in their homework",
+        "B: The students handed in theirs homework",
+        "C: The students handed in they homework"
+      ],
+      "answer_index": 0,
+      "rationale": "'Their' is a possessive determiner and must be followed by a noun. Option B is wrong because 'theirs' is a pronoun that stands alone and cannot be followed by a noun. Option C is wrong because 'they' is a subject or object pronoun and cannot be placed before a noun.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is there a noun after the blank?",
+          "a": "Yes, 'homework'."
+        },
+        {
+          "q": "Which form comes before a noun?",
+          "a": "'Their'."
+        },
+        {
+          "q": "What does 'theirs' replace?",
+          "a": "The whole phrase 'their homework'."
+        }
+      ],
+      "teacher_note": "'Their' and 'they're' sound identical, so learners write one for the other. Fix it by saying the noun straight after and letting the /ð/ come out clearly."
+    },
+    {
+      "id": 35,
+      "type": "structural",
+      "target": "Possessive pronoun: theirs standing alone",
+      "prompt": "Choose the best option. Two classes submitted a shared digital portfolio and the tutor asked whose work is on the screen. Sentence: The work on the screen is ___.",
+      "instruction": "Choose the best option and justify it.",
+      "input_placeholder": "The work on the screen is ___.",
+      "must_include": [],
+      "accept": [],
+      "key": "The work on the screen is theirs.",
+      "alternatives": [],
+      "options": [
+        "A: The work on the screen is their",
+        "B: The work on the screen is theirs",
+        "C: The work on the screen is them"
+      ],
+      "answer_index": 1,
+      "rationale": "'Theirs' is a possessive pronoun and stands alone with no noun after it. Option A is wrong because 'their' must be followed by a noun, for example 'their work'. Option C is wrong because 'them' is an object pronoun and would need a verb after it, as in 'I sent them the file'.",
+      "error_type": "",
+      "explanation": "",
+      "ccq": [
+        {
+          "q": "Is there a noun after the blank?",
+          "a": "No."
+        },
+        {
+          "q": "Which form stands alone?",
+          "a": "'Theirs'."
+        },
+        {
+          "q": "What would 'their work' mean?",
+          "a": "The same idea, but the word 'work' has to be repeated."
+        }
+      ],
+      "teacher_note": "'Theirs' ends in /z/ in careful speech and links to the next word. Say it as 'their-z' so the learner does not add an extra vowel."
+    },
+    {
+      "id": 36,
+      "type": "error_correction",
+      "target": "Modal + spurious 'to' after 'must'",
+      "prompt": "Correct this: \"We must to upload the presentation before the deadline.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "We must upload the presentation...",
+      "must_include": [
+        "must upload"
+      ],
+      "accept": [
+        "we have to upload",
+        "we need to upload",
+        "we must submit"
+      ],
+      "key": "We must upload the presentation before the deadline.",
+      "alternatives": [
+        "We have to upload the presentation before the deadline.",
+        "We need to upload the presentation before the deadline."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has attached the 'to' of 'have to' to 'must'. With 'must' the infinitive marker is dropped, so only the base verb follows the modal.",
+      "error_type": "Modal + spurious 'to' after 'must'",
+      "explanation": "'Must' takes the base verb directly. Unlike 'have to', 'need to' and 'ought to', it never takes 'to' before the main verb.",
+      "ccq": [
+        {
+          "q": "Which modal takes a 'to' before the main verb?",
+          "a": "'Have to' and 'need to', but not 'must'."
+        },
+        {
+          "q": "What exactly is wrong in the original sentence?",
+          "a": "There is a spurious 'to' after 'must'."
+        },
+        {
+          "q": "Is 'must' still a good modal for this deadline?",
+          "a": "Yes, if the deadline is an absolute rule; 'have to' works if the obligation comes from outside."
+        }
+      ],
+      "teacher_note": "Drill 'must + base verb' as one chunk, for example 'must upload', and contrast it with 'have to upload' so the extra 'to' is heard as an error."
+    },
+    {
+      "id": 37,
+      "type": "error_correction",
+      "target": "'Should' used where a binding rule requires 'must'",
+      "prompt": "Correct this: \"You should write your name in capitals on the test paper, or the teacher will not accept it.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "You must write your name...",
+      "must_include": [
+        "must write"
+      ],
+      "accept": [
+        "you have to write",
+        "you need to write"
+      ],
+      "key": "You must write your name in capitals on the test paper, or the teacher will not accept it.",
+      "alternatives": [
+        "You have to write your name in capitals on the test paper, or the teacher will not accept it.",
+        "You need to write your name in capitals on the test paper, or the teacher will not accept it."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The consequence clause shows that this is a condition for the paper being accepted, so it is a rule and not a tip. 'Must' or 'have to' states the requirement; 'should' would wrongly leave the student free to ignore it.",
+      "error_type": "'Should' used where a binding rule requires 'must'",
+      "explanation": "'Should' expresses advice or recommendation. When a rule is described together with the penalty for breaking it, English needs a modal of obligation such as 'must' or 'have to'.",
+      "ccq": [
+        {
+          "q": "Does the teacher accept the paper if the name is missing?",
+          "a": "No, the paper is rejected."
+        },
+        {
+          "q": "Is this advice or a rule?",
+          "a": "A rule."
+        },
+        {
+          "q": "Which modal replaces 'should' here?",
+          "a": "'Must' or 'have to'."
+        }
+      ],
+      "teacher_note": "Link 'must write' with the 't' released into the /w/. Learners who insert a schwa produce 'muster' or 'musta write'."
+    },
+    {
+      "id": 38,
+      "type": "error_correction",
+      "target": "Modal 'had better' with a spurious 'to'",
+      "prompt": "Correct this: \"You had better to rely on the class notes and concentrate on the listening task before the test.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "You'd better rely on the class notes...",
+      "must_include": [
+        "better rely on"
+      ],
+      "accept": [
+        "you'd better rely on the class notes and concentrate on the listening task before the test.",
+        "you had better rely on the class notes and concentrate on the listening task before the test."
+      ],
+      "key": "You'd better rely on the class notes and concentrate on the listening task before the test.",
+      "alternatives": [
+        "You had better rely on the class notes and concentrate on the listening task before the test.",
+        "You'd better rely on the class notes and concentrate on the listening task before the test."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has mixed 'had better' with 'ought to'. Removing the 'to' gives the correct phrase, and the prepositions 'rely on' and 'concentrate on' in the original are already right.",
+      "error_type": "Modal 'had better' with a spurious 'to'",
+      "explanation": "'Had better' is followed directly by the base verb. It never takes 'to' before the main verb, unlike 'ought to', 'have to' and 'need to'.",
+      "ccq": [
+        {
+          "q": "Does 'had better' take 'to' before the verb?",
+          "a": "No, it takes the base verb directly."
+        },
+        {
+          "q": "Which preposition follows 'rely'?",
+          "a": "'On'."
+        },
+        {
+          "q": "Which preposition follows 'concentrate'?",
+          "a": "'On'."
+        }
+      ],
+      "teacher_note": "Contrast 'had better do' with 'ought to do' back to back. Both give advice, and only one of them takes 'to', so the pair must be practised together."
+    },
+    {
+      "id": 39,
+      "type": "error_correction",
+      "target": "'Will' used for a fixed arrangement; present continuous required",
+      "prompt": "Correct this: \"Tomorrow I will meet the study group at the library at four, as we agreed yesterday.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "Tomorrow I am meeting the study group...",
+      "must_include": [
+        "am meeting"
+      ],
+      "accept": [
+        "i'm meeting",
+        "i am meeting the study group at the library at four"
+      ],
+      "key": "Tomorrow I am meeting the study group at the library at four, as we agreed yesterday.",
+      "alternatives": [
+        "Tomorrow I'm meeting the study group at the library at four, as we agreed yesterday.",
+        "Tomorrow I am meeting the study group at the library at four, as we agreed yesterday."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The phrase 'as we agreed yesterday' shows the meeting is already in the diary. English uses the present continuous for arrangements with a fixed time, while 'will' would suggest a prediction or a decision taken now.",
+      "error_type": "'Will' used for a fixed arrangement; present continuous required",
+      "explanation": "Diary arrangements, appointments and organised events are described with the present continuous. 'Will' is reserved for predictions and for decisions taken at the moment of speaking.",
+      "ccq": [
+        {
+          "q": "Is the meeting already arranged?",
+          "a": "Yes, it was agreed yesterday."
+        },
+        {
+          "q": "Which future form do we use for diary arrangements?",
+          "a": "The present continuous."
+        },
+        {
+          "q": "What would 'will' suggest in this sentence?",
+          "a": "A prediction, or a decision made at the moment of speaking."
+        }
+      ],
+      "teacher_note": "Let the auxiliary 'am' be heard clearly: 'I am MEETING'. If it is swallowed, the arrangement sounds like a spontaneous decision."
+    },
+    {
+      "id": 40,
+      "type": "error_correction",
+      "target": "'Be going to' used for a decision taken at the moment of speaking",
+      "prompt": "The phone rings in the middle of the lesson and you pick up the receiver at once. Correct this: \"I am going to answer it now.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "I will answer it now.",
+      "must_include": [
+        "will answer"
+      ],
+      "accept": [
+        "i'll answer",
+        "i will answer it now"
+      ],
+      "key": "I will answer it now.",
+      "alternatives": [
+        "I'll answer it now.",
+        "I will answer it now."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "There was no plan before the phone rang, so the decision is made at the moment of speaking. 'Be going to' wrongly presents it as an earlier intention, while 'will' captures the immediate decision.",
+      "error_type": "'Be going to' used for a decision taken at the moment of speaking",
+      "explanation": "'Be going to' points to an intention that existed before the moment of speaking. A decision taken now, in response to something happening now, is expressed with 'will'.",
+      "ccq": [
+        {
+          "q": "Did you plan to answer the phone before it rang?",
+          "a": "No, the decision was made at once."
+        },
+        {
+          "q": "Which form is used for a decision taken at the moment of speaking?",
+          "a": "'Will'."
+        },
+        {
+          "q": "What does 'be going to' normally show?",
+          "a": "An intention that was formed earlier."
+        }
+      ],
+      "teacher_note": "Practise 'I'll' as one smooth unit, /aɪl/. Learners who separate the letters say 'I will' with a gap, and the sense of immediacy disappears."
+    },
+    {
+      "id": 41,
+      "type": "error_correction",
+      "target": "Present perfect 'since' vs 'for' with time expressions",
+      "prompt": "Correct this: \"I have studied English since three years.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "I have studied English for three years.",
+      "must_include": [
+        "for three years"
+      ],
+      "accept": [
+        "i have been studying english for three years",
+        "i have studied english for three years"
+      ],
+      "key": "I have studied English for three years.",
+      "alternatives": [
+        "I have been studying English for three years.",
+        "I have studied English for three years."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has used 'since' with a period of time instead of a starting point. 'For three years' is correct for a duration; if the learner wants to give a starting point, the sentence needs something like 'since 2023'.",
+      "error_type": "Present perfect 'since' vs 'for' with time expressions",
+      "explanation": "'Since' is used with a point in time, for example 'since January', and 'for' is used with a length of time, for example 'for three years'.",
+      "ccq": [
+        {
+          "q": "Is 'three years' a point in time or a length of time?",
+          "a": "A length of time."
+        },
+        {
+          "q": "Which preposition goes with a length of time?",
+          "a": "'For'."
+        },
+        {
+          "q": "Which preposition goes with a starting point?",
+          "a": "'Since'."
+        }
+      ],
+      "teacher_note": "Chant the pair as a rule: since + a point, for + a period. Learners who say 'since three years' are transferring the idea of a starting point onto a duration."
+    },
+    {
+      "id": 42,
+      "type": "error_correction",
+      "target": "Reflexive pronoun with a spurious 'to' after the verb",
+      "prompt": "Correct this: \"The students taught to themselves how to reset the router.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "The students taught themselves how to...",
+      "must_include": [
+        "taught themselves"
+      ],
+      "accept": [
+        "the students taught themselves how to reset the router",
+        "the students learned by themselves how to reset the router"
+      ],
+      "key": "The students taught themselves how to reset the router.",
+      "alternatives": [
+        "The students taught themselves how to reset the router.",
+        "The students learned by themselves how to reset the router."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has copied the pattern of 'want to do' or 'need to do'. The reflexive 'themselves' comes straight after the verb, and the infinitive 'to' belongs only to 'reset'.",
+      "error_type": "Reflexive pronoun with a spurious 'to' after the verb",
+      "explanation": "A reflexive pronoun follows the verb directly. In 'taught to themselves' the extra 'to' does not belong there, because 'to' already appears in 'to reset'.",
+      "ccq": [
+        {
+          "q": "Where does the reflexive pronoun go?",
+          "a": "Directly after the verb."
+        },
+        {
+          "q": "How many uses of 'to' are there in the correct sentence?",
+          "a": "One, in 'to reset'."
+        },
+        {
+          "q": "Is 'by themselves' needed here?",
+          "a": "No, 'by themselves' is used only to emphasise that nobody helped."
+        }
+      ],
+      "teacher_note": "Drill 'taught themselves' and 'learned themselves' as chunks. The error is a transfer from the 'to' patterns, so say the verb and the reflexive in one breath."
+    },
+    {
+      "id": 43,
+      "type": "error_correction",
+      "target": "Reflexive pronoun wrongly written as 'theirselves'",
+      "prompt": "Correct this: \"The group finished the project by theirselves in one afternoon.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "The group finished the project by themselves...",
+      "must_include": [
+        "by themselves"
+      ],
+      "accept": [
+        "the group finished the project by themselves in one afternoon",
+        "the group finished the project by themselves"
+      ],
+      "key": "The group finished the project by themselves in one afternoon.",
+      "alternatives": [
+        "The group finished the project by themselves in one afternoon.",
+        "The group finished the project by themselves."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has treated 'themselves' as if it were built on the possessive 'their'. The reflexive pronoun of 'they' is 'themselves', and 'by' before it shows that nobody helped.",
+      "error_type": "Reflexive pronoun wrongly written as 'theirselves'",
+      "explanation": "The reflexive pronoun of 'they' is 'themselves'. The word already contains 'them', so the extra 'their' is not possible.",
+      "ccq": [
+        {
+          "q": "What is the reflexive pronoun of 'they'?",
+          "a": "'Themselves'."
+        },
+        {
+          "q": "Why is 'theirselves' impossible?",
+          "a": "Because 'themselves' already contains 'them'."
+        },
+        {
+          "q": "What does 'by themselves' show?",
+          "a": "That they did it with no help from anyone."
+        }
+      ],
+      "teacher_note": "Say 'them-selves' and have the learner spell it in two beats: THEM selves. That makes the wrong form obvious on the page as well as in the ear."
+    },
+    {
+      "id": 44,
+      "type": "error_correction",
+      "target": "Possessive pronoun 'theirs' replaced by the determiner 'their'",
+      "prompt": "Correct this: \"These are not our laptops, they are their.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "These are not our laptops; they are theirs.",
+      "must_include": [
+        "they are theirs"
+      ],
+      "accept": [
+        "these are not our laptops, they are theirs",
+        "these aren't our laptops, they are theirs"
+      ],
+      "key": "These are not our laptops; they are theirs.",
+      "alternatives": [
+        "These are not our laptops, they are theirs.",
+        "These aren't our laptops; they are theirs."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The blank after 'are' needs a word with no noun after it, so only the possessive pronoun 'theirs' fits. 'Their' is a determiner and must be followed by a noun, as in 'their laptops'.",
+      "error_type": "Possessive pronoun 'theirs' replaced by the determiner 'their'",
+      "explanation": "'Their' is a determiner and comes before a noun, for example 'their laptops'. 'Theirs' is the pronoun that stands alone after the verb 'are'.",
+      "ccq": [
+        {
+          "q": "Is there a noun after 'are' in the second sentence?",
+          "a": "No."
+        },
+        {
+          "q": "Which form stands alone after 'are'?",
+          "a": "'Theirs'."
+        },
+        {
+          "q": "What would 'their' need after it?",
+          "a": "A noun, for example 'their laptops'."
+        }
+      ],
+      "teacher_note": "'Their' and 'they're' sound identical, so this error slips through when speaking. Drill the written forms with a noun attached: their laptops, their books, their ideas."
+    },
+    {
+      "id": 45,
+      "type": "error_correction",
+      "target": "Collocational error: 'log in' used without 'to' before a platform",
+      "prompt": "Correct this: \"You have to log in the platform before the lesson and log out at the end.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "You have to log in to the platform...",
+      "must_include": [
+        "log in to"
+      ],
+      "accept": [
+        "log into the platform",
+        "sign in to the platform",
+        "you must log in to the platform"
+      ],
+      "key": "You have to log in to the platform before the lesson and log out at the end.",
+      "alternatives": [
+        "You must log in to the platform before the lesson and log out at the end.",
+        "You need to log in to the platform before the lesson and log out at the end."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has used the phrasal verb as if it were one word, like 'login'. In English the preposition 'to' is needed before the name of the site or app, while 'log out' takes no object.",
+      "error_type": "Collocational error: 'log in' used without the preposition 'to'",
+      "explanation": "'Log in' is a phrasal verb that takes 'to' before its object, as in 'log in to the platform'. 'Log out' is used on its own because it has no object.",
+      "ccq": [
+        {
+          "q": "What is missing before 'the platform'?",
+          "a": "The preposition 'to'."
+        },
+        {
+          "q": "Does 'log out' take an object here?",
+          "a": "No, it is used on its own."
+        },
+        {
+          "q": "Is 'log in' one word or two words?",
+          "a": "Two words: 'log in'."
+        }
+      ],
+      "teacher_note": "Insist on two words, 'log in', with a clear gap between them. Learners who say 'login' as one word make the missing 'to' invisible to the ear."
+    },
+    {
+      "id": 46,
+      "type": "error_correction",
+      "target": "Wrong preposition with 'upload': 'on' instead of 'to'",
+      "prompt": "Correct this: \"Please upload the file on the shared drive and delete it from your computer.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "Please upload the file to the shared drive...",
+      "must_include": [
+        "upload the file to"
+      ],
+      "accept": [
+        "upload the file to the shared drive",
+        "please upload the file to the shared drive and delete it from your computer"
+      ],
+      "key": "Please upload the file to the shared drive and delete it from your computer.",
+      "alternatives": [
+        "Please upload the file to the shared drive and delete it from your computer.",
+        "Please upload the file to the shared drive and delete it from your desktop."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has mixed the preposition for a location with the preposition for a destination. 'Upload' is a movement verb, so it takes 'to'; the 'delete' clause is already correct and stays as it is.",
+      "error_type": "Wrong preposition with 'upload': 'on' instead of 'to'",
+      "explanation": "Files are uploaded 'to' a place, for example 'upload it to the drive'. 'On' is used to say where something is, for example 'the file is on the drive'.",
+      "ccq": [
+        {
+          "q": "Where do you upload a file?",
+          "a": "To a place, such as a shared drive or a course page."
+        },
+        {
+          "q": "When would you say 'on the drive'?",
+          "a": "To say where the file is, not to describe the action of uploading."
+        },
+        {
+          "q": "Is 'delete it from your computer' correct?",
+          "a": "Yes, that part is already right."
+        }
+      ],
+      "teacher_note": "Teach the pair 'upload to' and 'delete from' as a contrast. Both are movement verbs with a destination, and the preposition shows the direction of the action."
+    },
+    {
+      "id": 47,
+      "type": "error_correction",
+      "target": "Collocation and preposition error: 'write in' instead of 'type on' with 'keyboard'",
+      "prompt": "Correct this: \"Please write the answers on the keyboard of your laptop and take your notes in your notebook.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "Please type the answers on the keyboard...",
+      "must_include": [
+        "type the answers on the keyboard"
+      ],
+      "accept": [
+        "please type the answers on your laptop keyboard and take your notes in your notebook",
+        "please type the answers on the keyboard of your laptop and take notes in your notebook"
+      ],
+      "key": "Please type the answers on the keyboard of your laptop and take your notes in your notebook.",
+      "alternatives": [
+        "Please type the answers on the keyboard of your laptop and take your notes in your notebook.",
+        "Please type the answers on your laptop keyboard and take your notes in your notebook."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has used the verb for handwriting with an object that only takes typing. The rest of the sentence, including 'take your notes in your notebook', is already correct.",
+      "error_type": "Collocation and preposition error: 'write in' instead of 'type on' with 'keyboard'",
+      "explanation": "You type on a keyboard, and the verb 'type' takes the preposition 'on'. 'Write' goes with paper, not with a keyboard.",
+      "ccq": [
+        {
+          "q": "Which verb goes with a keyboard?",
+          "a": "'Type'."
+        },
+        {
+          "q": "What preposition follows 'type'?",
+          "a": "'On'."
+        },
+        {
+          "q": "Is 'take your notes in your notebook' correct?",
+          "a": "Yes, 'take notes in' is a correct phrase."
+        }
+      ],
+      "teacher_note": "The verb 'type' is /taɪp/ with the diphthong, so learners often confuse it with 'tie'. Show the finger movement on the keyboard as you drill the preposition 'on'."
+    },
+    {
+      "id": 48,
+      "type": "error_correction",
+      "target": "Preposition missing after 'connect' and particle missing in 'switch on'",
+      "prompt": "Correct this: \"You must connect the Wi-Fi and switch the laptop on before the online exam.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "You must connect to the Wi-Fi...",
+      "must_include": [
+        "connect to the wi-fi"
+      ],
+      "accept": [
+        "connect to the wi-fi",
+        "you must connect to the wifi network and switch on the laptop before the online exam"
+      ],
+      "key": "You must connect to the Wi-Fi and switch on the laptop before the online exam.",
+      "alternatives": [
+        "You must connect to the Wi-Fi and switch on the laptop before the online exam.",
+        "You must connect to the wifi network and switch on the laptop before the online exam."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "Both verbs are phrasal verbs and the learner has compressed them into single words, as in 'connect the wi-fi' and 'switch the laptop on'. The modal 'must' and the rest of the sentence are already correct.",
+      "error_type": "Preposition missing after 'connect' and particle missing in 'switch on'",
+      "explanation": "'Connect to' needs the preposition 'to' before the network, and 'switch on' needs the particle 'on' between the verb and its object. Both particles can move, but one of them must be there.",
+      "ccq": [
+        {
+          "q": "What is missing after 'connect'?",
+          "a": "The preposition 'to'."
+        },
+        {
+          "q": "Where does the particle 'on' go in 'switch on the laptop'?",
+          "a": "Between 'switch' and 'the laptop'."
+        },
+        {
+          "q": "Is 'must' correct in this sentence?",
+          "a": "Yes, it states a binding rule."
+        }
+      ],
+      "teacher_note": "Show both word orders on the board: 'switch on the laptop' and 'switch the laptop on'. Learners who learn only one order lose the particle as soon as they need the other."
+    },
+    {
+      "id": 49,
+      "type": "error_correction",
+      "target": "Wrong preposition with 'access': 'of' instead of 'to'",
+      "prompt": "Correct this: \"Everyone has access of the online library from their home page.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "Everyone has access to the online library...",
+      "must_include": [
+        "access to"
+      ],
+      "accept": [
+        "access to the online library from their home page",
+        "everyone has access to the online library from their homepage"
+      ],
+      "key": "Everyone has access to the online library from their home page.",
+      "alternatives": [
+        "Everyone has access to the online library from their home page.",
+        "Everyone has access to the online library from their homepage."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has used the preposition of belonging, 'of', where English uses 'to' with 'access'. The phrase 'from their home page' is correct and stays as it is.",
+      "error_type": "Wrong preposition with 'access': 'of' instead of 'to'",
+      "explanation": "In the meaning of 'the ability or the right to use something', 'access' takes the preposition 'to', as in 'access to the library'.",
+      "ccq": [
+        {
+          "q": "What preposition follows 'access' in the meaning of 'the ability to use'?",
+          "a": "'To'."
+        },
+        {
+          "q": "Is 'from their home page' correct?",
+          "a": "Yes, the home page is where you start in the browser."
+        },
+        {
+          "q": "What does 'access' mean here?",
+          "a": "The ability or the right to use something."
+        }
+      ],
+      "teacher_note": "Link 'access to' as a pair, /ˈækses tə/. Learners who add a vowel after 'access' say 'accesses' and the preposition disappears in the middle of the word."
+    },
+    {
+      "id": 50,
+      "type": "error_correction",
+      "target": "Wrong prepositions after 'interested' and 'good': 'of' instead of 'in' and 'at'",
+      "prompt": "Correct this: \"My sister is very interested of artificial intelligence and she is good of programming.\"",
+      "instruction": "Type the corrected sentence.",
+      "input_placeholder": "My sister is very interested in artificial intelligence...",
+      "must_include": [
+        "interested in",
+        "good at"
+      ],
+      "accept": [
+        "my sister is interested in artificial intelligence and she is good at programming",
+        "my sister is very interested in artificial intelligence and she is good at programming"
+      ],
+      "key": "My sister is very interested in artificial intelligence and she is good at programming.",
+      "alternatives": [
+        "My sister is very interested in artificial intelligence and she is good at programming.",
+        "My sister is interested in artificial intelligence and she is good at programming."
+      ],
+      "options": [],
+      "answer_index": null,
+      "rationale": "The learner has used the preposition of belonging, 'of', in both places. English uses 'interested in' for the thing that arouses the interest and 'good at' for the activity or skill.",
+      "error_type": "Wrong prepositions after 'interested' and 'good': 'of' instead of 'in' and 'at'",
+      "explanation": "The adjective 'interested' takes 'in', and the adjective 'good' takes 'at' when it describes a skill, as in 'good at programming'.",
+      "ccq": [
+        {
+          "q": "Which preposition follows 'interested'?",
+          "a": "'In'."
+        },
+        {
+          "q": "Which preposition follows 'good' for a skill?",
+          "a": "'At'."
+        },
+        {
+          "q": "Is 'good at' the same as 'good for'?",
+          "a": "No, 'good at' describes a skill and 'good for' describes a purpose."
+        }
+      ],
+      "teacher_note": "Say 'interested IN' and 'good AT' with the preposition audible but unstressed. The learner's 'of' comes from a language where the preposition of belonging is the default."
+    }
+  ]
+}

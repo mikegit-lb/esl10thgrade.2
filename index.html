@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 02 — Classroom Dynamics, Learning Styles &amp; Digital Tools</title>
+<meta name="description" content="A 1-on-1 intensive ESL unit (B1 to B2): prompted speaking lab, grammar drills, analytical reading and a lexical bank.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%2314243C'/%3E%3Cpath d='M7 13h11' stroke='%23fff' stroke-width='3' stroke-linecap='round' opacity='.85'/%3E%3Cpath d='M7 21h18' stroke='%23E4A824' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="masthead">
+    <div class="masthead__id">
+      <p class="masthead__unit">Unit 02 &middot; CEFR B1 &rarr; B2</p>
+      <h1 class="masthead__title">Classroom Dynamics,<br>Learning Styles &amp; Digital Tools</h1>
+      <p class="masthead__sub">Intensive 1&#8209;on&#8209;1 &middot; prompted speaking, targeted drilling, analytical reading</p>
+    </div>
+
+    <div class="masthead__tools">
+      <button type="button" class="switch" id="teacherToggle" aria-pressed="false">
+        <span class="switch__track" aria-hidden="true"><span class="switch__knob"></span></span>
+        <span class="switch__label">Teacher mode</span>
+        <span class="switch__hint">reveals keys, probes &amp; rubrics</span>
+      </button>
+      <button type="button" class="btn btn--quiet" id="notesOpen" aria-expanded="false" aria-controls="notesDrawer">
+        <svg class="btn__icon" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3h12v14H4z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 7h6M7 10h6M7 13h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        Correction pad
+        <span class="btn__badge" id="notesBadge">0</span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Unit sections">
+    <button type="button" class="tab is-active" role="tab" id="tabbtn-speaking" aria-controls="panel-speaking" aria-selected="true" data-tab="speaking">
+      <span class="tab__index">01</span>
+      <span class="tab__name">Prompted Speaking Lab</span>
+      <span class="tab__meta">50 cue cards</span>
+    </button>
+    <button type="button" class="tab" role="tab" id="tabbtn-grammar" aria-controls="panel-grammar" aria-selected="false" data-tab="grammar">
+      <span class="tab__index">02</span>
+      <span class="tab__name">Grammar &amp; Functional Drills</span>
+      <span class="tab__meta">50 items</span>
+    </button>
+    <button type="button" class="tab" role="tab" id="tabbtn-reading" aria-controls="panel-reading" aria-selected="false" data-tab="reading">
+      <span class="tab__index">03</span>
+      <span class="tab__name">Analytical Reading</span>
+      <span class="tab__meta">skim · scan · infer</span>
+    </button>
+    <button type="button" class="tab" role="tab" id="tabbtn-lexicon" aria-controls="panel-lexicon" aria-selected="false" data-tab="lexicon">
+      <span class="tab__index">04</span>
+      <span class="tab__name">Lexical Bank</span>
+      <span class="tab__meta">105 entries</span>
+    </button>
+  </nav>
+
+  <main class="surface" id="surface">
+
+    <!-- ============ 01 · PROMPTED SPEAKING LAB ============ -->
+    <section class="panel panel--split is-active" id="panel-speaking" role="tabpanel" aria-labelledby="tabbtn-speaking">
+      <aside class="rail">
+        <div class="rail__sticky">
+          <div class="rail__filters" role="group" aria-label="Filter cue cards" id="cardFilters"></div>
+          <div class="rail__jump">
+            <label for="cardJump">Jump to card</label>
+            <input type="number" id="cardJump" min="1" max="50" inputmode="numeric" placeholder="07">
+          </div>
+        </div>
+        <div class="rail__list" id="cardList" role="listbox" aria-label="Cue cards"></div>
+      </aside>
+
+      <div class="work" id="speakingWork">
+        <div class="sheet sheet--card">
+          <header class="cardhead">
+            <div class="cardhead__left">
+              <p class="cardhead__ref" id="spRef">Card 01</p>
+              <p class="cardhead__cat" id="spCat">Long-Turn Cue Card</p>
+              <h2 class="cardhead__title" id="spTitle">&nbsp;</h2>
+            </div>
+            <div class="cardhead__right">
+              <p class="progress" id="spProgress">&nbsp;</p>
+              <div class="cardhead__nav">
+                <button type="button" class="btn btn--icon" id="spPrev" title="Previous card" aria-label="Previous card">&larr;</button>
+                <button type="button" class="btn btn--icon" id="spNext" title="Next card" aria-label="Next card">&rarr;</button>
+              </div>
+            </div>
+          </header>
+
+          <div class="ruled-label"><span>Stimulus</span></div>
+          <p class="stimulus" id="spStimulus">&nbsp;</p>
+          <p class="context" id="spContext">&nbsp;</p>
+
+          <div class="ruled-label"><span>Cover these points</span></div>
+          <ul class="subprompts" id="spSubprompts"></ul>
+
+          <div class="ruled-label">
+            <span>Mandatory constraints</span>
+            <span class="ruled-label__aside" id="spConstraintCount">0 of 0 used</span>
+          </div>
+          <p class="hintline">Click a chip the moment the student produces it. Struck chips stay struck for this card.</p>
+          <div class="chips" id="spConstraints"></div>
+
+          <div class="stems" id="spStemsWrap">
+            <button type="button" class="disclosure" id="spStemsToggle" aria-expanded="false" aria-controls="spStems">
+              Show sentence stems
+            </button>
+            <ul class="stems__list" id="spStems" hidden></ul>
+          </div>
+        </div>
+
+        <div class="sheet sheet--timer">
+          <div class="ruled-label"><span>Timing</span></div>
+
+          <div class="stagepick" role="group" aria-label="Timer stage">
+            <button type="button" class="stage is-on" data-stage="prep" data-dur="30">Prep <b>30s</b></button>
+            <button type="button" class="stage" data-stage="prep" data-dur="60">Prep <b>60s</b></button>
+            <button type="button" class="stage" data-stage="produce" data-dur="60">Production <b>60s</b></button>
+            <button type="button" class="stage" data-stage="produce" data-dur="120">Production <b>2:00</b></button>
+          </div>
+
+          <div class="clock" id="spClock" data-stage="prep" data-state="idle">
+            <div class="clock__dial">
+              <p class="clock__digits" id="spDigits">0:30</p>
+              <p class="clock__label" id="spClockLabel">Preparation &mdash; no speaking yet</p>
+            </div>
+            <div class="clock__rail" aria-hidden="true"><span class="clock__fill" id="spFill"></span></div>
+            <div class="clock__controls">
+              <button type="button" class="btn btn--primary" id="spStart">Start</button>
+              <button type="button" class="btn btn--quiet" id="spReset">Reset</button>
+              <button type="button" class="btn btn--quiet" id="spAdvance">Skip to production</button>
+              <label class="ticktoggle"><input type="checkbox" id="spTick" checked><span>Audio tick</span></label>
+            </div>
+          </div>
+
+          <p class="clock__cue" id="spCue"></p>
+        </div>
+
+        <div class="sheet sheet--teacher" data-teacher-only>
+          <div class="ruled-label"><span>Tutor probes &mdash; ask immediately after the turn</span></div>
+          <ol class="probes" id="spProbes"></ol>
+          <div class="ruled-label"><span>Evaluation rubric</span></div>
+          <dl class="rubric" id="spRubric"></dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 · GRAMMAR DRILLS ============ -->
+    <section class="panel panel--split" id="panel-grammar" role="tabpanel" aria-labelledby="tabbtn-grammar" hidden>
+      <aside class="rail">
+        <div class="rail__sticky">
+          <div class="rail__filters" role="group" aria-label="Filter drills" id="gramFilters"></div>
+        </div>
+        <div class="rail__list rail__list--rows" id="gramList" role="listbox" aria-label="Drill items"></div>
+      </aside>
+
+      <div class="work" id="grammarWork">
+        <div class="sheet sheet--card">
+          <header class="cardhead">
+            <div class="cardhead__left">
+              <p class="cardhead__ref" id="grRef">Item 01</p>
+              <p class="cardhead__cat" id="grCat">Functional Reformulation</p>
+              <h2 class="cardhead__title" id="grTitle">&nbsp;</h2>
+            </div>
+            <div class="cardhead__right">
+              <p class="progress" id="grProgress">&nbsp;</p>
+              <div class="cardhead__nav">
+                <button type="button" class="btn btn--icon" id="grPrev" aria-label="Previous item">&larr;</button>
+                <button type="button" class="btn btn--icon" id="grNext" aria-label="Next item">&rarr;</button>
+              </div>
+            </div>
+          </header>
+
+          <div class="ruled-label"><span>Task</span></div>
+          <p class="stimulus stimulus--sm" id="grPrompt">&nbsp;</p>
+          <p class="context" id="grInstruction">&nbsp;</p>
+
+          <div id="grInputArea"></div>
+
+          <div class="gr-actions">
+            <button type="button" class="btn btn--primary" id="grCheck">Check my answer</button>
+            <button type="button" class="btn btn--quiet" id="grReveal">Reveal solution</button>
+          </div>
+          <div class="feedback" id="grFeedback" aria-live="polite"></div>
+
+          <div class="sheet__block" id="grSolution" hidden>
+            <div class="ruled-label"><span>Model answer</span></div>
+            <p class="keyline" id="grKey">&nbsp;</p>
+            <ul class="alts" id="grAlts"></ul>
+            <p class="rationale" id="grRationale"></p>
+          </div>
+
+          <div class="sheet__block">
+            <div class="ruled-label"><span>Concept check questions</span></div>
+            <div class="ccqs" id="grCCQs"></div>
+          </div>
+
+          <div class="sheet sheet--teacher sheet--flat" data-teacher-only>
+            <div class="ruled-label"><span>Teacher note</span></div>
+            <p class="rationale" id="grTeacherNote"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 · ANALYTICAL READING ============ -->
+    <section class="panel" id="panel-reading" role="tabpanel" aria-labelledby="tabbtn-reading" hidden>
+      <div class="reading">
+        <header class="reading__head">
+          <p class="reading__kicker">Analytical reading</p>
+          <h2 class="reading__title" id="rdTitle">&nbsp;</h2>
+          <p class="reading__sub" id="rdSubtitle">&nbsp;</p>
+        </header>
+
+        <div class="sheet sheet--timer sheet--skim">
+          <div class="ruled-label"><span>Timed skim</span></div>
+          <div class="skim">
+            <div class="skim__dial">
+              <p class="clock__digits" id="rdDigits">1:00</p>
+              <p class="clock__label" id="rdClockLabel">Read for gist &mdash; no notes, no dictionary</p>
+            </div>
+            <div class="skim__side">
+              <p class="hintline">When the clock stops, the student speaks. Give the oral prompt, then listen for the checklist.</p>
+              <div class="clock__controls">
+                <button type="button" class="btn btn--primary" id="rdStart">Start 60-second skim</button>
+                <button type="button" class="btn btn--quiet" id="rdReset">Reset</button>
+                <button type="button" class="btn btn--quiet" id="rdRevealPassage">Show passage</button>
+              </div>
+            </div>
+          </div>
+          <div class="clock__rail" aria-hidden="true"><span class="clock__fill" id="rdFill"></span></div>
+          <div class="skim__after" id="rdAfter" hidden>
+            <div class="ruled-label"><span>Oral gist prompt</span></div>
+            <p class="stimulus stimulus--sm" id="rdGist"></p>
+            <ul class="checklist" id="rdChecklist"></ul>
+          </div>
+        </div>
+
+        <article class="sheet sheet--passage" id="rdPassageSheet">
+          <div class="ruled-label"><span>Passage</span></div>
+          <div class="passage" id="rdPassage"></div>
+        </article>
+
+        <div class="sheet" id="rdScanSheet">
+          <div class="ruled-label"><span>Targeted scan hunt</span></div>
+          <p class="hintline">Five facts are planted in the text. Answer in a few words, then check to locate the exact line.</p>
+          <ol class="scanhunt" id="rdScan"></ol>
+        </div>
+
+        <div class="sheet" id="rdMatrixSheet">
+          <div class="ruled-label"><span>Cause &amp; effect matrix</span></div>
+          <p class="hintline" id="rdMatrixInstruction"></p>
+          <div class="matrix" id="rdMatrix"></div>
+          <div class="gr-actions"><button type="button" class="btn btn--primary" id="rdMatrixCheck">Check the matrix</button></div>
+          <div class="feedback" id="rdMatrixFeedback" aria-live="polite"></div>
+        </div>
+
+        <div class="sheet" id="rdInferSheet">
+          <div class="ruled-label"><span>Inference check</span></div>
+          <p class="hintline">Decide what the writer supports: True, False, or Cannot be told.</p>
+          <ol class="inference" id="rdInfer"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 · LEXICAL BANK ============ -->
+    <section class="panel" id="panel-lexicon" role="tabpanel" aria-labelledby="tabbtn-lexicon" hidden>
+      <div class="reading">
+        <header class="reading__head">
+          <p class="reading__kicker">Lexical bank</p>
+          <h2 class="reading__title">Every target word, with sound, sense and company</h2>
+          <p class="reading__sub" id="lxSubtitle">&nbsp;</p>
+        </header>
+
+        <div class="lx-controls">
+          <div class="search">
+            <svg class="search__icon" viewBox="0 0 20 20" aria-hidden="true"><circle cx="9" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <input type="search" id="lxSearch" placeholder="Search terms, definitions, collocations, examples" aria-label="Search the lexical bank">
+          </div>
+          <div class="rail__filters" role="group" aria-label="Filter by domain" id="lxFilters"></div>
+          <label class="ticktoggle"><input type="checkbox" id="lxHideGloss"><span>Hide glosses (self-test)</span></label>
+        </div>
+
+        <p class="lx-count" id="lxCount">&nbsp;</p>
+        <div class="lxgrid" id="lxGrid"></div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- ============ CORRECTION PAD ============ -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="notesDrawer" aria-labelledby="drawerTitle" aria-hidden="true" hidden>
+  <header class="drawer__head">
+    <div>
+      <p class="drawer__kicker">Delayed correction</p>
+      <h2 class="drawer__title" id="drawerTitle">Correction pad</h2>
+    </div>
+    <button type="button" class="btn btn--icon" id="notesClose" aria-label="Close correction pad">&times;</button>
+  </header>
+
+  <p class="drawer__context" id="notesContext">&nbsp;</p>
+
+  <div class="quicktags" role="group" aria-label="Quick note tags">
+    <button type="button" class="quicktag" data-tag="Pronunciation">Pronunciation</button>
+    <button type="button" class="quicktag" data-tag="Grammar">Grammar</button>
+    <button type="button" class="quicktag" data-tag="Lexical upgrade">Lexical upgrade</button>
+    <button type="button" class="quicktag" data-tag="Card ref">Card ref</button>
+  </div>
+
+  <label class="visually-hidden" for="notesText">Correction notes</label>
+  <textarea id="notesText" spellcheck="true" placeholder="Pronunciation slips, grammar slips, and the upgrade the student should try next time..."></textarea>
+
+  <footer class="drawer__foot">
+    <button type="button" class="btn btn--primary" id="notesCopy">Copy notes</button>
+    <button type="button" class="btn btn--quiet" id="notesDownload">Save as .txt</button>
+    <button type="button" class="btn btn--quiet btn--danger" id="notesClear">Clear</button>
+    <p class="drawer__saved" id="notesSaved" aria-live="polite"></p>
+  </footer>
+</aside>
+
+<div class="boot" id="boot" hidden>
+  <div class="boot__inner">
+    <h2 class="boot__title" id="bootTitle">Loading unit data</h2>
+    <p class="boot__text" id="bootText"></p>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/speaking.js"></script>
+<script src="js/grammar.js"></script>
+<script src="js/reading.js"></script>
+</body>
+</html>

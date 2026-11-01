@@ -1,0 +1,2705 @@
+{
+  "unit": {
+    "title": "Classroom Dynamics, Learning Styles, and Digital Tools",
+    "focus": "Prompted Speaking: stimulus cards with mandatory linguistic constraints, timed production, and rapid tutor follow-up probes for adult learners moving from CEFR B1 to B2."
+  },
+  "categories": [
+    {
+      "id": "long_turn",
+      "label": "Long-Turn Cue Cards",
+      "count": 20
+    },
+    {
+      "id": "scenario",
+      "label": "Scenario & Dilemma Resolution",
+      "count": 15
+    },
+    {
+      "id": "visual_data",
+      "label": "Visual / Data & Point-of-View Prompts",
+      "count": 15
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "category": "long_turn",
+      "title": "Adapting Your Study Method",
+      "context": "You are preparing for a B2 exam and one topic has defeated every routine you have tried so far.",
+      "stimulus": "Describe a time you had to change the way you studied because your usual method stopped working. Say what you did differently and how you knew the change helped.",
+      "sub_prompts": [
+        "Which topic or skill made your original routine fail?",
+        "What exactly did you change about your routine?",
+        "What told you that the new approach was working?",
+        "What would you tell a student who wants to copy your method exactly?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "be going to for an intended plan",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "spaced repetition",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for learning strategies",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "What happened was that...",
+        "In the end, I decided to..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said spaced repetition solved the problem. What would you say to a classmate who thinks flashcards are a waste of time?",
+          "probe": "A concession followed by a concrete reason, for example that the cards take ten minutes but remove the need to reread the whole chapter."
+        },
+        {
+          "q": "How would you show a teacher that the change actually worked, rather than just feeling better?",
+          "probe": "A measurable comparison such as a quiz score, a retention check after two weeks, or the number of errors made in a timed task."
+        }
+      ],
+      "rubric": {
+        "fluency": "Keeps talking for at least 90 seconds, repairing one stumble instead of falling silent.",
+        "grammar_accuracy": "Uses be going to for the original plan and keeps past and present forms apart.",
+        "lexical_range": "Names at least four strategies with natural collocations such as break material into chunks or go over the vocabulary again."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Future Actions",
+        "Classroom Life"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "long_turn",
+      "title": "The Method That Did Not Work",
+      "context": "A teacher changed the way your class was run and the change did not suit you at all.",
+      "stimulus": "Describe a class where the teacher's method did not work for you. Explain what the method was, why it failed, and what you decided to do about it.",
+      "sub_prompts": [
+        "What was the teacher asking you to do differently?",
+        "Why did that approach not work for you?",
+        "What did you do once you realised the method was not helping?",
+        "How did the rest of the class cope with the same method?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "had better for advice with a consequence",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for classroom management",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The problem with that class was...",
+        "Looking back, I think..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the teacher's method did not suit you. Which part of it worked and which part did you reject?",
+          "probe": "A clear division with a reason, for example that peer explanation worked but silent reading at home did not."
+        },
+        {
+          "q": "If you were speaking to a new student in that class tonight, what would you tell them to do in week one?",
+          "probe": "Concrete advice attached to a consequence, for example sit near someone who asks questions so you hear the discussion first."
+        }
+      ],
+      "rubric": {
+        "fluency": "Speaks for 90 seconds with only one noticeable pause, using a filler such as well or the thing is.",
+        "grammar_accuracy": "Had better is used correctly for advice with a consequence, and reported speech stays in the past.",
+        "lexical_range": "Uses classroom vocabulary precisely, for example set the pace, take part, sit in on, or take over the lesson."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Cognition & Learning Styles",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "long_turn",
+      "title": "Speaking Without a Script",
+      "context": "Your teacher gives you two minutes to prepare and then calls on you without warning.",
+      "stimulus": "Describe a moment when you had to give a spontaneous presentation. Say what you were asked to talk about, how you felt, and how you structured your answer on the spot.",
+      "sub_prompts": [
+        "What was the topic, and how much notice did you have?",
+        "How did you feel during the first ten seconds?",
+        "How did you organise your answer without any notes?",
+        "Did anyone else notice what happened that day?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "will for a spontaneous decision",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "stress on the first syllable in a three-syllable word",
+          "type": "phonology"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for explaining an idea clearly",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The moment I remember most is...",
+        "To be honest, my first instinct was to..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you structured it as you spoke. What was the very first sentence you said, and why did you choose it?",
+          "probe": "Any sensible opening that sets an order or a frame, plus awareness of why it was chosen."
+        },
+        {
+          "q": "What would you change if the same topic came back tomorrow with five minutes of preparation?",
+          "probe": "A specific change of approach rather than a general statement such as I would be less nervous."
+        }
+      ],
+      "rubric": {
+        "fluency": "Describes the moment in 90 seconds or more without losing the thread of the story.",
+        "grammar_accuracy": "Will is used for the instant decision made on the spot, with correct tense throughout the narration.",
+        "lexical_range": "Uses explaining vocabulary such as break it down, start with the main point, or give an example."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Future Actions",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "long_turn",
+      "title": "The App You Deleted",
+      "context": "One study app stayed on your phone for months and then quietly disappeared from it.",
+      "stimulus": "Describe a digital tool you stopped using. Explain what it was meant to do, why you abandoned it, and what you use instead.",
+      "sub_prompts": [
+        "What was the tool, and who recommended it?",
+        "What made you stop opening it?",
+        "What do you use now, and is it better for you?",
+        "What does a good study tool need that this one lacked?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "present continuous for a fixed arrangement",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for digital tools",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "collocation: build a routine / set a target",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "I used to rely on...",
+        "What finally made me drop it was..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you replaced it with a paper planner. What do you gain from a tool that looks old-fashioned?",
+          "probe": "A benefit the student does not expect, such as fewer notifications or a clearer sense of completion."
+        },
+        {
+          "q": "If a friend asked whether they should download the same app, what would you recommend?",
+          "probe": "A recommendation with a condition attached rather than a flat yes or no."
+        }
+      ],
+      "rubric": {
+        "fluency": "Covers the whole story in 60 to 120 seconds with at most one restart of a sentence.",
+        "grammar_accuracy": "Present continuous describes the fixed arrangement, and used to marks the abandoned habit.",
+        "lexical_range": "Uses tool vocabulary precisely, for example sync, offline mode, log in, or interface."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "long_turn",
+      "title": "Learning From a Classmate",
+      "context": "A classmate in your course turned out to be a better teacher than any textbook.",
+      "stimulus": "Describe a time you learned something important from a classmate. Say how the two of you worked together and what changed as a result.",
+      "sub_prompts": [
+        "What was your classmate better at than you?",
+        "How did you actually practise together?",
+        "What changed in your work afterwards?",
+        "What did your classmate get out of teaching you?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "could for a tentative offer or past ability",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a reflexive pronoun (herself / themselves)",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "collocation: keep track of progress",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "What I learned from her was...",
+        "If she had not offered, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You mentioned she taught herself to explain things aloud. What exactly did she do, and why does that work?",
+          "probe": "A description of the technique plus a reason, for example that explaining forces her to fill in the gaps she cannot recall."
+        },
+        {
+          "q": "What would you now offer her in return?",
+          "probe": "A reciprocal offer with a concrete action, such as editing her written work twice a week."
+        }
+      ],
+      "rubric": {
+        "fluency": "Sustains 90 seconds of connected speech with no long hesitation.",
+        "grammar_accuracy": "Reflexive pronouns are attached correctly to the subject, and could is used for the offer or the past ability.",
+        "lexical_range": "Uses progress vocabulary such as track my errors, measure improvement, or review the week."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Reflexive & Possessive Pronouns",
+        "Cognition & Learning Styles"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "long_turn",
+      "title": "When the Group Project Collapsed",
+      "context": "Your group had three weeks of work and only one functioning member.",
+      "stimulus": "Describe a group project that went wrong. Explain what happened, what it did to the group, and what you did about it.",
+      "sub_prompts": [
+        "What went wrong, and how did you find out?",
+        "How did the rest of the group react?",
+        "What did you personally do to rescue the project?",
+        "What did the final result actually look like?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "must for internal urgency",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for group work and roles",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The whole thing fell apart when...",
+        "I decided that someone had to..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you took charge. How did you avoid sounding pushy to the others?",
+          "probe": "Awareness of tone, such as asking rather than instructing, and the use of hedging language."
+        },
+        {
+          "q": "What did the finished project miss, and how would you plan the next group task differently?",
+          "probe": "A concrete change to a process, such as setting deadlines in a shared file and checking them on fixed days."
+        }
+      ],
+      "rubric": {
+        "fluency": "Tells the story in sequence with clear time markers and no loss of meaning.",
+        "grammar_accuracy": "Must expresses the internal urgency and is not confused with have to for the external deadline.",
+        "lexical_range": "Uses group work vocabulary such as take on a role, split the work, pull their weight, or pull something together."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Modals & Obligation",
+        "EdTech Operations"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "long_turn",
+      "title": "Finding Your Voice in Class",
+      "context": "For most of your course you listened carefully and said very little.",
+      "stimulus": "Describe a moment you started speaking up in class. Say what pushed you to speak, how the class reacted, and what you would tell quiet students.",
+      "sub_prompts": [
+        "What made you decide to speak that day?",
+        "How did the teacher and the other students react?",
+        "What advice would you give to someone just like you?",
+        "What exactly did you say in that first contribution?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a polite hedge to soften disagreement",
+          "type": "function"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for classroom participation",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The thing that pushed me was...",
+        "What I would tell them is that..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You softened your point with a hedge. Was that politeness or genuine uncertainty about your own view?",
+          "probe": "Awareness of why the hedge was used and whether the speaker believes it was honest."
+        },
+        {
+          "q": "Has speaking up changed how the teacher treats you since then?",
+          "probe": "A consequence with an example, such as being given harder questions or being asked to lead a discussion."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reaches 90 seconds of self-directed speech rather than giving three short answers.",
+        "grammar_accuracy": "Hedged disagreement uses correct subjunctive and conditional forms without over-correcting.",
+        "lexical_range": "Uses participation vocabulary such as chip in, put my hand up, or hold back in the discussion."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Register & Polite Mitigation",
+        "Cognition & Learning Styles"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "long_turn",
+      "title": "Notes on Screen, Not on Paper",
+      "context": "You swapped your paper notebook for a laptop halfway through the term.",
+      "stimulus": "Describe the change you made to the way you take notes in class. Explain what improved, what got worse, and whether you would keep the change now.",
+      "sub_prompts": [
+        "Why did you make the switch in the first place?",
+        "What worked better with the new method?",
+        "What did you lose, and would you go back?",
+        "What did you do on the days when the battery died?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "will for a prediction about the future",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for digital tools",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a conditional (if + would / could)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "At first I thought...",
+        "If I had kept the paper notebook, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the screen helped you search for notes. What did it cost you in terms of attention?",
+          "probe": "A genuine trade-off, such as writing less and therefore processing the content less deeply."
+        },
+        {
+          "q": "What would you tell a student whose course still forbids laptops in lectures?",
+          "probe": "A practical workaround such as photographing slides or keeping a shared summary sheet."
+        }
+      ],
+      "rubric": {
+        "fluency": "Balances the two sides in 90 seconds without switching into a list of disconnected points.",
+        "grammar_accuracy": "Will is used for a prediction and the conditional is formed correctly with would or could.",
+        "lexical_range": "Uses precise digital vocabulary such as search, split the screen, or annotate the slides."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "long_turn",
+      "title": "The Word Wall You Hit",
+      "context": "You could follow the grammar lesson and still freeze when it was your turn to speak.",
+      "stimulus": "Describe a topic you understood well but could not use in real conversation. Say how you found the gap, what you did about it, and whether it worked.",
+      "sub_prompts": [
+        "Which topic was it, and how did you discover the gap?",
+        "What did you do differently to close it?",
+        "How did you measure whether it had worked?",
+        "Which new phrase do you now own because of that gap?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for learning strategies",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "retrieval practice",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "might for an uncertain possibility",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The topic I could not use was...",
+        "I knew it had worked when..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You mentioned retrieval practice. What is the difference between that and simply rereading your notes?",
+          "probe": "An explanation of active retrieval versus passive review in the student's own words."
+        },
+        {
+          "q": "Which part of the gap was hardest to close, and why might that be?",
+          "probe": "A specific reasoning, such as the difference between oral fluency and written accuracy."
+        }
+      ],
+      "rubric": {
+        "fluency": "Speaks for at least 90 seconds with one repair rather than an abandoned sentence.",
+        "grammar_accuracy": "Might is used only for genuine uncertainty and is not used for requests.",
+        "lexical_range": "Names strategies precisely, such as drilling question forms, shadowing a recording, or rehearsing key phrases."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Modals & Obligation",
+        "Classroom Life"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "long_turn",
+      "title": "Rehearsing in the Kitchen",
+      "context": "Your only rehearsal space was a kitchen where your brother was also studying.",
+      "stimulus": "Describe a time you practised a talk or performance at home. Explain where you practised, what you did, and how you got feedback.",
+      "sub_prompts": [
+        "What were you preparing, and who was at home?",
+        "Where and how did you rehearse?",
+        "Did you get feedback, and did you take it?",
+        "Who helped you most, and how?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for practice and rehearsal",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "should for neutral advice",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "be going to for an intended plan",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "I was preparing for...",
+        "Next time, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you rehearsed in the kitchen. How did you work around the noise without losing your place?",
+          "probe": "A practical detail such as memorising an opening line or recording on a phone and checking it later."
+        },
+        {
+          "q": "What advice did you get that you did not want to hear at the time?",
+          "probe": "An example of honest feedback and the student's eventual acceptance of it."
+        }
+      ],
+      "rubric": {
+        "fluency": "Describes the situation vividly in 60 to 120 seconds with natural linking words.",
+        "grammar_accuracy": "Should is used for neutral advice and be going to for the original plan, with no confusion between them.",
+        "lexical_range": "Uses rehearsal vocabulary such as run through it, do a dress rehearsal, or go over the opening."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Future Actions",
+        "Cognition & Learning Styles"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "long_turn",
+      "title": "A Feedback Session That Stung",
+      "context": "Your teacher returned your writing with a short comment and a mark you did not expect.",
+      "stimulus": "Describe a piece of feedback that upset you. Say what the comment was, why it affected you, and how you responded to it.",
+      "sub_prompts": [
+        "What was the comment, and what did it tell you about your work?",
+        "Why did it land so hard on you?",
+        "What did you do after reading it?",
+        "Did that comment change anything in your next piece of work?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for assessment and grades",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "a third conditional (if + had + past participle)",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a reflexive pronoun (myself / themselves)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The comment was...",
+        "If I could go back, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the mark felt unfair. What evidence would have changed your mind?",
+          "probe": "A reference to specific criteria, marker comments, or the difference between a personal judgement and a published rule."
+        },
+        {
+          "q": "How would you now give that same comment to someone else?",
+          "probe": "A softened, more actionable version that includes at least one concrete next step."
+        }
+      ],
+      "rubric": {
+        "fluency": "Speaks for 90 seconds even when describing an emotional moment, without switching to single-word answers.",
+        "grammar_accuracy": "The third conditional is formed correctly and reflexive pronouns are attached to the right subject.",
+        "lexical_range": "Uses assessment vocabulary such as mark criteria, drop a grade, or the feedback was marked clearly."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Reflexive & Possessive Pronouns",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "long_turn",
+      "title": "Teaching Your Cousin The Alphabet",
+      "context": "A family member asked you to help them with English for free, in your own free time.",
+      "stimulus": "Describe a time you taught someone else. Explain what you were asked to teach, how you prepared, and what worked in the teaching.",
+      "sub_prompts": [
+        "Who were you teaching, and what did they want to be able to do?",
+        "How did you prepare the lesson?",
+        "Which part of your teaching actually worked?",
+        "What went wrong in that very first lesson?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a reflexive verb (teach oneself / introduce oneself)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for explaining an idea clearly",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "may for a tentative or formal offer",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "I was asked to help him...",
+        "The thing that worked was..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the lesson worked when you stopped explaining and started asking. Why did that switch help?",
+          "probe": "A reason about learner involvement, with an example of a question the learner answered correctly."
+        },
+        {
+          "q": "If this person asked you to teach them again next month, would you agree? What would you change?",
+          "probe": "A clear decision plus at least one concrete change to the plan."
+        }
+      ],
+      "rubric": {
+        "fluency": "Maintains a clear narrative through the description of the lesson in 90 seconds.",
+        "grammar_accuracy": "Reflexive verbs are used with the correct subject, and may is used for the offer.",
+        "lexical_range": "Uses teaching vocabulary such as go through the basics, drill the vocabulary, or set up practice questions."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Cognition & Learning Styles",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "long_turn",
+      "title": "The Night Before The Exam",
+      "context": "On the morning of your exam, the revision plan you had written was already useless.",
+      "stimulus": "Describe the night before an important exam. Say what your plan was, what went wrong with it, and what you actually did.",
+      "sub_prompts": [
+        "What was your original plan for that night?",
+        "What made you abandon or change it?",
+        "What did you end up doing, and how do you feel about that now?",
+        "How much sleep did you actually get?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "have to for an external rule",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "precise time markers (by Friday, at the latest, once the upload finishes)",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for exam strategy",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "I had planned to...",
+        "What actually happened was..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the plan collapsed. What would you have planned if you had started two days earlier?",
+          "probe": "A realistic alternative plan with time allocations rather than generalities."
+        },
+        {
+          "q": "How did you feel during the exam, and did that change how you performed?",
+          "probe": "A link between state of mind and performance, with a specific example of a question that went differently."
+        }
+      ],
+      "rubric": {
+        "fluency": "Covers the whole night in 60 to 120 seconds with clear sequencing markers.",
+        "grammar_accuracy": "Have to refers to the external requirement, and time markers are placed accurately.",
+        "lexical_range": "Uses exam vocabulary such as past papers, mark the questions, or cover the whole syllabus."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Modals & Obligation",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "long_turn",
+      "title": "Switching From Textbook To Podcast",
+      "context": "You nearly gave up on a textbook and tried a completely different medium instead.",
+      "stimulus": "Describe a time you changed how you got input in English. Say what you switched between, why, and how you decided whether the switch was worth it.",
+      "sub_prompts": [
+        "What were you using, and what did you switch to?",
+        "Why did you make the change?",
+        "How did you judge whether the new medium was better?",
+        "How long did it take for the new medium to feel normal?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a comparative structure (rather than, less + noun, not as + adjective as)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for digital tools",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "Before that I relied on...",
+        "The difference was that..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You compared the two media. Which one suits which kind of learner?",
+          "probe": "A generalisation with support, for example that podcasts suit learners who need a low-pressure daily routine."
+        },
+        {
+          "q": "What is one thing the new medium is genuinely worse at?",
+          "probe": "A real limitation named without turning it into a disguised advantage."
+        }
+      ],
+      "rubric": {
+        "fluency": "Compares the two media in 90 seconds without repeating the same comparison point.",
+        "grammar_accuracy": "Comparative structures are varied rather than limited to one repeated pattern.",
+        "lexical_range": "Uses input vocabulary such as comprehensible input, subtitle, or listen at double speed."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "EdTech Operations",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "long_turn",
+      "title": "Taking Over The Study Group",
+      "context": "You were the least experienced member of a study group that badly needed direction.",
+      "stimulus": "Describe a time you took responsibility in a study group. Explain what the group was doing badly, what you changed, and how the others responded.",
+      "sub_prompts": [
+        "What was the group doing poorly?",
+        "What change did you introduce?",
+        "How did the other members react to your lead?",
+        "What happened the first time you ran the session?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for group work and roles",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "had better for advice with a consequence",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a reflexive pronoun (myself / themselves)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "I realised we were...",
+        "So I decided that we should..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you set a rota. How did you stop it feeling like you were ordering people around?",
+          "probe": "Examples of consultative language, such as asking for availability before assigning tasks."
+        },
+        {
+          "q": "What happened to the group's results after the change?",
+          "probe": "A measurable or observable outcome with at least one concrete detail."
+        }
+      ],
+      "rubric": {
+        "fluency": "Explains the change and the reaction in 90 seconds with a clear cause and effect.",
+        "grammar_accuracy": "Had better is used for advice with a consequence and reflexive pronouns agree with their subject.",
+        "lexical_range": "Uses role vocabulary such as assign a role, take minutes, or chair the session."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Modals & Obligation",
+        "Reflexive & Possessive Pronouns"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "long_turn",
+      "title": "The Teacher Who Answered Every Question",
+      "context": "One teacher's habit of answering her own questions shaped how the whole class spoke.",
+      "stimulus": "Describe a teacher whose way of running a class affected your participation. Say what the habit was, how you reacted, and what you would change about it.",
+      "sub_prompts": [
+        "What was the teacher's characteristic habit?",
+        "How did it affect you and the rest of the class?",
+        "What would you change about the way questions are handled?",
+        "How did you learn to speak up in that class?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "sentence stress for contrast",
+          "type": "phonology"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for classroom management",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "should for neutral advice",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "What she always did was...",
+        "If I had been the teacher, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the habit killed participation. What exactly happened in the room after she answered?",
+          "probe": "A description of behaviour such as silence, shorter answers, or students holding back their questions."
+        },
+        {
+          "q": "How would you redesign the questioning so that students prepared?",
+          "probe": "A concrete mechanism such as think-pair-share, written questions first, or a rotating questioner."
+        }
+      ],
+      "rubric": {
+        "fluency": "Holds the topic for 90 seconds with a clear complaint and a clear proposal.",
+        "grammar_accuracy": "Should is used for neutral advice, and contrast is marked by word order and stress rather than by extra words.",
+        "lexical_range": "Uses classroom management vocabulary such as take questions, set the pace, or invite contributions."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Register & Polite Mitigation",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "long_turn",
+      "title": "Reading With A Dictionary Open",
+      "context": "You tried a reading strategy that made reading slower but changed how you understood the text.",
+      "stimulus": "Describe a reading strategy you used on a difficult text. Explain how you applied it, what it cost you, and whether you would repeat it.",
+      "sub_prompts": [
+        "What was the strategy, and how did you carry it out?",
+        "What did it cost you in time or enjoyment?",
+        "Would you use it again on a new text?",
+        "What did you actually do with the words you looked up?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for learning strategies",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "present continuous for a fixed arrangement",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "vague quantifiers (a lot of, quite a few, a fair amount)",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "I decided to read it by...",
+        "The trade-off was that..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said it slowed you down. What did you gain in return?",
+          "probe": "A benefit that compensates for the cost, such as noticing collocations you would have skimmed past."
+        },
+        {
+          "q": "What kind of reader do you think you are now compared with two years ago?",
+          "probe": "A self-assessment backed by behaviour rather than a label."
+        }
+      ],
+      "rubric": {
+        "fluency": "Explains the method and the trade-off in 60 to 120 seconds without vague filler.",
+        "grammar_accuracy": "Present continuous describes the fixed reading routine and quantifiers are used with countable and uncountable nouns correctly.",
+        "lexical_range": "Uses strategy vocabulary such as annotate, look up collocations, or read for gist first."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Classroom Life",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "long_turn",
+      "title": "Writing In English For The First Time",
+      "context": "You wrote a full page in English without translating every sentence in your head first.",
+      "stimulus": "Describe the first time you produced a piece of writing in English on your own. Say what you wrote, how you got started, and how you felt about it afterwards.",
+      "sub_prompts": [
+        "What did you write, and who was it for?",
+        "How did you begin without translating in your head?",
+        "How did you feel when you reread it a week later?",
+        "How many drafts did that first piece take?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for writing and drafting",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "might for an uncertain possibility",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a third conditional (if + had + past participle)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The piece I wrote was...",
+        "At the time I thought..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you stopped translating. What technique replaced it?",
+          "probe": "A described technique such as thinking in single words, using a picture, or keeping a keyword list."
+        },
+        {
+          "q": "What would you tell a student who says they cannot write without translating?",
+          "probe": "Persuasive advice with a reason, plus one small practical first step."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reflects on the experience in 90 seconds with a balance between the event and the feeling.",
+        "grammar_accuracy": "Might expresses genuine uncertainty and the third conditional is used correctly for the unreal past.",
+        "lexical_range": "Uses writing vocabulary such as draft, redraft, put it into words, or run it past someone."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Register & Polite Mitigation",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "long_turn",
+      "title": "The Tool Your School Retired",
+      "context": "The learning platform your school used was switched off with only two weeks of notice.",
+      "stimulus": "Describe a digital tool that was taken away from you. Explain what it did for you, what you had to replace it with, and how the change affected your work.",
+      "sub_prompts": [
+        "What did the tool do that other tools could not?",
+        "What did you replace it with, and was the replacement worse?",
+        "How did the change affect your workload or your results?",
+        "How long did the old platform take to set up?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "have got to for an external rule",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for EdTech platforms and migration",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a comparative structure (rather than, less + noun, not as + adjective as)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The platform we lost was...",
+        "The replacement was not as..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the replacement was slower. What is one thing you were still able to do on it?",
+          "probe": "A specific retained function that shows careful comparison rather than blanket complaint."
+        },
+        {
+          "q": "What will your school do differently the next time it changes a system?",
+          "probe": "A prediction with a reason, such as a migration window and a parallel run before the switch-off."
+        }
+      ],
+      "rubric": {
+        "fluency": "Describes the loss and the consequences in 90 seconds with a clear before and after.",
+        "grammar_accuracy": "Have got to refers to the institutional rule, and comparatives are formed correctly.",
+        "lexical_range": "Uses platform vocabulary such as migrate, log in, export your data, or third-party integration."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Future Actions",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "long_turn",
+      "title": "Learning From Someone Quieter Than You",
+      "context": "The most useful classmate in your course barely spoke in whole sentences.",
+      "stimulus": "Describe a time you learned something from someone who communicated in a different way from you. Explain what they taught you and how you adapted.",
+      "sub_prompts": [
+        "How did this person communicate with the group?",
+        "What did you learn from them?",
+        "What did you change in your own way of working?",
+        "What did you stop doing because of that example?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a reflexive pronoun (myself / themselves)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for communication and feedback",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "could for a tentative offer or past ability",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "This person...",
+        "I started to..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said they taught you by showing rather than telling. How did that change your own explanations?",
+          "probe": "A described behaviour change with an example of how the student now explains something."
+        },
+        {
+          "q": "What might a teacher do to include students who communicate like that?",
+          "probe": "A practical suggestion such as written pair work, pre-submitted questions, or a shared group board."
+        }
+      ],
+      "rubric": {
+        "fluency": "Explains the difference in communication style across 90 seconds with concrete detail.",
+        "grammar_accuracy": "Reflexive pronouns are correctly attached and could is used for the past ability or the offer.",
+        "lexical_range": "Uses feedback vocabulary such as walk someone through, show rather than tell, or write it down first."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Reflexive & Possessive Pronouns",
+        "Cognition & Learning Styles"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "scenario",
+      "title": "The Broken File Before Deadline",
+      "context": "A group presentation is in four hours and one of the three files will not open.",
+      "stimulus": "A classmate uploaded a broken file just before a group presentation deadline. State what happened, what must be done immediately, and what you are going to do next.",
+      "sub_prompts": [
+        "What exactly is wrong with the file, and who does it affect?",
+        "What must be dealt with in the next thirty minutes?",
+        "Who needs to be told, and what are you going to say to them?",
+        "How much of the presentation is genuinely ready right now?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "must for internal urgency",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "be going to for an intended plan",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for file sharing and version control",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "What has happened is...",
+        "The first thing I will do is..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the deadline was unmanageable. What would you have negotiated if you had started the conversation a week earlier?",
+          "probe": "A specific ask such as a staged deadline, a practice slot, or a shared template from the outset."
+        },
+        {
+          "q": "How do you make sure the same thing never happens again with this group?",
+          "probe": "A process change such as a shared folder with naming rules and a version checklist."
+        }
+      ],
+      "rubric": {
+        "fluency": "Delivers the whole situation in 90 seconds in the order of events, urgency and plan.",
+        "grammar_accuracy": "Must marks the internal urgency while be going to marks the intended next step, and the two are not swapped.",
+        "lexical_range": "Uses file vocabulary such as corrupted file, shared drive, file name, or restore an earlier version."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Future Actions",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "scenario",
+      "title": "Wi-Fi Dies During The Online Exam",
+      "context": "You are twenty minutes into a timed online exam when the connection drops completely.",
+      "stimulus": "Your internet connection fails in the middle of a timed online exam. Say what happens next, what you must do, and what you would tell the coordinator afterwards.",
+      "sub_prompts": [
+        "What can you still do while you are disconnected?",
+        "What must you do in the first five minutes?",
+        "What would you write to the coordinator once you are back online?",
+        "Does the exam platform save your answers as you go?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "have to for an external rule",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a schwa in the unstressed ending",
+          "type": "phonology"
+        },
+        {
+          "id": "c3",
+          "label": "precise time markers (by Friday, at the latest, once the upload finishes)",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The connection dropped when...",
+        "As soon as I could, I..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you photographed the screen. Why was that evidence better than a description?",
+          "probe": "An understanding of why a timestamped image is more defensible in a grade appeal than a written account."
+        },
+        {
+          "q": "What would you ask the coordinator for, and how would you phrase it politely?",
+          "probe": "A polite indirect request that names one specific ask and gives a reason."
+        }
+      ],
+      "rubric": {
+        "fluency": "Describes the sequence of the incident in 90 seconds without repeating the same facts.",
+        "grammar_accuracy": "Have to refers to the exam rule, and time markers are accurate rather than vague.",
+        "lexical_range": "Uses technical vocabulary such as reconnect, log back in, or take a screenshot."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "scenario",
+      "title": "The Locked Shared Document",
+      "context": "Your group file is open in someone else's account and you cannot type a single character.",
+      "stimulus": "A shared document you need to edit is locked by a collaborator who is offline. Explain what happens, what you must do, and what you are going to do next.",
+      "sub_prompts": [
+        "What can you still access, and what exactly is blocked?",
+        "What is the fastest legitimate way to unblock it?",
+        "Who else needs to know, and in what order?",
+        "Has the collaborator responded at all?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a modal of deduction (might / may / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "an indirect request",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for file sharing and version control",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The document is blocked because...",
+        "I was wondering whether..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the collaborator might have edited it in a browser. What are the other possibilities?",
+          "probe": "At least two alternative explanations with different levels of likelihood."
+        },
+        {
+          "q": "How do you phrase the request so that nobody loses face?",
+          "probe": "A hedged, non-accusatory message with a clear request and a deadline."
+        }
+      ],
+      "rubric": {
+        "fluency": "Handles the technical situation and the people side in 90 seconds with a clear order of action.",
+        "grammar_accuracy": "Modals of deduction express graded likelihood, and the indirect request is properly formed.",
+        "lexical_range": "Uses collaboration vocabulary such as editing rights, view only, comment, or request access."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "scenario",
+      "title": "The Student Who Refuses The AI Tool",
+      "context": "The teacher has assigned a writing task that must be drafted with an AI assistant, and one student refuses.",
+      "stimulus": "A student in your group refuses to use the AI writing tool the teacher has assigned. Say what the student is worried about, what must happen, and what you are going to do.",
+      "sub_prompts": [
+        "What exactly is the student objecting to?",
+        "What does the assignment brief actually require?",
+        "How do you settle the disagreement without accusing anyone?",
+        "Would the teacher accept a solution that avoids the tool?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "have to for an external rule",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "may for a tentative or formal offer",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for academic integrity and AI use",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "Her concern is...",
+        "One option might be..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you offered her a different tool. What would the teacher say to that?",
+          "probe": "Anticipation of the teacher's likely objection with a reasoned response."
+        },
+        {
+          "q": "How would you write the final version so that it meets the rule and still sounds like her?",
+          "probe": "A concrete process, such as drafting with the tool and then rewriting every sentence in her own voice."
+        }
+      ],
+      "rubric": {
+        "fluency": "Presents both sides and your own plan in 90 seconds without losing the disagreement.",
+        "grammar_accuracy": "Have to refers to the teacher's requirement and may is used for the tentative offer.",
+        "lexical_range": "Uses integrity vocabulary such as declared use, plagiarism, draft, or own the final wording."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Register & Polite Mitigation",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "scenario",
+      "title": "Requesting A Deadline Extension",
+      "context": "Two of your three assignments are due on the same day and one of them is already behind.",
+      "stimulus": "You need a deadline extension for an assignment. Say what has happened, what you must do first, and how you will make the request.",
+      "sub_prompts": [
+        "What is the real reason you cannot meet the deadline?",
+        "What evidence can you show to support it?",
+        "How do you open the request without sounding like you are making excuses?",
+        "Who else could you approach for the extra time?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "Could you possibly + a verb",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a past modal for speculation (must have / might have / should have)",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for assessment and grades",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "I am writing because...",
+        "Could you possibly..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You speculated about what went wrong in your schedule. What evidence supports that?",
+          "probe": "A link between the stated reason and concrete data such as hours worked or a clash of deadlines."
+        },
+        {
+          "q": "What would you offer in return for the extra time?",
+          "probe": "A concrete proposal such as a partial draft, a firm new date, or weekly check-ins."
+        }
+      ],
+      "rubric": {
+        "fluency": "Makes the case in 90 seconds with a reason, a fact and a proposal in that order.",
+        "grammar_accuracy": "The indirect request is politely formed and the past modal for speculation points to the past.",
+        "lexical_range": "Uses deadline vocabulary such as submit, hand in, deadline, or partial draft."
+      },
+      "target_language": [
+        "Modals & Obligation",
+        "Register & Polite Mitigation",
+        "EdTech Operations"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "scenario",
+      "title": "The Mic Hog In Speaking Class",
+      "context": "One confident student takes most of the speaking time in a small-group class.",
+      "stimulus": "A classmate monopolises the microphone in a speaking class. Say what happened, what the impact on the group is, and what you are going to do about it.",
+      "sub_prompts": [
+        "How did you notice the pattern, and how long had it been going on?",
+        "How did the other students react to it?",
+        "What will you say to the classmate, and how will you say it?",
+        "Does the class already have a rule about speaking time?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "Would you mind + -ing",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for speaking turns and discussion",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a reflexive pronoun (myself / themselves)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The thing I noticed was...",
+        "Would you mind if I..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You described the pattern. How would you prove it to the teacher without turning it into gossip?",
+          "probe": "A description of observable evidence such as turn counts or who spoke in the last three classes."
+        },
+        {
+          "q": "What is the risk of raising it yourself, and what would you do to reduce that risk?",
+          "probe": "Awareness of interpersonal risk and a mitigation, such as framing it as a goal for the whole group."
+        }
+      ],
+      "rubric": {
+        "fluency": "Describes the problem and the plan in 90 seconds with balanced, non-accusatory wording.",
+        "grammar_accuracy": "Would you mind is followed by the -ing form, and reflexive pronouns are used correctly.",
+        "lexical_range": "Uses discussion vocabulary such as take the floor, share the airtime, or invite others in."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Register & Polite Mitigation",
+        "Reflexive & Possessive Pronouns"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "scenario",
+      "title": "The Grade That Does Not Match Your Work",
+      "context": "The course portal is showing a grade that does not match the work you submitted.",
+      "stimulus": "The course portal is showing a grade that does not match the work you submitted. Explain what happened, what must be done, and what you are going to do next.",
+      "sub_prompts": [
+        "What does the portal show, and what did you actually submit?",
+        "What evidence do you already have?",
+        "Who do you contact first, and what exactly do you say to them?",
+        "Is there a written policy on grade appeals, and what does it say?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "may for a tentative or formal offer",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for assessment and grades",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "I was wondering if you could + a verb",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The portal is showing...",
+        "I was wondering if you could check..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the grade might be a clerical error. What are the other explanations?",
+          "probe": "At least two alternatives, such as a different rubric version, a missing attachment, or a late penalty."
+        },
+        {
+          "q": "How would you write the email so that it stays professional and still gets a quick answer?",
+          "probe": "A short, factual message with reference numbers and one clear request."
+        }
+      ],
+      "rubric": {
+        "fluency": "Explains the situation and the appeal in 90 seconds without repeating the complaint.",
+        "grammar_accuracy": "May is used for tentative possibility and the indirect request is politely structured.",
+        "lexical_range": "Uses portal vocabulary such as submit, mark, resit, or check the grade on the system."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Register & Polite Mitigation",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "scenario",
+      "title": "Covering A Colleague's Shift",
+      "context": "A colleague who supervises the language lab asks if you can cover their Saturday session.",
+      "stimulus": "A colleague asks you to cover their Saturday language lab session. Say what you need to find out, what you must consider, and what you will decide.",
+      "sub_prompts": [
+        "What do you need to know about the session before you answer?",
+        "What are the real costs of saying yes?",
+        "What is your decision, and how will you communicate it?",
+        "Is there anyone else who could cover that session?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "have got to for an external rule",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for timetables and staffing",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a conditional (if + would / could)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "Before I answer, I need to know...",
+        "If I said yes, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You identified the cost of covering. What would you offer instead of a flat yes or no?",
+          "probe": "A partial commitment such as covering the first hour or preparing the materials in exchange."
+        },
+        {
+          "q": "What does the policy on cover actually say, and how does it affect your decision?",
+          "probe": "A reference to a specific rule or standard practice, with a link to the personal cost."
+        }
+      ],
+      "rubric": {
+        "fluency": "Weighs the options aloud in 90 seconds and reaches a defensible decision.",
+        "grammar_accuracy": "Have got to refers to the institutional rule, and the conditional is correctly formed with would or could.",
+        "lexical_range": "Uses staffing vocabulary such as swap shifts, cover the session, or ask the coordinator."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "scenario",
+      "title": "The Recording You Were Not Allowed To Make",
+      "context": "Your teacher records every speaking class and posts the clips online without asking.",
+      "stimulus": "Your teacher records speaking classes and posts the clips without asking. Say what happens next, what your options are, and what you will actually do.",
+      "sub_prompts": [
+        "What exactly is being published, and who can see it?",
+        "What are your options, from the least to the most confrontational?",
+        "What will you do, and what will you actually say?",
+        "Has anyone said anything to you about the clips?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "could for a tentative offer or past ability",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "possessive determiners and pronouns (their / theirs)",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for consent and data protection",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The situation is that...",
+        "One option I was considering was..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the material is publicly available. Does that change who is responsible for it?",
+          "probe": "A distinction between the teacher's responsibility and the platform's, plus the student's own remaining options."
+        },
+        {
+          "q": "How would you raise it without making it a public confrontation?",
+          "probe": "A private, respectful approach with a specific request and a proposed solution."
+        }
+      ],
+      "rubric": {
+        "fluency": "Presents the options in order in 90 seconds and states a decision with a reason.",
+        "grammar_accuracy": "Possessive determiners and pronouns are distinguished, and could is used for a possible course of action.",
+        "lexical_range": "Uses consent vocabulary such as consent form, opt out, camera off, or recording policy."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Reflexive & Possessive Pronouns",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "scenario",
+      "title": "Two Versions Of The Same Assignment",
+      "context": "You have discovered that two different versions of the assignment brief are in circulation in your course.",
+      "stimulus": "You discover that two different versions of the assignment brief are being used in your course. Say what happened, what must be clarified, and what you are going to do.",
+      "sub_prompts": [
+        "How did you find the two versions, and how do they differ?",
+        "Who is actually making the decision about which version counts?",
+        "What is the safest thing to do while you wait for an answer?",
+        "When exactly did the two versions diverge?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "might for an uncertain possibility",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for assessment and grades",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a conditional (if + would / could)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The two versions came from...",
+        "While I wait for a decision, I..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the older version might be the official one. What would you do if the teacher confirms it is the newer one?",
+          "probe": "A decision rule set in advance, plus a clear plan for the work already done."
+        },
+        {
+          "q": "Who else should know about the discrepancy, and in what order?",
+          "probe": "A sensible order of escalation with a reason for each step."
+        }
+      ],
+      "rubric": {
+        "fluency": "Explains the discrepancy and the plan in 90 seconds with a clear next action.",
+        "grammar_accuracy": "Might expresses a genuine possibility and the conditional covers a hypothetical outcome.",
+        "lexical_range": "Uses brief vocabulary such as task brief, word count, marking criteria, or attach the wrong file."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Classroom Life"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "scenario",
+      "title": "The Chat Group That Never Sleeps",
+      "context": "Your class chat receives forty messages an hour about a task that is not due until Friday.",
+      "stimulus": "The class chat floods with messages about an assignment that is not due until Friday. Say what happened, what the effect on the class is, and what you are going to do.",
+      "sub_prompts": [
+        "What volume of messages are we talking about, and who is posting them?",
+        "How is it affecting people's work and their sleep?",
+        "What will you do, and how will you phrase it?",
+        "How much time do you spend in that chat on a normal day?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "an indirect request",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for notification and attention management",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a reflexive pronoun (myself / themselves)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The chat became...",
+        "I was wondering if we could..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you muted it. How did that change your relationship with the group?",
+          "probe": "A trade-off between reduced noise and reduced awareness of genuinely urgent information."
+        },
+        {
+          "q": "What rule would you propose for the group, and why that rule?",
+          "probe": "A specific, enforceable rule with a reason tied to attention rather than preference."
+        }
+      ],
+      "rubric": {
+        "fluency": "Describes the impact and the proposal in 90 seconds with a clear and fair argument.",
+        "grammar_accuracy": "The indirect request is correctly formed and reflexive pronouns agree with their subject.",
+        "lexical_range": "Uses attention vocabulary such as mute, notifications, do not disturb, or pin a message."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Classroom Life",
+        "Reflexive & Possessive Pronouns"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "scenario",
+      "title": "The Device That Cannot Open The Platform",
+      "context": "Your ten-year-old laptop can no longer run the course platform after a software update.",
+      "stimulus": "Your device cannot run the course platform after a software update. Say what has happened, what you must do today, and what you are going to do next.",
+      "sub_prompts": [
+        "What exactly stopped working, and what have you already tried?",
+        "What must happen before the next lesson?",
+        "What is your plan for the longer term?",
+        "Can you borrow a device from anyone else on your course?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "have got to for an external rule",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for technical support",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "may for a tentative or formal offer",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The problem is that...",
+        "One option I was given was..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You were offered a loan device. What would you still need to solve yourself?",
+          "probe": "Personal setup problems such as logging in, accessing files, or installing the right software."
+        },
+        {
+          "q": "How do you explain the situation to the class without sounding like you are making excuses?",
+          "probe": "A brief, factual, forward-looking message with one specific ask."
+        }
+      ],
+      "rubric": {
+        "fluency": "Covers the problem, the immediate action and the longer plan in 90 seconds.",
+        "grammar_accuracy": "Have got to refers to the system requirement and may is used for the offer that was extended.",
+        "lexical_range": "Uses support vocabulary such as reset the browser, update the driver, or contact the help desk."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "scenario",
+      "title": "The Last Student Slot In A Workshop",
+      "context": "An optional pronunciation workshop has one place left and two people want it.",
+      "stimulus": "There is one place left in an optional pronunciation workshop and you and a classmate both want it. Say what has happened, what must be decided, and what you are going to do.",
+      "sub_prompts": [
+        "Why does each of you want the place, and what is at stake?",
+        "What has to be decided, and by when?",
+        "What will you say to the other student?",
+        "What would that workshop cover that you cannot get elsewhere?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a recommendation followed by a reason",
+          "type": "function"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for speaking practice and workshops",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a second conditional (if + past simple + would)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The situation is that...",
+        "I would recommend that we..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You recommended a solution. What would you do if the other student refused it?",
+          "probe": "A fallback plan, such as asking for a second session or recording the place."
+        },
+        {
+          "q": "Why does your recommendation make sense for both of you rather than just for you?",
+          "probe": "A justification that acknowledges the other person's need instead of restating the student's own case."
+        }
+      ],
+      "rubric": {
+        "fluency": "States both needs, the decision and the proposal in 90 seconds without becoming defensive.",
+        "grammar_accuracy": "The second conditional is used correctly for the imagined refusal, and the recommendation is followed by a reason.",
+        "lexical_range": "Uses workshop vocabulary such as sign up, take part, place, or swap sessions."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Modals & Obligation",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "scenario",
+      "title": "A Plagiarism Check Flagging Your Work",
+      "context": "A similarity report has flagged six sentences in an essay you wrote entirely yourself.",
+      "stimulus": "A similarity report flags sentences in your own essay. Say what has happened, what must be done, and what you are going to do next.",
+      "sub_prompts": [
+        "Which sentences were flagged, and where do you think they came from?",
+        "What does the report actually measure, and what does it not prove?",
+        "What will you say in your appeal?",
+        "Does the college have a formal appeal process?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "must for internal urgency",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for academic integrity and AI use",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a past modal for speculation (must have / might have / should have)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The report flagged...",
+        "My argument would be that..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the similarity might be from common phrasing. What evidence supports that?",
+          "probe": "A comparison with the original sources, such as sentence length, formulaic collocations, or shared textbook wording."
+        },
+        {
+          "q": "How would you make your appeal more persuasive than an apology?",
+          "probe": "An appeal structured as evidence plus request, with one specific supporting document."
+        }
+      ],
+      "rubric": {
+        "fluency": "Explains the flag and the appeal in 90 seconds with a clear line of reasoning.",
+        "grammar_accuracy": "Must marks the urgency of the deadline and the past modal for speculation refers to the past.",
+        "lexical_range": "Uses integrity vocabulary such as flagged, match rate, cite, or reference list."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "scenario",
+      "title": "The Class Chat Where Your Name Was Misquoted",
+      "context": "Someone posted in the class chat that you volunteered for a task you never agreed to do.",
+      "stimulus": "A classmate posts in the class chat that you volunteered for a task you never agreed to do. Say what has happened, what must be corrected, and what you are going to do.",
+      "sub_prompts": [
+        "What exactly was said, and who has already seen it?",
+        "Why does it matter for the group and for you?",
+        "What will you write, and where will you write it?",
+        "Has the post been taken down yet?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "possessive determiners and pronouns (their / theirs)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "May I + a verb",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for group work and roles",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The post said that I...",
+        "May I ask..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the mistake mattered. What is the practical cost if it is left alone?",
+          "probe": "A concrete consequence such as extra hours, a clash of deadlines, or the task being assigned to somebody else."
+        },
+        {
+          "q": "What is the difference between a public correction and a private one in this case?",
+          "probe": "A comparison weighing fairness against escalation, ending in a reasoned choice."
+        }
+      ],
+      "rubric": {
+        "fluency": "Handles the incident and the response in 90 seconds with calm, factual sequencing.",
+        "grammar_accuracy": "Possessive forms are contrasted correctly, and the polite request with May I is used appropriately.",
+        "lexical_range": "Uses group work vocabulary such as assign yourself, take on the task, or swap the role."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Reflexive & Possessive Pronouns",
+        "EdTech Operations"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "visual_data",
+      "title": "Retyping Versus Handwriting Notes",
+      "context": "A research summary claims that one note-taking method produces better recall than another.",
+      "stimulus": "A study summary claims that students who retype their notes remember less than students who handwrite them. Do you agree? Give your position, your evidence, and the trade-off you see.",
+      "sub_prompts": [
+        "What exactly is the claim, and how plausible does it sound to you?",
+        "What evidence from your own experience supports or weakens it?",
+        "What trade-off would you accept in exchange for better recall?",
+        "What did the original study actually measure?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a modal of deduction (might / may / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for learning strategies",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a comparative structure (rather than, less + noun, not as + adjective as)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "On balance, I think...",
+        "The evidence I would offer is..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You accepted part of the claim. Which part would you challenge, and how?",
+          "probe": "A clear separation of a plausible finding from an over-generalised conclusion."
+        },
+        {
+          "q": "What would a fair test of this claim look like in your own course?",
+          "probe": "A concrete method with two groups and a defined measure of recall."
+        }
+      ],
+      "rubric": {
+        "fluency": "Weighs the claim in 90 seconds with a stated position rather than a list of points.",
+        "grammar_accuracy": "Modals of deduction show graded certainty, and comparatives are varied and accurate.",
+        "lexical_range": "Uses strategy vocabulary such as summarise, condense notes, or write from memory."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Modals & Obligation",
+        "Classroom Life"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "visual_data",
+      "title": "A Quote On Notifications And Focus",
+      "context": "A widely shared quote turns the question of attention into a measurement problem.",
+      "stimulus": "A widely shared quote says that every notification you allow in costs you a quarter of an hour of real focus. React to it: state your position, the evidence you would bring, and the trade-off you would refuse.",
+      "sub_prompts": [
+        "What is the quote actually claiming, and is the figure credible to you?",
+        "What has your own experience shown about notifications?",
+        "What would you refuse to give up, even if switching it off cost you something important?",
+        "Who published that figure, and is the source traceable?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a conditional (if + would / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for notification and attention management",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a hedging lexical set (argue, claim, suggest)",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "I would argue that...",
+        "The figure might be..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the number is questionable. What would you need to see to accept it?",
+          "probe": "A named source type or condition, such as task type, notification content, or study design."
+        },
+        {
+          "q": "Which notification would you keep on, and what makes it different from the rest?",
+          "probe": "A reasoned distinction based on urgency rather than personal preference."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reacts to the quote in 90 seconds with a position, a reason and a boundary.",
+        "grammar_accuracy": "Deduction modals are graded appropriately and hedging verbs are used with the right complement.",
+        "lexical_range": "Uses attention vocabulary such as switch off, interruption, deep work, or check in."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "visual_data",
+      "title": "Two Teachers On Group Work",
+      "context": "Two teachers describe the same classroom task and reach opposite conclusions about it.",
+      "stimulus": "One teacher says group work builds the skills you need at work; another says it mainly teaches you how to wait for slow teammates. React to both: give your position, your evidence, and the trade-off between them.",
+      "sub_prompts": [
+        "What is each teacher's claim, and what assumptions sit behind it?",
+        "Which experience of your own supports your view?",
+        "What kind of group task would make both teachers partly right?",
+        "How large were the groups you were actually in?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a comparative structure (rather than, less + noun, not as + adjective as)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for group work and roles",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a hedging lexical set (argue, claim, suggest)",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "Both teachers are partly right because...",
+        "I would put more weight on..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said you put more weight on the second teacher. What would change your mind?",
+          "probe": "A concrete condition such as group size, task type, or the presence of a hard deadline."
+        },
+        {
+          "q": "How would you design a group task that avoids the waiting problem?",
+          "probe": "A specific design choice with a mechanism, such as individual roles with visible outputs."
+        }
+      ],
+      "rubric": {
+        "fluency": "Contrasts the two views in 90 seconds and states a position of your own.",
+        "grammar_accuracy": "Comparatives and hedging verbs are accurate and used to soften rather than to dodge.",
+        "lexical_range": "Uses group work vocabulary such as contribute, take the lead, or free-ride on the group."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Cognition & Learning Styles",
+        "EdTech Operations"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "visual_data",
+      "title": "The Study App That Tracks Everything",
+      "context": "An app promises to optimise your revision by measuring every session, streak and mistake.",
+      "stimulus": "A productivity app promises to optimise your revision by tracking every session, streak and mistake. React to the offer: state your position, the evidence you would bring, and the trade-off you accept.",
+      "sub_prompts": [
+        "What exactly does the app measure, and what does it assume about motivation?",
+        "What evidence from your own behaviour supports or undermines the offer?",
+        "What would you keep doing if the tracking stopped tomorrow?",
+        "How long have you used the app, and how often?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "word stress in 'spaced repetition'",
+          "type": "phonology"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for motivation and habits",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a modal of deduction (might / may / could)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The premise of the app is that...",
+        "In my experience..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said streaks change your behaviour. Is that motivation or pressure?",
+          "probe": "A distinction between intrinsic and extrinsic motivation with a personal example."
+        },
+        {
+          "q": "What kind of data would make you trust an app like this with your study habits?",
+          "probe": "A statement about transparency, consent, and how the data would be used."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reacts to the offer in 90 seconds with a position, a reason and a clear trade-off.",
+        "grammar_accuracy": "Deduction modals mark probability, and the key term is pronounced with the correct word stress.",
+        "lexical_range": "Uses habit vocabulary such as build a routine, keep a streak, or fall behind on a streak."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "visual_data",
+      "title": "Feedback Written By Machine",
+      "context": "Two pieces of feedback on the same essay sit side by side: one from a teacher, one from a tool.",
+      "stimulus": "A student's essay received both human teacher feedback and automated tool feedback, and the two contradict each other. React: give your position, the evidence you would bring, and the trade-off you accept.",
+      "sub_prompts": [
+        "Where exactly do the two sets of comments contradict each other?",
+        "Which source would you trust for which kind of error, and why?",
+        "What do you lose if you rely on only one of them?",
+        "Did the two sources agree on anything at all?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for assessment and grades",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "should for neutral advice",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a lexical field for academic integrity and AI use",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The contradiction is...",
+        "I would treat the two sources as..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the teacher catches errors of meaning. What does the tool catch better?",
+          "probe": "A clear division of labour, such as pattern-level language issues versus argument and register."
+        },
+        {
+          "q": "How would you act on both sets of comments without rewriting the essay twice?",
+          "probe": "A triage process, for example fixing the teacher's three priorities before touching the rest."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reacts to the contradiction in 90 seconds and reaches a usable working method.",
+        "grammar_accuracy": "Should is used for neutral advice, and the two sources are referred to with accurate pronouns.",
+        "lexical_range": "Uses feedback vocabulary such as inline comment, band score, recurring error, or rewrite the paragraph."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "visual_data",
+      "title": "The Podcast Against The Lecture",
+      "context": "Two descriptions of the same one-hour lesson are presented side by side.",
+      "stimulus": "One student learned the whole topic from a one-hour podcast on the bus; another learned less from the same hour as a live lecture with slides. React to the comparison: state your position, the evidence you bring, and the trade-off.",
+      "sub_prompts": [
+        "What does each format actually ask of the learner?",
+        "What evidence from your own experience compares them?",
+        "Which format would you choose for which kind of content?",
+        "How did you first come across the podcast?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "will for a spontaneous decision",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for digital tools",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a comparative structure (rather than, less + noun, not as + adjective as)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The difference between them is...",
+        "For me, the lecture is better when..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the podcast suits commuting. What would you use a lecture for instead?",
+          "probe": "A content-based distinction, such as explanations, debate, or live questions."
+        },
+        {
+          "q": "What is the cost of choosing a format that suits you but not everybody in the class?",
+          "probe": "Awareness of accessibility and of how group learning is affected."
+        }
+      ],
+      "rubric": {
+        "fluency": "Compares the two formats in 90 seconds and states a preference with a condition attached.",
+        "grammar_accuracy": "Will is used for an instant decision and comparatives are accurate and varied.",
+        "lexical_range": "Uses format vocabulary such as listen at double speed, take notes in class, or follow the slides."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 42,
+      "category": "visual_data",
+      "title": "Gamification In The EFL Classroom",
+      "context": "A school has given every student a points badge system for their speaking tasks.",
+      "stimulus": "A school has introduced points and badges for speaking tasks, and some students now speak far more than before. React to the claim: give your position, your evidence, and the trade-off you accept.",
+      "sub_prompts": [
+        "What behaviour changed, and what might have caused it?",
+        "What evidence would show that learning improved and not just participation?",
+        "What would you lose if the points were removed tomorrow?",
+        "Who designed the badge system, and what were they trying to fix?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a modal of deduction (might / may / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for motivation and habits",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a third conditional (if + had + past participle)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The points system probably works because...",
+        "I would need more evidence before..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said participation is not the same as learning. How would you measure real improvement?",
+          "probe": "A measure of accuracy and of transfer to a new task, not the frequency of speaking."
+        },
+        {
+          "q": "What would happen to the quietest students if the badges disappeared?",
+          "probe": "A reasoned prediction with a mechanism, such as public pressure to perform being removed."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reacts to the claim in 90 seconds with a position, a measurement proposal and a trade-off.",
+        "grammar_accuracy": "Deduction modals express probability and the third conditional handles the counterfactual.",
+        "lexical_range": "Uses motivation vocabulary such as reward, competitive, or intrinsic motivation."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Classroom Life",
+        "EdTech Operations"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "visual_data",
+      "title": "Two Contrasting Reviews Of An Online Course",
+      "context": "Two learners review the same paid online course and contradict each other completely.",
+      "stimulus": "Two learners have reviewed the same paid online course: one says it transformed their writing, the other says it was a waste of money. React to both accounts: give your position, your evidence, and the trade-off between them.",
+      "sub_prompts": [
+        "What did each reviewer do differently that might explain the gap?",
+        "What would you need to see before recommending the course?",
+        "Who is the course actually for, and who is it not for?",
+        "What did each reviewer have to do to finish the course?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a lexical field for digital tools",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "a second conditional (if + past simple + would)",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a hedging lexical set (argue, claim, suggest)",
+          "type": "lexis"
+        }
+      ],
+      "functional_stems": [
+        "The two reviews are not really about the same course...",
+        "If I had read only one review, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the reviewers differ in their starting level. Why does that change the outcome so much?",
+          "probe": "An explanation of how the same course design works differently at different levels."
+        },
+        {
+          "q": "What is the most useful question a student could ask before paying for a course like this?",
+          "probe": "A single targeted question, such as about feedback turnaround time or support."
+        }
+      ],
+      "rubric": {
+        "fluency": "Reconciles the two reviews in 90 seconds without simply dismissing either one.",
+        "grammar_accuracy": "The second conditional is used for the imagined reading, and hedging verbs are used with accurate complements.",
+        "lexical_range": "Uses course vocabulary such as module, enrolment, tutor feedback, or self-paced."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Cognition & Learning Styles",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "visual_data",
+      "title": "The Attendance Policy Statement",
+      "context": "A policy statement sets out exactly how attendance affects the final grade.",
+      "stimulus": "A course policy states that students who miss more than eight per cent of sessions will have their participation mark capped. React to it: state your position, the evidence you would bring, and the trade-off.",
+      "sub_prompts": [
+        "What exactly does the policy require, and who does it affect most?",
+        "What evidence supports or challenges the rule?",
+        "What trade-off would you accept in order to keep attendance high?",
+        "How many sessions does the course have in total?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "must for internal urgency",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for assessment and grades",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a conditional (if + would / could)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "On balance, the policy...",
+        "If I could change one clause, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said illness is the hardest case to handle. What would a fairer rule look like?",
+          "probe": "A specific alternative with a mechanism, such as evidence-based exemptions for illness."
+        },
+        {
+          "q": "What does low attendance tell you about a course, and what does it not tell you?",
+          "probe": "A distinction between engagement and ability, with an example from the student's own record."
+        }
+      ],
+      "rubric": {
+        "fluency": "Argues the policy in 90 seconds with a clear judgement and one amendment.",
+        "grammar_accuracy": "Must expresses the internal obligation and the conditional is correctly formed for the alternative rule.",
+        "lexical_range": "Uses policy vocabulary such as capped mark, attendance record, exemption, or justification."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Modals & Obligation",
+        "Register & Polite Mitigation"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "visual_data",
+      "title": "The Cheating Question",
+      "context": "A forum post asks whether using a translator during an online test counts as cheating.",
+      "stimulus": "A forum post asks whether using a translation tool during a timed online test counts as cheating. React to it: state your position, the evidence you would bring, and the trade-off you see.",
+      "sub_prompts": [
+        "Who is the rule actually written for, and who does it affect most?",
+        "What would you say to a student who feels the rule is unfair?",
+        "What compromise, if any, would you accept?",
+        "Has anyone been caught using a tool before?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a modal of deduction (might / may / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for academic integrity and AI use",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "an indirect request",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "I would separate two things here...",
+        "If I were the teacher, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the rule is unclear. What wording would make it clear?",
+          "probe": "A draft rule that states precisely when tools are and are not allowed."
+        },
+        {
+          "q": "How would you respond to a student who admits they used a tool?",
+          "probe": "A practical next step with a proportionate consequence, delivered without shaming."
+        }
+      ],
+      "rubric": {
+        "fluency": "Responds to the forum post in 90 seconds with a clear position and a workable compromise.",
+        "grammar_accuracy": "Deduction modals show graded certainty and the indirect request is politely formed.",
+        "lexical_range": "Uses integrity vocabulary such as unauthorised aid, declare the use, or open book."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Register & Polite Mitigation",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "visual_data",
+      "title": "Two Definitions Of Learning Style",
+      "context": "Two textbooks define the same term in ways that cannot both be right.",
+      "stimulus": "Two textbooks define a learning style in ways that contradict each other: one says you have one fixed style, the other says styles are situational. React: give your position, your evidence, and the trade-off between them.",
+      "sub_prompts": [
+        "What does each definition imply about how you should be taught?",
+        "What evidence from your own experience fits one and not the other?",
+        "What practical difference does the disagreement actually make, and which definition would you argue for?",
+        "Which definition did your own school use?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a conditional (if + would / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for learning strategies",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a hedging lexical set (argue, claim, suggest)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The two definitions...",
+        "What convinces me more is..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the fixed-style idea is misleading. What is a better way to describe what students actually do?",
+          "probe": "A more accurate description, for example a preference that shifts with the task and the mood."
+        },
+        {
+          "q": "What would you say to a student who has been told they are a visual learner?",
+          "probe": "Advice that protects the student's motivation while correcting the label."
+        }
+      ],
+      "rubric": {
+        "fluency": "Weighs the two definitions in 90 seconds and reaches a usable conclusion of your own.",
+        "grammar_accuracy": "Deduction modals express probability and the comparative structures are accurate.",
+        "lexical_range": "Uses learning vocabulary such as preference, adapt, or match the task to the strategy."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Modals & Obligation",
+        "Classroom Life"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "visual_data",
+      "title": "The Screenshot And The Notebook",
+      "context": "A short case describes how two students prepared for the same test.",
+      "stimulus": "A short case study compares two students: one kept photographs of every slide, the other wrote three pages of notes from memory after class. React to the case: give your position, your evidence, and the trade-off.",
+      "sub_prompts": [
+        "What did each student's method actually train them to do?",
+        "What evidence in the case supports your reading?",
+        "Which method would you keep, and what would you add to it?",
+        "What actually happened in the exam itself?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "retrieval practice",
+          "type": "lexis"
+        },
+        {
+          "id": "c2",
+          "label": "a modal of deduction (might / may / could)",
+          "type": "grammar"
+        },
+        {
+          "id": "c3",
+          "label": "a past modal for speculation (must have / might have / should have)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "In the case, the difference is...",
+        "I would read the evidence like this..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the second student recalled more. What might the case be leaving out?",
+          "probe": "A critical observation such as prior knowledge, available time, or the difficulty of the course."
+        },
+        {
+          "q": "What would you do differently from both students?",
+          "probe": "A third method that combines elements and states why you chose it."
+        }
+      ],
+      "rubric": {
+        "fluency": "Analyses the case in 90 seconds with a reading of the evidence and a personal plan.",
+        "grammar_accuracy": "Past modals for speculation point backwards and deduction modals express present probability.",
+        "lexical_range": "Uses strategy vocabulary such as recall, photograph the slides, or write it up afterwards."
+      },
+      "target_language": [
+        "Cognition & Learning Styles",
+        "Modals & Obligation",
+        "Classroom Life"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "visual_data",
+      "title": "A Classroom Without Laptops",
+      "context": "A school has decided that students may not use any digital device in the main classroom.",
+      "stimulus": "A school has banned all digital devices in the main classroom, arguing that students think better without them. React: state your position, the evidence you would bring, and the trade-off you accept.",
+      "sub_prompts": [
+        "What does the school gain and what does it lose with this rule?",
+        "What evidence would settle the argument for good?",
+        "What would you change, and what would happen if the school piloted a limited use of devices?",
+        "How much of the learning there depends on screens?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "a second conditional (if + past simple + would)",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for digital tools",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "should for neutral advice",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "The rule makes sense when...",
+        "I would keep one exception:..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said the rule works for some subjects. Which ones, and why those?",
+          "probe": "A reasoned distinction based on the type of task rather than on subject naming alone."
+        },
+        {
+          "q": "How would you defend a limited use of devices to the school?",
+          "probe": "An argument with evidence and a pilot design that could be tested in one term."
+        }
+      ],
+      "rubric": {
+        "fluency": "Argues both sides of the policy in 90 seconds and commits to a clear position.",
+        "grammar_accuracy": "Should gives neutral advice and deduction modals mark what might follow from each option.",
+        "lexical_range": "Uses policy vocabulary such as device-free lesson, classroom policy, or digital literacy."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Classroom Life",
+        "Modals & Obligation"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "visual_data",
+      "title": "The Cost Of An Academic Year Of Tools",
+      "context": "A course budget has to cover licences, devices and training for one academic year.",
+      "stimulus": "A department must choose where to spend a limited budget: licences for a study platform, devices for students, or training for teachers. React to the trade-off: give your position, your evidence, and what you would give up.",
+      "sub_prompts": [
+        "What does each option buy, and who does it benefit?",
+        "What evidence from experience would support your choice?",
+        "What would you give up, and who would be worst affected?",
+        "How many students are in the group this affects?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "must for internal urgency",
+          "type": "grammar"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for budgets and resources",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a comparative structure (rather than, less + noun, not as + adjective as)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "If the budget were mine to divide, I would...",
+        "The case for training rests on..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You chose devices over licences. What is the strongest argument against you?",
+          "probe": "A genuine counter-argument, such as licences without trained teachers producing very little change."
+        },
+        {
+          "q": "What would you need to see in a pilot before committing the full budget?",
+          "probe": "Success measures and a timeframe, for example a comparison of grades before and after."
+        }
+      ],
+      "rubric": {
+        "fluency": "Justifies the budget decision in 90 seconds with evidence and a named trade-off.",
+        "grammar_accuracy": "Must expresses the binding constraint and comparatives are accurate and varied.",
+        "lexical_range": "Uses budget vocabulary such as allocate, prioritise, licence fee, or cost per student."
+      },
+      "target_language": [
+        "EdTech Operations",
+        "Modals & Obligation",
+        "Future Actions"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "visual_data",
+      "title": "Two Opinions On Silent Discussion",
+      "context": "Two teachers disagree about the value of silent written discussion in class.",
+      "stimulus": "Two teachers disagree about silent written discussion: one says it gives quiet students their voice, the other says it kills spontaneous speech. React: state your position, your evidence, and the trade-off.",
+      "sub_prompts": [
+        "What does silent discussion actually change in a classroom?",
+        "What evidence from your own experience supports one view?",
+        "What would you combine from the two approaches?",
+        "How long does the silent phase usually last in your class?"
+      ],
+      "mandatory_constraints": [
+        {
+          "id": "c1",
+          "label": "falling intonation for a wh-question",
+          "type": "phonology"
+        },
+        {
+          "id": "c2",
+          "label": "a lexical field for speaking turns and discussion",
+          "type": "lexis"
+        },
+        {
+          "id": "c3",
+          "label": "a second conditional (if + past simple + would)",
+          "type": "grammar"
+        }
+      ],
+      "functional_stems": [
+        "I lean towards the first teacher because...",
+        "If the class did both, I would..."
+      ],
+      "tutor_follow_up": [
+        {
+          "q": "You said quiet students benefit. What happens to them once the writing stops and speaking starts?",
+          "probe": "A specific prediction about performance under pressure and what would prevent it."
+        },
+        {
+          "q": "How would you introduce a discussion format that supports both kinds of learner?",
+          "probe": "A staged procedure with a set time for writing and a set time for speaking."
+        }
+      ],
+      "rubric": {
+        "fluency": "Weighs the two opinions in 90 seconds and proposes a workable combination.",
+        "grammar_accuracy": "The second conditional is correct for the imagined classroom, and wh-questions carry the right intonation.",
+        "lexical_range": "Uses discussion vocabulary such as write it down first, take turns, or speak up in pairs."
+      },
+      "target_language": [
+        "Classroom Life",
+        "Cognition & Learning Styles",
+        "Register & Polite Mitigation"
+      ]
+    }
+  ]
+}
