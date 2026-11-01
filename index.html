@@ -216,60 +216,64 @@
           <p class="reading__sub" id="rdSubtitle">&nbsp;</p>
         </header>
 
-        <div class="sheet sheet--timer sheet--skim">
-          <div class="ruled-label"><span>Timed skim</span></div>
-          <div class="skim">
-            <div class="skim__dial">
-              <p class="clock__digits" id="rdDigits">1:00</p>
-              <p class="clock__label" id="rdClockLabel">Read for gist &mdash; no notes, no dictionary</p>
-            </div>
-            <div class="skim__side">
-              <p class="hintline">When the clock stops, the student speaks. Give the oral prompt, then listen for the checklist.</p>
-              <div class="clock__controls">
-                <button type="button" class="btn btn--primary" id="rdStart">Start 60-second skim</button>
-                <button type="button" class="btn btn--quiet" id="rdReset">Reset</button>
-                <button type="button" class="btn btn--quiet" id="rdRevealPassage">Show passage</button>
+        <div class="reading__col reading__col--text">
+          <div class="sheet sheet--timer sheet--skim">
+            <div class="ruled-label"><span>Timed skim</span></div>
+            <div class="skim">
+              <div class="skim__dial">
+                <p class="clock__digits" id="rdDigits">1:00</p>
+                <p class="clock__label" id="rdClockLabel">Read for gist &mdash; no notes, no dictionary</p>
+              </div>
+              <div class="skim__side">
+                <p class="hintline">When the clock stops, the student speaks. Give the oral prompt, then listen for the checklist.</p>
+                <div class="clock__controls">
+                  <button type="button" class="btn btn--primary" id="rdStart">Start 60-second skim</button>
+                  <button type="button" class="btn btn--quiet" id="rdReset">Reset</button>
+                  <button type="button" class="btn btn--quiet" id="rdRevealPassage">Show passage</button>
+                </div>
               </div>
             </div>
+            <div class="clock__rail" aria-hidden="true"><span class="clock__fill" id="rdFill"></span></div>
+            <div class="skim__after" id="rdAfter" hidden>
+              <div class="ruled-label"><span>Oral gist prompt</span></div>
+              <p class="stimulus stimulus--sm" id="rdGist"></p>
+              <ul class="checklist" id="rdChecklist"></ul>
+            </div>
           </div>
-          <div class="clock__rail" aria-hidden="true"><span class="clock__fill" id="rdFill"></span></div>
-          <div class="skim__after" id="rdAfter" hidden>
-            <div class="ruled-label"><span>Oral gist prompt</span></div>
-            <p class="stimulus stimulus--sm" id="rdGist"></p>
-            <ul class="checklist" id="rdChecklist"></ul>
+
+          <article class="sheet sheet--passage" id="rdPassageSheet">
+            <div class="ruled-label"><span>Passage</span></div>
+            <div class="passage" id="rdPassage"></div>
+          </article>
+        </div>
+
+        <div class="reading__col reading__col--tasks">
+          <div class="sheet" id="rdScanSheet">
+            <div class="ruled-label"><span>Targeted scan hunt</span></div>
+            <p class="hintline">Five facts are planted in the text. Answer in a few words, then check to locate the exact line.</p>
+            <ol class="scanhunt" id="rdScan"></ol>
           </div>
-        </div>
 
-        <article class="sheet sheet--passage" id="rdPassageSheet">
-          <div class="ruled-label"><span>Passage</span></div>
-          <div class="passage" id="rdPassage"></div>
-        </article>
+          <div class="sheet" id="rdMatrixSheet">
+            <div class="ruled-label"><span>Cause &amp; effect matrix</span></div>
+            <p class="hintline" id="rdMatrixInstruction"></p>
+            <div class="matrix" id="rdMatrix"></div>
+            <div class="gr-actions"><button type="button" class="btn btn--primary" id="rdMatrixCheck">Check the matrix</button></div>
+            <div class="feedback" id="rdMatrixFeedback" aria-live="polite"></div>
+          </div>
 
-        <div class="sheet" id="rdScanSheet">
-          <div class="ruled-label"><span>Targeted scan hunt</span></div>
-          <p class="hintline">Five facts are planted in the text. Answer in a few words, then check to locate the exact line.</p>
-          <ol class="scanhunt" id="rdScan"></ol>
-        </div>
-
-        <div class="sheet" id="rdMatrixSheet">
-          <div class="ruled-label"><span>Cause &amp; effect matrix</span></div>
-          <p class="hintline" id="rdMatrixInstruction"></p>
-          <div class="matrix" id="rdMatrix"></div>
-          <div class="gr-actions"><button type="button" class="btn btn--primary" id="rdMatrixCheck">Check the matrix</button></div>
-          <div class="feedback" id="rdMatrixFeedback" aria-live="polite"></div>
-        </div>
-
-        <div class="sheet" id="rdInferSheet">
-          <div class="ruled-label"><span>Inference check</span></div>
-          <p class="hintline">Decide what the writer supports: True, False, or Cannot be told.</p>
-          <ol class="inference" id="rdInfer"></ol>
+          <div class="sheet" id="rdInferSheet">
+            <div class="ruled-label"><span>Inference check</span></div>
+            <p class="hintline">Decide what the writer supports: True, False, or Cannot be told.</p>
+            <ol class="inference" id="rdInfer"></ol>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ============ 04 · LEXICAL BANK ============ -->
     <section class="panel" id="panel-lexicon" role="tabpanel" aria-labelledby="tabbtn-lexicon" hidden>
-      <div class="reading">
+      <div class="lexicon">
         <header class="reading__head">
           <p class="reading__kicker">Lexical bank</p>
           <h2 class="reading__title">Every target word, with sound, sense and company</h2>

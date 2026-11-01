@@ -749,13 +749,20 @@ body.teacher-mode .surface { border-left: 2px solid var(--pen); }
 
 /* ---------- reading ---------- */
 .reading {
-  max-width: 52rem;
+  max-width: 80rem;
   margin: 0 auto;
   padding: clamp(1.1rem, 2.6vw, 2.2rem) clamp(1.1rem, 3vw, 2.6rem) 5rem;
   display: grid;
   gap: var(--gap);
+  align-items: start;
 }
-.reading__head { padding: .6rem 0 .2rem; }
+.reading__head { grid-column: 1 / -1; padding: .6rem 0 .2rem; }
+.reading__col {
+  display: grid;
+  gap: var(--gap);
+  align-content: start;
+  min-width: 0;
+}
 .reading__kicker {
   font-family: var(--font-mono);
   font-size: .72rem;
@@ -907,11 +914,22 @@ body.teacher-mode .surface { border-left: 2px solid var(--pen); }
 }
 
 /* ---------- lexical bank ---------- */
-.lx-controls {
+.lexicon {
+  max-width: 106rem;
+  margin: 0 auto;
+  padding: clamp(1.1rem, 2.6vw, 2.2rem) clamp(1.1rem, 3vw, 2.6rem) 5rem;
   display: grid;
-  gap: .7rem;
-  align-items: center;
+  gap: var(--gap);
+  align-items: start;
 }
+.lx-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6rem 1.1rem;
+}
+.lx-controls .search { flex: 1 1 18rem; max-width: 32rem; }
+.lx-controls .rail__filters { flex: 0 1 auto; }
 .search { position: relative; max-width: 34rem; }
 .search__icon {
   position: absolute; left: .7rem; top: 50%; transform: translateY(-50%);
@@ -928,7 +946,7 @@ body.teacher-mode .surface { border-left: 2px solid var(--pen); }
 .search input:focus { border-color: var(--ink-3); outline-offset: 1px; }
 .lx-count { font-family: var(--font-mono); font-size: .74rem; color: var(--ink-3); }
 
-.lxgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); gap: .85rem; }
+.lxgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16.5rem, 1fr)); gap: .85rem; align-items: start; }
 .lx {
   background: var(--sheet);
   border: 1px solid var(--rule);
@@ -939,7 +957,7 @@ body.teacher-mode .surface { border-left: 2px solid var(--pen); }
   gap: .45rem;
   align-content: start;
 }
-.lx__top { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; }
+.lx__top { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
 .lx__term {
   font-family: var(--font-display);
   font-variation-settings: "opsz" 36, "SOFT" 0, "WONK" 0;
@@ -947,6 +965,7 @@ body.teacher-mode .surface { border-left: 2px solid var(--pen); }
   font-size: var(--step-1);
   line-height: 1.2;
   letter-spacing: -.005em;
+  min-width: 0;
 }
 .lx__ipa { font-family: var(--font-mono); font-size: .74rem; color: var(--ink-3); white-space: nowrap; }
 .lx__domain {
@@ -1082,6 +1101,26 @@ body.teacher-mode .surface { border-left: 2px solid var(--pen); }
 }
 
 /* ---------- responsive ---------- */
+@media (min-width: 1080px) {
+  .reading { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .reading__col--text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    position: sticky;
+    top: 1.25rem;
+    max-height: calc(100vh - 2.5rem);
+  }
+  .reading__col--text .sheet--passage {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .reading__col--text .skim { grid-template-columns: 1fr; gap: 1.1rem; }
+  .reading__col--text .skim__dial { gap: .25rem; }
+  .reading__col--text .skim__side { gap: .6rem; }
+}
 @media (max-width: 900px) {
   .panel--split.is-active { grid-template-columns: 1fr; }
   .rail {
